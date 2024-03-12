@@ -1,10 +1,14 @@
+import { SimilarAudioProvider } from "./contexts/SimilarAudioContext";
+import { TargetAudioProvider } from "./contexts/TargetAudioContext";
 import AppLayout from "./pages/AppLayout";
 
 function App() {
   return (
-    <div>
-      <AppLayout />
-    </div>
+    <TargetAudioProvider>
+      <SimilarAudioProvider>
+        <AppLayout />
+      </SimilarAudioProvider>
+    </TargetAudioProvider>
   );
 }
 

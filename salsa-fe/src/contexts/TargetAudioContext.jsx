@@ -1,0 +1,79 @@
+import { createContext, useEffect, useReducer } from "react";
+import { readCSVFile } from "../utils/convertCsv";
+
+export const TargetAudioContext = createContext();
+const initialState = {
+  audio_clips: [],
+  isLoading: false,
+  // the current active audio
+  currentAudio: {},
+  // the currently active audio that is being searched for similar sounds.
+  currentTargetAudio: {},
+};
+
+function reducer(state, action) {
+  switch (action.type) {
+    case "loading":
+      return { ...state, isLoading: true };
+    case "audio_clips/loaded":
+      return { ...state, isLoading: false, audio_clips: action.payload };
+    case "audio_clip/loaded":
+      return { ...state, isLoading: false, currentAudio: action.payload };
+    case "audio_clip/target_loaded":
+      return { ...state, isLoading: false, currentTargetAudio: action.payload };
+    default:
+      throw new Error("unknown action");
+  }
+}
+
+function TargetAudioProvider({ children }) {
+  const [
+    { audio_clips, isLoading, currentAudio, currentTargetAudio },
+    dispatch,
+  ] = useReducer(reducer, initialState);
+
+  useEffect(() => {
+    async function fetchAudioClips() {
+      dispatch({ type: "loading" });
+      try {
+        const data = await readCSVFile("/audioset/sample_audio_list.csv");
+        dispatch({ type: "audio_clips/loaded", payload: data });
+      } catch (err) {
+        console.log(err);
+      }
+    }
+    fetchAudioClips();
+  }, []);
+
+  function setCurrentAudio(current_clip) {
+    if (current_clip.video_id === currentAudio.video_id) return;
+    dispatch({ type: "audio_clip/loaded", payload: current_clip });
+  }
+
+  function setCurrentTargetAudio(current_clip) {
+    if (
+      current_clip &&
+      currentTargetAudio &&
+      current_clip.video_id === currentTargetAudio.video_id
+    )
+      return;
+    dispatch({ type: "audio_clip/target_loaded", payload: current_clip });
+  }
+
+  return (
+    <TargetAudioContext.Provider
+      value={{
+        audio_clips,
+        isLoading,
+        currentAudio,
+        currentTargetAudio,
+        setCurrentAudio,
+        setCurrentTargetAudio,
+      }}
+    >
+      {children}
+    </TargetAudioContext.Provider>
+  );
+}
+
+export { TargetAudioProvider };
