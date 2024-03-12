@@ -65,6 +65,7 @@ function TargetAudioEntry({ clip }) {
 
   function handlePlay() {
     setModalOpen(true);
+    setCurrentAudio(clip);
   }
 
   function handleClear() {
