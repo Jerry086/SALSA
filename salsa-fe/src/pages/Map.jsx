@@ -44,10 +44,15 @@ function Map() {
   const platform = useRef(null);
   const apikey = apiKey;
   const ui = useRef(null);
-  const { audio_clips, setCurrentAudio, currentAudio, currentTargetAudio } =
-    useContext(TargetAudioContext);
+  const {
+    audio_clips,
+    setCurrentAudio,
+    currentAudio,
+    currentTargetAudio,
+    modalOpen,
+    setModalOpen,
+  } = useContext(TargetAudioContext);
   const { similarAudio } = useContext(SimilarAudioContext);
-  const [modalOpen, setModalOpen] = useState(false);
 
   const handleModalOpen = () => {
     setModalOpen(true);
@@ -96,6 +101,16 @@ function Map() {
       map.current.getViewPort().resize();
     }
   }, []);
+
+  useEffect(() => {
+    if (map.current && Object.keys(currentAudio).length > 0) {
+      const { latitude, longitude } = currentAudio;
+      map.current.getViewModel().setLookAtData({
+        position: { lat: latitude, lng: longitude },
+        zoom: 5,
+      });
+    }
+  }, [currentAudio]);
 
   return (
     <StyledMap>

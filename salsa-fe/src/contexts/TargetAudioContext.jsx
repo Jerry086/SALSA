@@ -9,6 +9,7 @@ const initialState = {
   currentAudio: {},
   // the currently active audio that is being searched for similar sounds.
   currentTargetAudio: {},
+  modalOpen: false,
 };
 
 function reducer(state, action) {
@@ -19,6 +20,10 @@ function reducer(state, action) {
       return { ...state, isLoading: false, audio_clips: action.payload };
     case "audio_clip/loaded":
       return { ...state, isLoading: false, currentAudio: action.payload };
+    case "audio_clip/played":
+      return { ...state, modalOpen: true };
+    case "audio_clip/stopped":
+      return { ...state, modalOpen: false };
     case "audio_clip/target_loaded":
       return { ...state, isLoading: false, currentTargetAudio: action.payload };
     default:
@@ -28,7 +33,7 @@ function reducer(state, action) {
 
 function TargetAudioProvider({ children }) {
   const [
-    { audio_clips, isLoading, currentAudio, currentTargetAudio },
+    { audio_clips, isLoading, currentAudio, currentTargetAudio, modalOpen },
     dispatch,
   ] = useReducer(reducer, initialState);
 
@@ -60,6 +65,14 @@ function TargetAudioProvider({ children }) {
     dispatch({ type: "audio_clip/target_loaded", payload: current_clip });
   }
 
+  function setModalOpen(option) {
+    if (option === true) {
+      dispatch({ type: "audio_clip/played" });
+    } else {
+      dispatch({ type: "audio_clip/stopped" });
+    }
+  }
+
   return (
     <TargetAudioContext.Provider
       value={{
@@ -69,6 +82,8 @@ function TargetAudioProvider({ children }) {
         currentTargetAudio,
         setCurrentAudio,
         setCurrentTargetAudio,
+        modalOpen,
+        setModalOpen,
       }}
     >
       {children}

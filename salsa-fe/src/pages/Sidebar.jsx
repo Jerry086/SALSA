@@ -5,8 +5,8 @@ import TargetAudioEntry from "../components/TargetAudioEntry";
 
 const StyledSidebar = styled.div`
   flex-basis: 20rem;
-  background-color: var(--color-dark--1);
-  padding: 3rem 5rem 3.5rem 5rem;
+  /* background-color: #2d3439; */
+  padding: 3rem 3rem 3.5rem 3rem;
 
   display: flex;
   flex-direction: column;
@@ -15,7 +15,7 @@ const StyledSidebar = styled.div`
 
 const StyledListContainer = styled.ul`
   width: 100%;
-  height: 65vh;
+  height: 90%;
   list-style: none;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -23,17 +23,20 @@ const StyledListContainer = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 1.4rem;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for Firefox */
+  scrollbar-width: none;
 `;
 
 function Sidebar() {
-  const { audio_clips, setCurrentTargetAudio } = useContext(TargetAudioContext);
+  const { audio_clips } = useContext(TargetAudioContext);
 
-  function handleClear() {
-    setCurrentTargetAudio({});
-  }
   return (
     <StyledSidebar>
-      <button onClick={handleClear}>clear</button>
       <StyledListContainer>
         {audio_clips.map((clip) => (
           <TargetAudioEntry clip={clip} key={clip.video_id} />
