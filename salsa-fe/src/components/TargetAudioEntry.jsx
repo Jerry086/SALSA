@@ -38,8 +38,8 @@ const StyledButton = styled.button`
   }
 `;
 
-function TargetAudioEntry({ clip, handleMarkerClick }) {
-  const { video_id, labels, time } = clip;
+function TargetAudioEntry({ clip }) {
+  const { video_id, labels } = clip;
   const {
     currentAudio,
     setCurrentTargetAudio,

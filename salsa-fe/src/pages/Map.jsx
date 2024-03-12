@@ -1,10 +1,12 @@
 import styled from "styled-components";
-import React, { useContext, useEffect, useRef, useState } from "react";
+import React, { useContext, useEffect, useRef } from "react";
 import H from "@here/maps-api-for-javascript";
 import { TargetAudioContext } from "../contexts/TargetAudioContext";
-import YouTubeVideo from "../components/YoutubeVideo";
+
 import MapMarker from "../components/MapMarker";
 import { SimilarAudioContext } from "../contexts/SimilarAudioContext";
+import VideoPlayerModal from "../components/VideoPlayerModal";
+import YouTubeVideo from "../components/YoutubeVideo";
 
 const StyledMap = styled.div`
   flex: 1;
@@ -158,17 +160,21 @@ function Map() {
           ))}
       </div>
       {modalOpen && currentAudio && (
-        <StyledModal>
-          <ModalContent>
-            <span className="close" onClick={() => setModalOpen(false)}>
-              &times;
-            </span>
-            <YouTubeVideo
-              videoId={currentAudio.video_id}
-              startTimeSeconds={currentAudio.start_time_seconds}
-            />
-          </ModalContent>
-        </StyledModal>
+        <VideoPlayerModal
+          currentAudio={currentAudio}
+          setModalOpen={setModalOpen}
+        />
+        // <StyledModal>
+        //   <ModalContent>
+        //     <span className="close" onClick={() => setModalOpen(false)}>
+        //       &times;
+        //     </span>
+        //     <YouTubeVideo
+        //       videoId={currentAudio.video_id}
+        //       startTimeSeconds={currentAudio.start_time_seconds}
+        //     />
+        //   </ModalContent>
+        // </StyledModal>
       )}
     </StyledMap>
   );
