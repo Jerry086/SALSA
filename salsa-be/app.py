@@ -86,10 +86,10 @@ def get_similar_items(video_id, similarity_percent):
 
     for item in all_items:
         distance = euclidean_distance(target_embedding, item["embeddings"])
-        distances.append((item["video_id"], distance))
+        distances.append({"video_id": item["video_id"], "distance": distance})
 
     # Sort items by distance
-    distances.sort(key=lambda x: x[1])
+    distances.sort(key=lambda x: x["distance"])
 
     # Select the top similarity percent
     top_n = int(len(distances) * (similarity_percent / 100.0))
