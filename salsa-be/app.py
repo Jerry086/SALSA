@@ -1,6 +1,8 @@
+# pip install flask, pymongo, faiss-cpu, numpy
 from flask import Flask, request, jsonify
 from pymongo import MongoClient
-from app_utils import euclidean_distance
+from app_utils import euclidean_distance, FaissIndex
+import numpy as np
 
 app = Flask(__name__)
 
@@ -14,6 +16,17 @@ except Exception as e:
     print(e)
 db = client["SALSA"]
 audios_collection = db["audios"]
+
+# Create a FAISS index
+EMBEDDING_DIMENSION = 128
+faiss_index = FaissIndex(dimension=EMBEDDING_DIMENSION, use_gpu=False)
+
+documents = audios_collection.find({}, {"_id": 0, "embeddings": 1, "video_id": 1})
+embeddings = [(doc["video_id"], doc["embeddings"]) for doc in documents]
+video_ids, embeddings = zip(*embeddings)
+
+embeddings_array = np.array(embeddings, dtype=np.float32)
+faiss_index.add_embeddings(embeddings_array, video_ids)
 
 
 @app.route("/")
@@ -83,6 +96,30 @@ def get_similar_items(video_id, similarity_percent):
     top_similar_items = distances[:top_n]
 
     return jsonify(top_similar_items)
+
+
+@app.route("/topk/<string:video_id>/<int:k>", methods=["GET"])
+def get_topK_items(video_id, k):
+
+    target_item = audios_collection.find_one(
+        {"video_id": video_id}, {"_id": 0, "embeddings": 1}
+    )
+    if not target_item:
+        return jsonify({"error": "Video ID not found"}), 404
+
+    target_embedding = np.array(target_item["embeddings"], dtype=np.float32)
+
+    # default k = 10 if not provided
+    k = k if k else 10
+
+    # Query the FAISS index
+    distances, video_ids = faiss_index.search(target_embedding, k)
+
+    # Construct and return the response
+    results = []
+    for i in range(len(video_ids)):
+        results.append({"video_id": video_ids[i], "distance": float(distances[i])})
+    return jsonify(results)
 
 
 # @app.route("/items", methods=["POST"])
