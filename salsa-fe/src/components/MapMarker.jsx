@@ -71,9 +71,9 @@ function MapMarker({
   currentAudio,
   handleModalOpen,
   currentTargetAudio,
+  index, // The index of the marker
+  isVisible, // Add a prop to control the visibility of the marker
 }) {
-  const [playClicked, setPlayClicked] = useState(false);
-
   useEffect(() => {
     if (map && audio) {
       const isCurrentTargetAudio =
@@ -86,7 +86,10 @@ function MapMarker({
       const coords = { lat: audio.latitude, lng: audio.longitude };
       const marker = new H.map.Marker(coords, { icon: icon });
 
-      // bubble info content
+      // Set marker visibility based on the isVisible prop
+      marker.setVisibility(isVisible);
+
+      // Bubble info content
       marker.addEventListener("tap", () => {
         setCurrentAudio(audio);
         addBubble(coords, audio, handleModalOpen, ui, setCurrentAudio);
@@ -110,13 +113,8 @@ function MapMarker({
     handleModalOpen,
     currentTargetAudio,
     currentAudio.video_id,
+    isVisible, // Add isVisible to the dependency array
   ]);
-
-  useEffect(() => {
-    if (playClicked) {
-      setPlayClicked(false);
-    }
-  }, [playClicked, currentAudio]);
 
   return null;
 }

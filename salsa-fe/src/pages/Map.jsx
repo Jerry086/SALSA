@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import React, { useContext, useEffect, useRef } from "react";
+import React, { useContext, useEffect, useRef, useState } from "react";
 import H from "@here/maps-api-for-javascript";
 import { TargetAudioContext } from "../contexts/TargetAudioContext";
 
@@ -55,6 +55,7 @@ function Map() {
     setModalOpen,
   } = useContext(TargetAudioContext);
   const { similarAudio } = useContext(SimilarAudioContext);
+  const [visibleMarkers, setVisibleMarkers] = useState(0);
 
   const handleModalOpen = () => {
     setModalOpen(true);
@@ -86,7 +87,7 @@ function Map() {
           lat: 49.2608,
           lng: -123.1139,
         },
-        zoom: 5,
+        zoom: 13,
       });
 
       const behavior = new H.mapevents.Behavior(
@@ -109,10 +110,31 @@ function Map() {
       const { latitude, longitude } = currentAudio;
       map.current.getViewModel().setLookAtData({
         position: { lat: latitude, lng: longitude },
-        zoom: 5,
+        zoom: 13,
       });
     }
   }, [currentAudio]);
+
+  useEffect(() => {
+    setVisibleMarkers(0);
+    // Set a timeout to increment the number of visible markers and polyline points
+    const interval = setInterval(() => {
+      setVisibleMarkers((prev) => {
+        const maxMarkers = similarAudio[currentTargetAudio.video_id]
+          ? similarAudio[currentTargetAudio.video_id].length
+          : 0;
+
+        if (prev < maxMarkers) {
+          return prev + 1;
+        } else {
+          clearInterval(interval);
+          return prev;
+        }
+      });
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, [currentTargetAudio, similarAudio]);
 
   return (
     <StyledMap>
@@ -130,6 +152,7 @@ function Map() {
               currentAudio={currentAudio}
               handleModalOpen={handleModalOpen}
               currentTargetAudio={currentTargetAudio}
+              isVisible={true}
             />
           ))}
         {Object.keys(currentTargetAudio).length > 0 && currentTargetAudio && (
@@ -142,11 +165,12 @@ function Map() {
             currentAudio={currentAudio}
             handleModalOpen={handleModalOpen}
             currentTargetAudio={currentTargetAudio}
+            isVisible={true}
           />
         )}
-        {Object.keys(currentTargetAudio).length > 0 &&
+        {/* {Object.keys(currentTargetAudio).length > 0 &&
           similarAudio &&
-          similarAudio[currentTargetAudio.video_id].map((audio) => (
+          similarAudio[currentTargetAudio.video_id].map((audio, index) => (
             <MapMarker
               key={audio.video_id}
               audio={audio}
@@ -156,10 +180,27 @@ function Map() {
               currentAudio={currentAudio}
               handleModalOpen={handleModalOpen}
               currentTargetAudio={currentTargetAudio}
+              index={index}
+            />
+          ))} */}
+        {Object.keys(currentTargetAudio).length > 0 &&
+          similarAudio &&
+          similarAudio[currentTargetAudio.video_id].map((audio, index) => (
+            <MapMarker
+              key={audio.video_id}
+              audio={audio}
+              map={map.current}
+              ui={ui.current}
+              setCurrentAudio={setCurrentAudio}
+              currentAudio={currentAudio}
+              handleModalOpen={handleModalOpen}
+              currentTargetAudio={currentTargetAudio}
+              index={index}
+              isVisible={index < visibleMarkers}
             />
           ))}
       </div>
-      <Polyline map={map.current} />
+      <Polyline map={map.current} visiblePoints={visibleMarkers} />
       {modalOpen && currentAudio && (
         <VideoPlayerModal
           currentAudio={currentAudio}
