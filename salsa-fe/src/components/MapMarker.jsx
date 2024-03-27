@@ -62,6 +62,7 @@ function addBubble(coords, audio, handleModalOpen, ui, setCurrentAudio) {
 
   ui.addBubble(infoBubble);
 }
+
 function MapMarker({
   audio,
   map,

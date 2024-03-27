@@ -6,7 +6,7 @@ import { TargetAudioContext } from "../contexts/TargetAudioContext";
 import MapMarker from "../components/MapMarker";
 import { SimilarAudioContext } from "../contexts/SimilarAudioContext";
 import VideoPlayerModal from "../components/VideoPlayerModal";
-import YouTubeVideo from "../components/YoutubeVideo";
+import Polyline from "../components/Polyline";
 
 const StyledMap = styled.div`
   flex: 1;
@@ -15,28 +15,28 @@ const StyledMap = styled.div`
   position: relative;
 `;
 
-const StyledModal = styled.div`
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 9999;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
+// const StyledModal = styled.div`
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+//   z-index: 9999;
+//   background-color: rgba(0, 0, 0, 0.5);
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// `;
 
-const ModalContent = styled.div`
-  width: 80%;
-  max-width: 800px;
-  max-height: 80%;
-  overflow: hidden;
-  background-color: #fff;
-  border-radius: 8px;
-  padding: 20px;
-`;
+// const ModalContent = styled.div`
+//   width: 80%;
+//   max-width: 800px;
+//   max-height: 80%;
+//   overflow: hidden;
+//   background-color: #fff;
+//   border-radius: 8px;
+//   padding: 20px;
+// `;
 
 const apiKey = "0va964OiReq0cQakaslJaoqrldVXzZGpoYfCw9v3fq0";
 
@@ -159,22 +159,12 @@ function Map() {
             />
           ))}
       </div>
+      <Polyline map={map.current} />
       {modalOpen && currentAudio && (
         <VideoPlayerModal
           currentAudio={currentAudio}
           setModalOpen={setModalOpen}
         />
-        // <StyledModal>
-        //   <ModalContent>
-        //     <span className="close" onClick={() => setModalOpen(false)}>
-        //       &times;
-        //     </span>
-        //     <YouTubeVideo
-        //       videoId={currentAudio.video_id}
-        //       startTimeSeconds={currentAudio.start_time_seconds}
-        //     />
-        //   </ModalContent>
-        // </StyledModal>
       )}
     </StyledMap>
   );
