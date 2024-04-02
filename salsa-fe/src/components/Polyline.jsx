@@ -35,7 +35,11 @@ function Polyline({ map, visiblePoints }) {
     let polyline = new H.map.Polyline(lineString, {
       style: {
         lineWidth: 8,
-        strokeColor: "rgba(35, 124, 233, 0.9)",
+        strokeColor: "rgba(33, 55, 223, 0.9)",
+        lineDash: [1, 5],
+        lineDashOffset: 15,
+        lineHeadCap: "arrow-head",
+        lineTailCap: "arrow-tail",
       },
     });
 

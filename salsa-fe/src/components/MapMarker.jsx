@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import H from "@here/maps-api-for-javascript";
 import "../utils/styles.css";
 
-const iconSize = { w: 30, h: 30 };
+const iconSize = { w: 25, h: 25 };
 
 function addBubble(coords, audio, handleModalOpen, ui, setCurrentAudio) {
   const bubbleCoords = {
@@ -79,9 +79,7 @@ function MapMarker({
       const isCurrentTargetAudio =
         Object.keys(currentTargetAudio).length > 0 &&
         audio.video_id !== currentTargetAudio.video_id;
-      const iconPath = isCurrentTargetAudio
-        ? "/similar_sound.svg"
-        : "/sound.svg";
+      const iconPath = isCurrentTargetAudio ? "/play.svg" : "/sound.svg";
       const icon = new H.map.Icon(iconPath, { size: iconSize });
       const coords = { lat: audio.latitude, lng: audio.longitude };
       const marker = new H.map.Marker(coords, { icon: icon });

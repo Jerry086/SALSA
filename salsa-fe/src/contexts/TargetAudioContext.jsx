@@ -42,6 +42,9 @@ function TargetAudioProvider({ children }) {
       dispatch({ type: "loading" });
       try {
         const data = await readCSVFile("/audioset/sample_audio_list.csv");
+        // const data = await readCSVFile(
+        //   "/audioset/training_metadata_rootclass.csv"
+        // );
         dispatch({ type: "audio_clips/loaded", payload: data });
       } catch (err) {
         console.log(err);
