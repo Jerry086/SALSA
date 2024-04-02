@@ -1,0 +1,15 @@
+.custom-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: -30px;
+  top: -15px;
+}
+
+.timestamp {
+  font-size: 10px;
+  color: #333;
+  margin-top: 2px;
+  font-weight: 900;
+}
