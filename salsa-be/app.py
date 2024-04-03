@@ -4,8 +4,19 @@ from pymongo import MongoClient
 from app_utils import euclidean_distance, FaissIndex
 import numpy as np
 from datetime import datetime, timedelta
+from werkzeug.utils import secure_filename
+from vggish import VGGish
+import os
+import uuid
 
 app = Flask(__name__)
+
+# Configure the maximum upload size
+app.config["MAX_CONTENT_LENGTH"] = 16 * 1024 * 1024  # 16MB limit
+
+# Define the path for saving uploaded files
+UPLOAD_FOLDER = "uploads"
+app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 
 uri = "mongodb+srv://test:12345@cluster0.hjn5ftw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 client = MongoClient(uri)
@@ -28,6 +39,9 @@ video_ids, embeddings = zip(*embeddings)
 
 embeddings_array = np.array(embeddings, dtype=np.float32)
 faiss_index.add_embeddings(embeddings_array, video_ids)
+
+# Load the VGGish model
+model = VGGish()
 
 
 @app.route("/")
@@ -152,11 +166,56 @@ def get_topK_items():
     return jsonify(results)
 
 
-# @app.route("/items", methods=["POST"])
-# def create_item():
-#     item = request.json
-#     items.append(item)
-#     return jsonify(item), 201
+@app.route("/audio", methods=["POST"])
+def upload_file():
+    # Check if the post request has the file part
+    if "file" not in request.files:
+        return jsonify({"error": "No file part"}), 400
+    file = request.files["file"]
+
+    # If the user does not select a file, the browser submits an
+    # empty file without a filename.
+    if file.filename == "":
+        return jsonify({"error": "No selected file"}), 400
+
+    # Retrieve and validate additional data from form
+    longitude = request.form.get("longitude")
+    latitude = request.form.get("latitude")
+    time = request.form.get("time")
+
+    # Check if any of the metadata fields are missing
+    if not all([longitude, latitude, time]):
+        return (
+            jsonify({"error": "Missing required data: longitude, latitude, or time"}),
+            400,
+        )
+
+    if file and file.filename.endswith(".wav"):
+        filename = secure_filename(file.filename)
+        # Generate a unique video ID
+        video_id = str(uuid.uuid4())
+        # Get the embeddings of the uploaded file
+        embeddings = model.get_embedding(file)
+        # Add the embeddings to the FAISS index
+        faiss_index.add_embeddings(embeddings.reshape(1, -1), [video_id])
+        # Save the metadata and embeddings to the database
+        new_item = {
+            "video_id": video_id,
+            "filename": filename,
+            "longitude": float(longitude),
+            "latitude": float(latitude),
+            "time": time,
+            "source": "cloud",
+            "embeddings": embeddings.tolist(),
+        }
+        audios_collection.insert_one(new_item)
+
+        file.save(os.path.join(app.config["UPLOAD_FOLDER"], filename))
+        new_item.pop("embeddings")
+        new_item.pop("_id")
+        return jsonify(new_item), 200
+    else:
+        return jsonify({"error": "Invalid file type"}), 400
 
 
 @app.route("/audio/<string:video_id>", methods=["PUT"])

@@ -7,3 +7,4 @@ flask
 pymongo
 datetime
 faiss-cpu
+werkzeug
