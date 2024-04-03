@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { forwardRef, useContext } from "react";
 import { TargetAudioContext } from "../contexts/TargetAudioContext";
 import styled from "styled-components";
 import { labelsDict } from "../utils/labels";
@@ -38,7 +38,7 @@ const StyledButton = styled.button`
   }
 `;
 
-function TargetAudioEntry({ clip }) {
+const TargetAudioEntry = forwardRef(({ clip }, ref) => {
   const { video_id, labels } = clip;
   const {
     currentAudio,
@@ -73,7 +73,7 @@ function TargetAudioEntry({ clip }) {
   }
 
   return (
-    <StyledTargetAudioEntry isCurrentAudio={isCurrentAudio}>
+    <StyledTargetAudioEntry ref={ref} isCurrentAudio={isCurrentAudio}>
       <div onClick={handleClick}>
         {JSON.parse(labels)
           .map((label) => labelsDict[label])
@@ -91,6 +91,6 @@ function TargetAudioEntry({ clip }) {
       )}
     </StyledTargetAudioEntry>
   );
-}
+});
 
 export default TargetAudioEntry;
