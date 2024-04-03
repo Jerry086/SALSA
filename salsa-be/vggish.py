@@ -28,7 +28,8 @@ class VGGish:
             [self.embedding_tensor], feed_dict={self.features_tensor: examples_batch}
         )
         postprocessed_batch = self.pproc.postprocess(embedding_batch)
-        return postprocessed_batch
+        mean_pooled_batch = np.mean(postprocessed_batch, axis=0)
+        return mean_pooled_batch
 
     def __del__(self):
         self.sess.close()
