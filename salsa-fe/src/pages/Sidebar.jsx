@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useEffect, useRef } from "react";
 import styled from "styled-components";
 import { TargetAudioContext } from "../contexts/TargetAudioContext";
 import TargetAudioEntry from "../components/TargetAudioEntry";
@@ -33,13 +33,31 @@ const StyledListContainer = styled.ul`
 `;
 
 function Sidebar() {
-  const { audio_clips } = useContext(TargetAudioContext);
+  const { audio_clips, currentAudio } = useContext(TargetAudioContext);
+  const currentAudioRef = useRef(null);
+
+  useEffect(() => {
+    if (currentAudioRef.current) {
+      currentAudioRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  }, [currentAudio]);
 
   return (
     <StyledSidebar>
       <StyledListContainer>
         {audio_clips.map((clip) => (
-          <TargetAudioEntry clip={clip} key={clip.video_id} />
+          <TargetAudioEntry
+            ref={
+              currentAudio && clip.video_id === currentAudio.video_id
+                ? currentAudioRef
+                : null
+            }
+            clip={clip}
+            key={clip.video_id}
+          />
         ))}
       </StyledListContainer>
     </StyledSidebar>
