@@ -6,6 +6,13 @@ __pycache__/
 # C extensions
 *.so
 
+# dev test
+test.py
+test.wav
+
+# model params too large to upload
+/model/vggish_model.ckpt
+
 # Distribution / packaging
 .Python
 build/
