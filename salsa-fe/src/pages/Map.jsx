@@ -14,6 +14,7 @@ const StyledMap = styled.div`
   height: 100%;
   background-color: var(--color-dark--2);
   position: relative;
+  flex-grow: 1;
 `;
 
 const apiKey = "0va964OiReq0cQakaslJaoqrldVXzZGpoYfCw9v3fq0";
