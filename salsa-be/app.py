@@ -159,22 +159,35 @@ def get_topK_items():
 #     return jsonify(item), 201
 
 
-# @app.route("/items/<int:item_id>", methods=["PUT"])
-# def update_item(item_id):
-#     for item in items:
-#         if item["id"] == item_id:
-#             item.update(request.json)
-#             return jsonify(item)
-#     return jsonify({"error": "Item not found"}), 404
+@app.route("/audio/<string:video_id>", methods=["PUT"])
+def update_item(video_id):
+    item = audios_collection.find_one(
+        {"video_id": video_id}, {"_id": 0, "embeddings": 0}
+    )
+    if not item:
+        return jsonify({"error": "Video ID not found"}), 404
+
+    update_data = request.json
+    if not update_data:
+        return jsonify({"error": "No data provided to update the audio sample"}), 400
+
+    result = audios_collection.update_one({"video_id": video_id}, {"$set": update_data})
+
+    if result.matched_count == 0:
+        return jsonify({"error": "Audio sample not found"}), 404
+    elif result.modified_count == 0:
+        return jsonify({"message": "No changes made to the audio sample"}), 200
+    else:
+        return jsonify({"message": "Audio sample updated successfully"}), 200
 
 
-# @app.route("/items/<int:item_id>", methods=["DELETE"])
-# def delete_item(item_id):
-#     for item in items:
-#         if item["id"] == item_id:
-#             items.remove(item)
-#             return jsonify({"message": "Item deleted"})
-#     return jsonify({"error": "Item not found"}), 404
+@app.route("/audio/<string:video_id>", methods=["DELETE"])
+def delete_item(video_id):
+    result = audios_collection.delete_one({"_id": video_id})
+    if result.deleted_count:
+        return jsonify({"message": "Audio sample deleted successfully"}), 200
+    else:
+        return jsonify({"error": "Item not found"}), 404
 
 
 if __name__ == "__main__":
