@@ -2,8 +2,6 @@ import { useEffect, useState } from "react";
 import H from "@here/maps-api-for-javascript";
 import "../utils/styles.css";
 
-const iconSize = { w: 25, h: 25 };
-
 function addBubble(coords, audio, handleModalOpen, ui, setCurrentAudio) {
   const bubbleCoords = {
     lat: coords.lat,
@@ -78,7 +76,20 @@ function MapMarker({
       const isCurrentTargetAudio =
         Object.keys(currentTargetAudio).length > 0 &&
         audio.video_id !== currentTargetAudio.video_id;
-      const iconPath = isCurrentTargetAudio ? "/play.svg" : "/sound.svg";
+      // const iconPath = isCurrentTargetAudio ? "/play.svg" : "/sound.svg";
+      let iconPath = "/sound.svg";
+
+      if (isCurrentTargetAudio) {
+        if (audio.similarity >= 0.95) {
+          iconPath = "/play-blue.svg";
+        } else if (audio.similarity >= 0.9) {
+          iconPath = "/play-lightblue.svg";
+        } else if (audio.similarity >= 0.8) {
+          iconPath = "/play-green.svg";
+        } else {
+          iconPath = "/play-red.svg";
+        }
+      }
 
       // Create a custom HTML element for the marker icon
       const iconElement = document.createElement("div");

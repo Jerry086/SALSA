@@ -7,6 +7,7 @@ import MapMarker from "../components/MapMarker";
 import { SimilarAudioContext } from "../contexts/SimilarAudioContext";
 import VideoPlayerModal from "../components/VideoPlayerModal";
 import Polyline from "../components/Polyline";
+import MapLegend from "../components/MapLegend";
 
 const StyledMap = styled.div`
   flex: 1;
@@ -177,6 +178,7 @@ function Map() {
             />
           ))}
       </div>
+      {Object.keys(currentTargetAudio).length > 0 && <MapLegend />}
       <Polyline map={map.current} visiblePoints={visibleMarkers} />
       {modalOpen && currentAudio && (
         <VideoPlayerModal
