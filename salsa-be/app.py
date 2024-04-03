@@ -1,4 +1,4 @@
-# pip install flask, pymongo, faiss-cpu, numpy
+# pip install -r requirements.txt
 from flask import Flask, request, jsonify
 from pymongo import MongoClient
 from app_utils import euclidean_distance, FaissIndex
