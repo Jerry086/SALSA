@@ -100,6 +100,7 @@ def get_similar_items():
         item = audios_collection.find_one(
             {"video_id": video_id}, {"_id": 0, "embeddings": 0}
         )
+        item["distance"] = distance
 
         # Filter out items before the specified "year_after"
         item_time = datetime.strptime(item["time"], "%Y-%m-%d %H:%M")
