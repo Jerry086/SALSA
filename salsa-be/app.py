@@ -1,7 +1,7 @@
 # pip install -r requirements.txt
 from flask import Flask, request, jsonify
 from pymongo import MongoClient
-from app_utils import euclidean_distance, FaissIndex
+from app_utils import euclidean_distance, haversine, FaissIndex
 import numpy as np
 from datetime import datetime, timedelta
 from werkzeug.utils import secure_filename
@@ -71,13 +71,9 @@ def get_item(video_id):
 @app.route("/similarity", methods=["GET"])
 def get_similar_items():
     video_id = request.args.get("video_id", default=None, type=str)
-    time_delta = request.args.get("time_delta", default=float("inf"), type=float)
-    longitude_delta = request.args.get(
-        "longitude_delta", default=float("inf"), type=float
-    )
-    latitude_delta = request.args.get(
-        "latitude_delta", default=float("inf"), type=float
-    )
+    # in kilometers
+    radius = request.args.get("radius", default=float("inf"), type=float)
+    year_after = request.args.get("year_after", default=-1, type=int)
     similarity = request.args.get("similarity", default=0.999, type=float)
 
     target_item = audios_collection.find_one({"video_id": video_id}, {"_id": 0})
@@ -85,7 +81,6 @@ def get_similar_items():
         return jsonify({"error": "Video ID not found"}), 404
 
     target_embedding = target_item["embeddings"]
-    target_time = datetime.strptime(target_item["time"], "%Y-%m-%d %H:%M")
 
     all_items = audios_collection.find({}, {"_id": 0, "video_id": 1, "embeddings": 1})
     distances = []
@@ -101,18 +96,27 @@ def get_similar_items():
     top_n = int(len(distances) * (1 - similarity))
 
     results = []
-    for distance in distances:
+    for video_id, distance in distances:
         item = audios_collection.find_one(
-            {"video_id": distance[0]}, {"_id": 0, "embeddings": 0}
+            {"video_id": video_id}, {"_id": 0, "embeddings": 0}
         )
+        item["distance"] = distance
+
+        # Filter out items before the specified "year_after"
         item_time = datetime.strptime(item["time"], "%Y-%m-%d %H:%M")
-        time_diff = abs((item_time - target_time).total_seconds())
-        if (
-            time_diff > time_delta
-            or abs(item["longitude"] - target_item["longitude"]) > longitude_delta
-            or abs(item["latitude"] - target_item["latitude"]) > latitude_delta
-        ):
+        if item_time.year < year_after:
             continue
+
+        # Filter out items outside the specified radius
+        geo_distance = haversine(
+            target_item["longitude"],
+            target_item["latitude"],
+            item["longitude"],
+            item["latitude"],
+        )
+        if geo_distance > radius:
+            continue
+
         results.append(item)
         if len(results) == top_n:
             break
@@ -123,13 +127,9 @@ def get_similar_items():
 @app.route("/topk", methods=["GET"])
 def get_topK_items():
     video_id = request.args.get("video_id", default=None, type=str)
-    time_delta = request.args.get("time_delta", default=float("inf"), type=float)
-    longitude_delta = request.args.get(
-        "longitude_delta", default=float("inf"), type=float
-    )
-    latitude_delta = request.args.get(
-        "latitude_delta", default=float("inf"), type=float
-    )
+    # in kilometers
+    radius = request.args.get("radius", default=float("inf"), type=float)
+    year_after = request.args.get("year_after", default=-1, type=int)
     k = request.args.get("k", default=10, type=int)
 
     target_item = audios_collection.find_one({"video_id": video_id}, {"_id": 0})
@@ -137,29 +137,33 @@ def get_topK_items():
         return jsonify({"error": "Video ID not found"}), 404
 
     target_embedding = np.array(target_item["embeddings"], dtype=np.float32)
-    target_time = datetime.strptime(target_item["time"], "%Y-%m-%d %H:%M")
 
     # Query the FAISS index
     distances, video_ids = faiss_index.search(target_embedding, 1000)
 
     # Construct and return the response
     results = []
-    for i in range(len(video_ids)):
+    for distance, video_id in zip(distances, video_ids):
         item = audios_collection.find_one(
-            {"video_id": video_ids[i]},
-            {
-                "_id": 0,
-                "embeddings": 0,
-            },
+            {"video_id": video_id}, {"_id": 0, "embeddings": 0}
         )
+        item["distance"] = float(distance)
+
+        # Filter out items before the specified "year_after"
         item_time = datetime.strptime(item["time"], "%Y-%m-%d %H:%M")
-        time_diff = abs((item_time - target_time).total_seconds())
-        if (
-            time_diff > time_delta
-            or abs(item["longitude"] - target_item["longitude"]) > longitude_delta
-            or abs(item["latitude"] - target_item["latitude"]) > latitude_delta
-        ):
+        if item_time.year < year_after:
             continue
+
+        # Filter out items outside the specified radius
+        geo_distance = haversine(
+            target_item["longitude"],
+            target_item["latitude"],
+            item["longitude"],
+            item["latitude"],
+        )
+        if geo_distance > radius:
+            continue
+
         results.append(item)
         if len(results) == k:
             break
@@ -190,10 +194,12 @@ def upload_file():
             400,
         )
 
-    if file and file.filename.endswith(".wav"):
+    try:
         filename = secure_filename(file.filename)
         # Generate a unique video ID
         video_id = str(uuid.uuid4())
+        # Append the video ID to the filename to ensure uniqueness
+        filename = f"{video_id}_{filename}"
         # Get the embeddings of the uploaded file
         embeddings = model.get_embedding(file)
         # Add the embeddings to the FAISS index
@@ -214,8 +220,8 @@ def upload_file():
         new_item.pop("embeddings")
         new_item.pop("_id")
         return jsonify(new_item), 200
-    else:
-        return jsonify({"error": "Invalid file type"}), 400
+    except Exception as e:
+        return jsonify({"error": str(e)}), 400
 
 
 @app.route("/audio/<string:video_id>", methods=["PUT"])
