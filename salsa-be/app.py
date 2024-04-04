@@ -194,10 +194,12 @@ def upload_file():
             400,
         )
 
-    if file and file.filename.endswith(".wav"):
+    try:
         filename = secure_filename(file.filename)
         # Generate a unique video ID
         video_id = str(uuid.uuid4())
+        # Append the video ID to the filename to ensure uniqueness
+        filename = f"{video_id}_{filename}"
         # Get the embeddings of the uploaded file
         embeddings = model.get_embedding(file)
         # Add the embeddings to the FAISS index
@@ -218,8 +220,8 @@ def upload_file():
         new_item.pop("embeddings")
         new_item.pop("_id")
         return jsonify(new_item), 200
-    else:
-        return jsonify({"error": "Invalid file type"}), 400
+    except Exception as e:
+        return jsonify({"error": str(e)}), 400
 
 
 @app.route("/audio/<string:video_id>", methods=["PUT"])
