@@ -13,8 +13,8 @@ import uuid
 
 app = Flask(__name__)
 
-# # Configure the maximum upload size
-# app.config["MAX_CONTENT_LENGTH"] = 16 * 1024 * 1024  # 16MB limit
+# Configure the maximum upload size
+app.config["MAX_CONTENT_LENGTH"] = 5 * 1024 * 1024  # 5MB limit
 
 # # Define the path for saving uploaded files
 # UPLOAD_FOLDER = "uploads"
@@ -37,15 +37,15 @@ s3_client = boto3.client(
     aws_secret_access_key=AWS_SECRET_ACCESS_KEY,
 )
 
-uri = "mongodb+srv://test:12345@cluster0.hjn5ftw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-client = MongoClient(uri)
+MONGO_URI = os.getenv("MONGO_URI")
+mongo_client = MongoClient(MONGO_URI)
 # Send a ping to confirm a successful connection
 try:
-    client.admin.command("ping")
+    mongo_client.admin.command("ping")
     print("Pinged your deployment. You successfully connected to MongoDB!")
 except Exception as e:
     print(e)
-db = client["SALSA"]
+db = mongo_client["SALSA"]
 audios_collection = db["audios"]
 
 # Create a FAISS index
