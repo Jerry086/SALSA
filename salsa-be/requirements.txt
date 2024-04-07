@@ -8,3 +8,5 @@ pymongo
 datetime
 faiss-cpu
 werkzeug
+boto3
+python-dotenv
