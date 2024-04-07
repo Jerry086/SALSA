@@ -2,6 +2,7 @@ import { useContext, useEffect, useRef } from "react";
 import styled from "styled-components";
 import { TargetAudioContext } from "../contexts/TargetAudioContext";
 import TargetAudioEntry from "../components/TargetAudioEntry";
+import UploadSoundsButton from "../components/UploadSoundsButton";
 
 const StyledSidebar = styled.div`
   flex-basis: 20rem;
@@ -11,6 +12,7 @@ const StyledSidebar = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1.5rem;
 `;
 
 const StyledListContainer = styled.ul`
@@ -47,6 +49,7 @@ function Sidebar() {
 
   return (
     <StyledSidebar>
+      <UploadSoundsButton />
       <StyledListContainer>
         {audio_clips.map((clip) => (
           <TargetAudioEntry
