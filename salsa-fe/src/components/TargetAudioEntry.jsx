@@ -1,8 +1,6 @@
 import { forwardRef, useContext } from "react";
 import { TargetAudioContext } from "../contexts/TargetAudioContext";
 import styled from "styled-components";
-import { labelsDict } from "../utils/labels";
-import { getSimilarAudios } from "../services/AudioApi";
 import { SimilarAudioContext } from "../contexts/SimilarAudioContext";
 
 const StyledTargetAudioEntry = styled.li`
@@ -12,18 +10,32 @@ const StyledTargetAudioEntry = styled.li`
   gap: 0.5rem;
   align-items: center;
   justify-content: space-between;
-
+  max-width: 20rem;
   border-radius: 7px;
-  padding: 1rem 1.5rem;
+  padding: 1rem 1rem;
   cursor: pointer;
 
   color: inherit;
   text-decoration: none;
 `;
 
+const Labels = styled.div`
+  flex: 1 1 auto;
+  /* min-width: 0; */
+  word-break: break-word;
+  margin-right: 0.5rem;
+`;
+
+const ButtonContainer = styled.div`
+  flex-shrink: 0;
+  display: flex;
+  gap: 0.5rem;
+`;
+
 const StyledButton = styled.button`
   height: 2rem;
-  width: 4rem;
+  width: auto;
+  max-width: 3rem;
   border-radius: 0.5rem;
   border: none;
   background-color: #98c099;
@@ -49,14 +61,15 @@ const TargetAudioEntry = forwardRef(({ clip }, ref) => {
     setModalOpen,
     currentTargetAudio,
   } = useContext(TargetAudioContext);
-  const { setSimilarSounds } = useContext(SimilarAudioContext);
+  const { setSimilarSounds, getSimilarSounds } =
+    useContext(SimilarAudioContext);
   const isCurrentAudio = currentAudio && currentAudio.video_id === video_id;
   const isCurrentTargetAudio =
     currentTargetAudio && currentTargetAudio.video_id === video_id;
 
   async function handleSimilarSounds() {
     setCurrentTargetAudio(clip);
-    setSimilarSounds(video_id);
+    getSimilarSounds(video_id);
   }
 
   function handleClick() {
@@ -74,22 +87,23 @@ const TargetAudioEntry = forwardRef(({ clip }, ref) => {
 
   function handleClear() {
     setCurrentTargetAudio({});
+    setSimilarSounds([]);
   }
 
   return (
     <StyledTargetAudioEntry ref={ref} isCurrentAudio={isCurrentAudio}>
-      <div onClick={handleClick}>
-        {labels?.join(", ")} - {video_id}
-      </div>
-      <StyledButton onClick={handlePlay}>Play</StyledButton>
-      {!isCurrentTargetAudio && (
-        <StyledButton onClick={handleSimilarSounds}>
-          Similar Sounds
-        </StyledButton>
-      )}
-      {isCurrentTargetAudio && (
-        <StyledButton onClick={handleClear}>Clear</StyledButton>
-      )}
+      <Labels onClick={handleClick}>{labels?.join(", ")}</Labels>
+      <ButtonContainer>
+        <StyledButton onClick={handlePlay}>Play</StyledButton>
+        {!isCurrentTargetAudio && (
+          <StyledButton onClick={handleSimilarSounds}>
+            Similar Sounds
+          </StyledButton>
+        )}
+        {isCurrentTargetAudio && (
+          <StyledButton onClick={handleClear}>Clear</StyledButton>
+        )}
+      </ButtonContainer>
     </StyledTargetAudioEntry>
   );
 });

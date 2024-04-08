@@ -3,10 +3,10 @@ import styled from "styled-components";
 import { TargetAudioContext } from "../contexts/TargetAudioContext";
 import TargetAudioEntry from "../components/TargetAudioEntry";
 import UploadSoundsButton from "../components/UploadSoundsButton";
+import { SimilarAudioContext } from "../contexts/SimilarAudioContext";
 
 const StyledSidebar = styled.div`
   flex-basis: 20rem;
-  /* background-color: #2d3439; */
   padding: 3rem 3rem 3.5rem 3rem;
 
   display: flex;

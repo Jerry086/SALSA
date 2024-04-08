@@ -36,3 +36,22 @@ export async function getSimilarAudios(
     console.log("get similar audios error", err);
   }
 }
+
+export async function uploadAudio(audioFile, longitude, latitude, time) {
+  try {
+    const formData = new FormData();
+    formData.append("file", audioFile);
+    formData.append("longitude", longitude);
+    formData.append("latitude", latitude);
+    formData.append("time", time);
+
+    const response = await fetch(`${BASE_URL}/audio`, {
+      method: "POST",
+      body: formData,
+    });
+    const data = await response.json();
+    console.log(data);
+  } catch (err) {
+    console.log("upload audio error: ", err);
+  }
+}

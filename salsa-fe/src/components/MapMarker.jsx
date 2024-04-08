@@ -9,11 +9,12 @@ function addBubble(coords, audio, handleModalOpen, ui, setCurrentAudio) {
   };
 
   const content = document.createElement("div");
+  content.classList.add("bubble-content");
 
-  // Style for the videoId element
-  const videoId = document.createElement("div");
-  videoId.textContent = audio.video_id;
-  videoId.style.fontWeight = "bold";
+  // Style for the labels element
+  const labels = document.createElement("div");
+  labels.textContent = audio.labels.join(`, `);
+  labels.style.fontWeight = "bold";
 
   // Style for the location element
   const location = document.createElement("div");
@@ -33,7 +34,7 @@ function addBubble(coords, audio, handleModalOpen, ui, setCurrentAudio) {
   playButton.onclick = handleModalOpen;
 
   // Append elements to the content
-  content.appendChild(videoId);
+  content.appendChild(labels);
   content.appendChild(location);
   content.appendChild(time);
   content.appendChild(playButton);
@@ -77,7 +78,6 @@ function MapMarker({
       const isCurrentTargetAudio =
         Object.keys(currentTargetAudio).length > 0 &&
         audio.video_id !== currentTargetAudio.video_id;
-      // const iconPath = isCurrentTargetAudio ? "/play.svg" : "/sound.svg";
       let iconPath = "/sound.svg";
 
       if (isCurrentTargetAudio) {

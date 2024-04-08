@@ -1,5 +1,4 @@
-import { createContext, useEffect, useReducer } from "react";
-import { readCSVFile } from "../utils/convertCsv";
+import { createContext, useReducer } from "react";
 import { getSimilarAudios } from "../services/AudioApi";
 
 export const SimilarAudioContext = createContext();
@@ -20,42 +19,30 @@ function reducer(state, action) {
 }
 
 function SimilarAudioProvider({ children }) {
-  const [{ similarAudio }, dispatch] = useReducer(reducer, initialState);
+  const [{ similarAudio, isLoading }, dispatch] = useReducer(
+    reducer,
+    initialState
+  );
 
-  async function setSimilarSounds(videoId) {
+  async function getSimilarSounds(videoId) {
+    dispatch({ type: "loading" });
     const data = await getSimilarAudios(videoId);
-    dispatch({ type: "similar_audio_clips/loaded", payload: data });
+    const sortedData = data.sort((a, b) => {
+      return new Date(a.time) - new Date(b.time);
+    });
+    dispatch({ type: "similar_audio_clips/loaded", payload: sortedData });
   }
 
-  // useEffect(() => {
-  //   async function fetchAudioClips() {
-  //     dispatch({ type: "loading" });
-  //     try {
-  //       // const data = await readCSVFile("/audioset/similar_videos_info.csv");
-  //       const data = await getSimilarAudios();
-  //       console.log(data);
-  //       let result = {};
-  //       // data.forEach((entry) => {
-  //       //   const { target_video_id, ...rest } = entry;
-  //       //   // If the target_video_id already exists in the result object
-  //       //   if (result[target_video_id]) {
-  //       //     // Add the current entry to the array of objects
-  //       //     result[target_video_id].push({ ...rest });
-  //       //   } else {
-  //       //     // Otherwise, create a new array with the current entry
-  //       //     result[target_video_id] = [{ ...rest }];
-  //       //   }
-  //       // });
-  //       dispatch({ type: "similar_audio_clips/loaded", payload: result });
-  //     } catch (err) {
-  //       console.log(err);
-  //     }
-  //   }
-  //   fetchAudioClips();
-  // }, []);
+  function setSimilarSounds(audio) {
+    if (audio) {
+      dispatch({ type: "similar_audio_clips/loaded", payload: audio });
+    }
+  }
 
   return (
-    <SimilarAudioContext.Provider value={{ similarAudio, setSimilarSounds }}>
+    <SimilarAudioContext.Provider
+      value={{ similarAudio, isLoading, getSimilarSounds, setSimilarSounds }}
+    >
       {children}
     </SimilarAudioContext.Provider>
   );

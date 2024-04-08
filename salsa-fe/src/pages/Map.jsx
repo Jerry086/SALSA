@@ -8,6 +8,7 @@ import { SimilarAudioContext } from "../contexts/SimilarAudioContext";
 import VideoPlayerModal from "../components/VideoPlayerModal";
 import Polyline from "../components/Polyline";
 import MapLegend from "../components/MapLegend";
+import Spinner from "../ui/Spinner";
 
 const StyledMap = styled.div`
   flex: 1;
@@ -15,6 +16,19 @@ const StyledMap = styled.div`
   background-color: var(--color-dark--2);
   position: relative;
   flex-grow: 1;
+`;
+
+const SpinnerOverlay = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 9999;
 `;
 
 const apiKey = "0va964OiReq0cQakaslJaoqrldVXzZGpoYfCw9v3fq0";
@@ -33,7 +47,7 @@ function Map() {
     modalOpen,
     setModalOpen,
   } = useContext(TargetAudioContext);
-  const { similarAudio } = useContext(SimilarAudioContext);
+  const { similarAudio, isLoading } = useContext(SimilarAudioContext);
   const [visibleMarkers, setVisibleMarkers] = useState(0);
 
   const handleModalOpen = () => {
@@ -113,11 +127,17 @@ function Map() {
     return () => clearInterval(interval);
   }, [currentTargetAudio, similarAudio]);
 
+  console.log(similarAudio);
   return (
     <StyledMap>
+      {isLoading && (
+        <SpinnerOverlay>
+          <Spinner />
+        </SpinnerOverlay>
+      )}
       <div style={{ width: "100%", height: "100%" }} ref={mapRef}>
         {/* initial markers */}
-        {/* {Object.keys(currentTargetAudio).length === 0 &&
+        {Object.keys(currentTargetAudio).length === 0 &&
           audio_clips &&
           audio_clips.map((audio) => (
             <MapMarker
@@ -131,8 +151,9 @@ function Map() {
               currentTargetAudio={currentTargetAudio}
               isVisible={true}
             />
-          ))} */}
-        {Object.keys(currentAudio).length > 0 && currentAudio && (
+          ))}
+        {/* only display the select audio */}
+        {/* {Object.keys(currentAudio).length > 0 && currentAudio && (
           <MapMarker
             key={currentAudio.video_id}
             audio={currentAudio}
@@ -144,7 +165,7 @@ function Map() {
             currentTargetAudio={currentTargetAudio}
             isVisible={true}
           />
-        )}
+        )} */}
         {Object.keys(currentTargetAudio).length > 0 && currentTargetAudio && (
           <MapMarker
             key={currentTargetAudio.video_id}

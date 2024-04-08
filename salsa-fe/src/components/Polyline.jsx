@@ -9,7 +9,12 @@ function Polyline({ map, visiblePoints }) {
   const { similarAudio } = useContext(SimilarAudioContext);
 
   useEffect(() => {
-    if (!map || !similarAudio || Object.keys(currentTargetAudio).length <= 0) {
+    if (
+      !map ||
+      !similarAudio ||
+      similarAudio.length < 2 ||
+      Object.keys(currentTargetAudio).length <= 0
+    ) {
       if (polylineRef.current) {
         map.removeObject(polylineRef.current);
         polylineRef.current = null;
@@ -17,41 +22,30 @@ function Polyline({ map, visiblePoints }) {
       return;
     }
 
-    const sortedSimilarAudio = similarAudio?.sort((a, b) => {
+    const sortedSimilarAudio = similarAudio.sort((a, b) => {
       return new Date(a.time) - new Date(b.time);
     });
 
     let lineString = new H.geo.LineString();
-    lineString.pushPoint({
-      lat: sortedSimilarAudio[0].latitude,
-      lng: sortedSimilarAudio[0].longitude,
-    });
-    lineString.pushPoint({
-      lat: sortedSimilarAudio[0].latitude,
-      lng: sortedSimilarAudio[0].longitude,
-    });
-    let polyline = new H.map.Polyline(lineString, {
-      style: {
-        lineWidth: 3,
-        strokeColor: "rgba(33, 55, 223, 0.9)",
-        lineDash: [1, 5],
-        lineDashOffset: 15,
-        lineHeadCap: "arrow-head",
-        lineTailCap: "arrow-tail",
-      },
+    sortedSimilarAudio.slice(0, visiblePoints).forEach((audio) => {
+      lineString.pushPoint({ lat: audio.latitude, lng: audio.longitude });
     });
 
-    map.addObject(polyline);
-    polylineRef.current = polyline;
-
-    // Add points to the lineString based on visiblePoints
-    const pointsToAdd = sortedSimilarAudio.slice(0, visiblePoints);
-    if (pointsToAdd.length >= 2) {
-      // Ensure there are at least two points
-      pointsToAdd.forEach((audio) => {
-        lineString.pushPoint({ lat: audio.latitude, lng: audio.longitude });
+    if (lineString.getPointCount() >= 2) {
+      // Ensure there are at least two points in the lineString
+      let polyline = new H.map.Polyline(lineString, {
+        style: {
+          lineWidth: 3,
+          strokeColor: "rgba(33, 55, 223, 0.9)",
+          lineDash: [1, 5],
+          lineDashOffset: 15,
+          lineHeadCap: "arrow-head",
+          lineTailCap: "arrow-tail",
+        },
       });
-      polyline.setGeometry(lineString);
+
+      map.addObject(polyline);
+      polylineRef.current = polyline;
     }
 
     return () => {
