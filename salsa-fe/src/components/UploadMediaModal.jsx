@@ -17,36 +17,36 @@ const FileItem = styled.div`
   align-items: center;
   justify-content: space-between;
 `;
+
 function UploadMediaModal({ setModalOpen }) {
   const [audioFile, setAudioFile] = useState(null);
   const fileInputRef = useRef(null);
-  const [isDragOver, setIsDragOver] = useState(false);
+  //   const [isDragOver, setIsDragOver] = useState(false);
 
-  const handleUploadClick = () => {
-    // You would handle the actual file upload here
-    console.log("Uploading:", audioFile);
-  };
+  //   const handleUploadClick = () => {
+  //     console.log("Uploading:", audioFile);
+  //   };
 
   const handleClear = () => {
     setAudioFile(null);
     fileInputRef.current.value = "";
   };
 
-  const handleDragOver = (event) => {
-    event.preventDefault();
-    setIsDragOver(true);
-  };
+  //   const handleDragOver = (event) => {
+  //     event.preventDefault();
+  //     setIsDragOver(true);
+  //   };
 
-  const handleDragLeave = (event) => {
-    event.preventDefault();
-    setIsDragOver(false);
-  };
+  //   const handleDragLeave = (event) => {
+  //     event.preventDefault();
+  //     setIsDragOver(false);
+  //   };
 
-  const handleDrop = (event) => {
-    event.preventDefault();
-    setIsDragOver(false);
-    handleFileChange(event);
-  };
+  //   const handleDrop = (event) => {
+  //     event.preventDefault();
+  //     setIsDragOver(false);
+  //     handleFileChange(event);
+  //   };
 
   const handleFileChange = (event) => {
     const file = event.target.files[0];

@@ -17,11 +17,9 @@ function Polyline({ map, visiblePoints }) {
       return;
     }
 
-    const sortedSimilarAudio = similarAudio[currentTargetAudio.video_id].sort(
-      (a, b) => {
-        return new Date(a.time) - new Date(b.time);
-      }
-    );
+    const sortedSimilarAudio = similarAudio?.sort((a, b) => {
+      return new Date(a.time) - new Date(b.time);
+    });
 
     let lineString = new H.geo.LineString();
     lineString.pushPoint({
@@ -34,7 +32,7 @@ function Polyline({ map, visiblePoints }) {
     });
     let polyline = new H.map.Polyline(lineString, {
       style: {
-        lineWidth: 8,
+        lineWidth: 3,
         strokeColor: "rgba(33, 55, 223, 0.9)",
         lineDash: [1, 5],
         lineDashOffset: 15,

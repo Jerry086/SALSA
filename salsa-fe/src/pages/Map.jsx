@@ -63,10 +63,10 @@ function Map() {
       const newMap = new H.Map(mapRef.current, rasterTileLayer, {
         pixelRatio: window.devicePixelRatio,
         center: {
-          lat: 49.2608,
-          lng: -123.1139,
+          lat: 32.2608,
+          lng: -84.1139,
         },
-        zoom: 13,
+        zoom: 2,
       });
 
       const behavior = new H.mapevents.Behavior(
@@ -89,7 +89,7 @@ function Map() {
       const { latitude, longitude } = currentAudio;
       map.current.getViewModel().setLookAtData({
         position: { lat: latitude, lng: longitude },
-        zoom: 13,
+        zoom: 3,
       });
     }
   }, [currentAudio]);
@@ -99,9 +99,7 @@ function Map() {
     // Set a timeout to increment the number of visible markers and polyline points
     const interval = setInterval(() => {
       setVisibleMarkers((prev) => {
-        const maxMarkers = similarAudio[currentTargetAudio.video_id]
-          ? similarAudio[currentTargetAudio.video_id].length
-          : 0;
+        const maxMarkers = similarAudio ? similarAudio.length : 0;
 
         if (prev < maxMarkers) {
           return prev + 1;
@@ -119,7 +117,7 @@ function Map() {
     <StyledMap>
       <div style={{ width: "100%", height: "100%" }} ref={mapRef}>
         {/* initial markers */}
-        {Object.keys(currentTargetAudio).length === 0 &&
+        {/* {Object.keys(currentTargetAudio).length === 0 &&
           audio_clips &&
           audio_clips.map((audio) => (
             <MapMarker
@@ -133,7 +131,20 @@ function Map() {
               currentTargetAudio={currentTargetAudio}
               isVisible={true}
             />
-          ))}
+          ))} */}
+        {Object.keys(currentAudio).length > 0 && currentAudio && (
+          <MapMarker
+            key={currentAudio.video_id}
+            audio={currentAudio}
+            map={map.current}
+            ui={ui.current}
+            setCurrentAudio={setCurrentAudio}
+            currentAudio={currentAudio}
+            handleModalOpen={handleModalOpen}
+            currentTargetAudio={currentTargetAudio}
+            isVisible={true}
+          />
+        )}
         {Object.keys(currentTargetAudio).length > 0 && currentTargetAudio && (
           <MapMarker
             key={currentTargetAudio.video_id}
@@ -147,24 +158,9 @@ function Map() {
             isVisible={true}
           />
         )}
-        {/* {Object.keys(currentTargetAudio).length > 0 &&
-          similarAudio &&
-          similarAudio[currentTargetAudio.video_id].map((audio, index) => (
-            <MapMarker
-              key={audio.video_id}
-              audio={audio}
-              map={map.current}
-              ui={ui.current}
-              setCurrentAudio={setCurrentAudio}
-              currentAudio={currentAudio}
-              handleModalOpen={handleModalOpen}
-              currentTargetAudio={currentTargetAudio}
-              index={index}
-            />
-          ))} */}
         {Object.keys(currentTargetAudio).length > 0 &&
           similarAudio &&
-          similarAudio[currentTargetAudio.video_id].map((audio, index) => (
+          similarAudio.map((audio, index) => (
             <MapMarker
               key={audio.video_id}
               audio={audio}

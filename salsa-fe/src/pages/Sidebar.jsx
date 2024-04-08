@@ -51,7 +51,7 @@ function Sidebar() {
     <StyledSidebar>
       <UploadSoundsButton />
       <StyledListContainer>
-        {audio_clips.map((clip) => (
+        {audio_clips?.map((clip) => (
           <TargetAudioEntry
             ref={
               currentAudio && clip.video_id === currentAudio.video_id

@@ -2,6 +2,8 @@ import { forwardRef, useContext } from "react";
 import { TargetAudioContext } from "../contexts/TargetAudioContext";
 import styled from "styled-components";
 import { labelsDict } from "../utils/labels";
+import { getSimilarAudios } from "../services/AudioApi";
+import { SimilarAudioContext } from "../contexts/SimilarAudioContext";
 
 const StyledTargetAudioEntry = styled.li`
   background-color: ${({ isCurrentAudio }) =>
@@ -47,12 +49,14 @@ const TargetAudioEntry = forwardRef(({ clip }, ref) => {
     setModalOpen,
     currentTargetAudio,
   } = useContext(TargetAudioContext);
+  const { setSimilarSounds } = useContext(SimilarAudioContext);
   const isCurrentAudio = currentAudio && currentAudio.video_id === video_id;
   const isCurrentTargetAudio =
     currentTargetAudio && currentTargetAudio.video_id === video_id;
 
-  function handleSimilarSounds() {
+  async function handleSimilarSounds() {
     setCurrentTargetAudio(clip);
+    setSimilarSounds(video_id);
   }
 
   function handleClick() {
@@ -75,10 +79,7 @@ const TargetAudioEntry = forwardRef(({ clip }, ref) => {
   return (
     <StyledTargetAudioEntry ref={ref} isCurrentAudio={isCurrentAudio}>
       <div onClick={handleClick}>
-        {JSON.parse(labels)
-          .map((label) => labelsDict[label])
-          .join(", ")}
-        - {video_id}
+        {labels?.join(", ")} - {video_id}
       </div>
       <StyledButton onClick={handlePlay}>Play</StyledButton>
       {!isCurrentTargetAudio && (

@@ -8,8 +8,10 @@ from werkzeug.utils import secure_filename
 from vggish import VGGish
 import os
 import uuid
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 # Configure the maximum upload size
 app.config["MAX_CONTENT_LENGTH"] = 16 * 1024 * 1024  # 16MB limit

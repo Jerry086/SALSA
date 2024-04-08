@@ -71,6 +71,7 @@ function MapMarker({
   currentTargetAudio,
   isVisible,
 }) {
+  // console.log(currentAudio);
   useEffect(() => {
     if (map && audio) {
       const isCurrentTargetAudio =
