@@ -2,15 +2,17 @@ import { useContext, useEffect, useRef } from "react";
 import styled from "styled-components";
 import { TargetAudioContext } from "../contexts/TargetAudioContext";
 import TargetAudioEntry from "../components/TargetAudioEntry";
+import UploadSoundsButton from "../components/UploadSoundsButton";
+import { SimilarAudioContext } from "../contexts/SimilarAudioContext";
 
 const StyledSidebar = styled.div`
   flex-basis: 20rem;
-  /* background-color: #2d3439; */
   padding: 3rem 3rem 3.5rem 3rem;
 
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1.5rem;
 `;
 
 const StyledListContainer = styled.ul`
@@ -47,8 +49,9 @@ function Sidebar() {
 
   return (
     <StyledSidebar>
+      <UploadSoundsButton />
       <StyledListContainer>
-        {audio_clips.map((clip) => (
+        {audio_clips?.map((clip) => (
           <TargetAudioEntry
             ref={
               currentAudio && clip.video_id === currentAudio.video_id

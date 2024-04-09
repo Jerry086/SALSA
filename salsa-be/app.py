@@ -10,8 +10,10 @@ from dotenv import load_dotenv
 import boto3
 import os
 import uuid
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 # Configure the maximum upload size
 app.config["MAX_CONTENT_LENGTH"] = 5 * 1024 * 1024  # 5MB limit

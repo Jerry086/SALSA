@@ -1,5 +1,6 @@
 import { createContext, useEffect, useReducer } from "react";
 import { readCSVFile } from "../utils/convertCsv";
+import { getAllAudios } from "../services/AudioApi";
 
 export const TargetAudioContext = createContext();
 const initialState = {
@@ -41,11 +42,9 @@ function TargetAudioProvider({ children }) {
     async function fetchAudioClips() {
       dispatch({ type: "loading" });
       try {
-        const data = await readCSVFile("/audioset/sample_audio_list.csv");
-        // const data = await readCSVFile(
-        //   "/audioset/training_metadata_rootclass.csv"
-        // );
-        dispatch({ type: "audio_clips/loaded", payload: data });
+        // const data = await readCSVFile("/audioset/sample_audio_list.csv");
+        const data = await getAllAudios();
+        dispatch({ type: "audio_clips/loaded", payload: data.slice(0, 1000) });
       } catch (err) {
         console.log(err);
       }
