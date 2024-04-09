@@ -6,6 +6,8 @@ import numpy as np
 from datetime import datetime, timedelta
 from werkzeug.utils import secure_filename
 from vggish import VGGish
+from dotenv import load_dotenv
+import boto3
 import os
 import uuid
 from flask_cors import CORS
@@ -14,21 +16,38 @@ app = Flask(__name__)
 CORS(app)
 
 # Configure the maximum upload size
-app.config["MAX_CONTENT_LENGTH"] = 16 * 1024 * 1024  # 16MB limit
+app.config["MAX_CONTENT_LENGTH"] = 5 * 1024 * 1024  # 5MB limit
 
-# Define the path for saving uploaded files
-UPLOAD_FOLDER = "uploads"
-app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
+# # Define the path for saving uploaded files
+# UPLOAD_FOLDER = "uploads"
+# app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 
-uri = "mongodb+srv://test:12345@cluster0.hjn5ftw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-client = MongoClient(uri)
+# Load environment variables from .env file
+load_dotenv()
+
+AWS_ACCESS_KEY_ID = os.getenv("AWS_ACCESS_KEY_ID")
+AWS_SECRET_ACCESS_KEY = os.getenv("AWS_SECRET_ACCESS_KEY")
+# AWS_SESSION_TOKEN = os.getenv("AWS_SESSION_TOKEN")
+AWS_REGION = os.getenv("AWS_REGION")
+AWS_BUCKET_NAME = os.getenv("AWS_BUCKET_NAME")
+
+# Initialize S3 client
+s3_client = boto3.client(
+    "s3",
+    region_name=AWS_REGION,
+    aws_access_key_id=AWS_ACCESS_KEY_ID,
+    aws_secret_access_key=AWS_SECRET_ACCESS_KEY,
+)
+
+MONGO_URI = os.getenv("MONGO_URI")
+mongo_client = MongoClient(MONGO_URI)
 # Send a ping to confirm a successful connection
 try:
-    client.admin.command("ping")
+    mongo_client.admin.command("ping")
     print("Pinged your deployment. You successfully connected to MongoDB!")
 except Exception as e:
     print(e)
-db = client["SALSA"]
+db = mongo_client["SALSA"]
 audios_collection = db["audios"]
 
 # Create a FAISS index
@@ -206,6 +225,13 @@ def upload_file():
         embeddings = model.get_embedding(file)
         # Add the embeddings to the FAISS index
         faiss_index.add_embeddings(embeddings.reshape(1, -1), [video_id])
+
+        # file.save(os.path.join(app.config["UPLOAD_FOLDER"], filename))
+        # Upload the file to S3
+        file.seek(0)  # Reset the file pointer
+        s3_client.upload_fileobj(file, AWS_BUCKET_NAME, filename)
+        file_url = f"https://{AWS_BUCKET_NAME}.s3.{AWS_REGION}.amazonaws.com/{filename}"
+
         # Save the metadata and embeddings to the database
         new_item = {
             "video_id": video_id,
@@ -214,11 +240,11 @@ def upload_file():
             "latitude": float(latitude),
             "time": time,
             "source": "cloud",
+            "url": file_url,
             "embeddings": embeddings.tolist(),
         }
         audios_collection.insert_one(new_item)
 
-        file.save(os.path.join(app.config["UPLOAD_FOLDER"], filename))
         new_item.pop("embeddings")
         new_item.pop("_id")
         return jsonify(new_item), 200
