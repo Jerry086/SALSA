@@ -10,18 +10,13 @@ export async function getAllAudios() {
   }
 }
 
-export async function getSimilarAudios(
-  videoId,
-  radius,
-  year_after,
-  similarity
-) {
+export async function getSimilarAudios(videoId, k, date, radius) {
   try {
     const queryParams = new URLSearchParams({
       video_id: videoId,
       radius: radius,
-      year_after: year_after,
-      similarity: similarity,
+      timestamp_after: date,
+      k: k,
     }).toString();
 
     const response = await fetch(`${BASE_URL}/topk?${queryParams}`, {

@@ -5,6 +5,7 @@ export const SimilarAudioContext = createContext();
 const initialState = {
   similarAudio: [],
   isLoading: false,
+  range: { k: 20, date: "2000-01-01", radius: "" },
 };
 
 function reducer(state, action) {
@@ -13,20 +14,22 @@ function reducer(state, action) {
       return { ...state, isLoading: true };
     case "similar_audio_clips/loaded":
       return { ...state, isLoading: false, similarAudio: action.payload };
+    case "similar_audio_clips/setRange":
+      return { ...state, isLoading: false, range: action.payload };
     default:
       throw new Error("unknown action");
   }
 }
 
 function SimilarAudioProvider({ children }) {
-  const [{ similarAudio, isLoading }, dispatch] = useReducer(
+  const [{ similarAudio, isLoading, range }, dispatch] = useReducer(
     reducer,
     initialState
   );
 
-  async function getSimilarSounds(videoId) {
+  async function getSimilarSounds(videoId, k, date, radius) {
     dispatch({ type: "loading" });
-    const data = await getSimilarAudios(videoId);
+    const data = await getSimilarAudios(videoId, k, date, radius);
     const sortedData = data.sort((a, b) => {
       return new Date(a.time) - new Date(b.time);
     });
@@ -40,9 +43,35 @@ function SimilarAudioProvider({ children }) {
     }
   }
 
+  function setRange(k, date, radius) {
+    const newRange = { ...range };
+
+    if (date !== null) {
+      newRange.date = date;
+    }
+    if (k !== null) {
+      newRange.k = k;
+    }
+    if (radius !== null) {
+      newRange.radius = radius;
+    }
+    return newRange;
+  }
+
+  function getRange() {
+    return range;
+  }
+
   return (
     <SimilarAudioContext.Provider
-      value={{ similarAudio, isLoading, getSimilarSounds, setSimilarSounds }}
+      value={{
+        similarAudio,
+        isLoading,
+        getSimilarSounds,
+        setSimilarSounds,
+        setRange,
+        getRange,
+      }}
     >
       {children}
     </SimilarAudioContext.Provider>

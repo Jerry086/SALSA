@@ -61,7 +61,7 @@ const TargetAudioEntry = forwardRef(({ clip }, ref) => {
     setModalOpen,
     currentTargetAudio,
   } = useContext(TargetAudioContext);
-  const { setSimilarSounds, getSimilarSounds } =
+  const { setSimilarSounds, getSimilarSounds, getRange } =
     useContext(SimilarAudioContext);
   const isCurrentAudio = currentAudio && currentAudio.video_id === video_id;
   const isCurrentTargetAudio =
@@ -69,7 +69,9 @@ const TargetAudioEntry = forwardRef(({ clip }, ref) => {
 
   async function handleSimilarSounds() {
     setCurrentTargetAudio(clip);
-    getSimilarSounds(video_id);
+    const range = getRange();
+    console.log(range);
+    getSimilarSounds(video_id, range.k, range.date, range.radius);
   }
 
   function handleClick() {

@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import H from "@here/maps-api-for-javascript";
 import "../utils/styles.css";
 
+const threshold = { 0: 357719.5250000001, 1: 395849.3, 2: 421536.2 };
+
 function addBubble(coords, audio, handleModalOpen, ui, setCurrentAudio) {
   const bubbleCoords = {
     lat: coords.lat,
@@ -81,11 +83,17 @@ function MapMarker({
       let iconPath = "/sound.svg";
 
       if (isCurrentTargetAudio) {
-        if (audio.similarity >= 0.95) {
+        if (audio.distance <= threshold[0]) {
           iconPath = "/play-blue.svg";
-        } else if (audio.similarity >= 0.9) {
+        } else if (
+          audio.distance > threshold[0] &&
+          audio.distance <= threshold[1]
+        ) {
           iconPath = "/play-lightblue.svg";
-        } else if (audio.similarity >= 0.8) {
+        } else if (
+          audio.distance > threshold[1] &&
+          audio.distance <= threshold[2]
+        ) {
           iconPath = "/play-green.svg";
         } else {
           iconPath = "/play-red.svg";
