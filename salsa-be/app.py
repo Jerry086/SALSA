@@ -229,6 +229,7 @@ def upload_file():
     longitude = request.form.get("longitude")
     latitude = request.form.get("latitude")
     time = request.form.get("time")
+    labels = request.form.get("labels")
 
     # Check if any of the metadata fields are missing
     if not all([longitude, latitude, time]):
@@ -261,6 +262,7 @@ def upload_file():
             "longitude": float(longitude),
             "latitude": float(latitude),
             "time": time,
+            "labels": labels,
             "source": "cloud",
             "url": file_url,
             "embeddings": embeddings.tolist(),
