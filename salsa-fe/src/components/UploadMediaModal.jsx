@@ -3,6 +3,7 @@ import { styled } from "styled-components";
 import Modal from "./Modal";
 import { uploadAudio } from "../services/AudioApi";
 import { TargetAudioContext } from "../contexts/TargetAudioContext";
+import LabelSelection from "./LabelSelection";
 
 const UploadContainer = styled.div`
   display: flex;
@@ -64,11 +65,15 @@ const Input = styled.input`
   }
 `;
 
+const Select = styled(Input).attrs({ as: 'select' })``;
+
 function UploadMediaModal({ setModalOpen }) {
   const [audioFile, setAudioFile] = useState(null);
   const [latitude, setLatitude] = useState(null);
   const [longitude, setLongitude] = useState(null);
-  const [description, setDescription] = useState("");
+  const [description, setDescription] = useState([]);
+  const [labelOption, setLabelOption] = useState('select');
+  const [selectedLabel, setSelectedLabel] = useState([]);
   const [date, setDate] = useState(null);
   const fileInputRef = useRef(null);
   const { addAudio } = useContext(TargetAudioContext);
@@ -79,12 +84,21 @@ function UploadMediaModal({ setModalOpen }) {
   //   };
 
   const handleDescriptionChange = (e) => {
-    setDescription(e.target.value);
+    setDescription([e.target.value]);
   };
 
   const handleClear = () => {
     setAudioFile(null);
     fileInputRef.current.value = "";
+  };
+
+  const handleLabelSelection = (selectedList) => {
+    setSelectedLabel(selectedList);
+    console.log("Selected labels:", selectedList);
+  };
+
+  const handleLabelOptionChange = (e) => {
+    setLabelOption(e.target.value);
   };
 
   //   const handleDragOver = (event) => {
@@ -135,14 +149,28 @@ function UploadMediaModal({ setModalOpen }) {
   const uploadContent = (
     <UploadContainer>
       <InputField>
-        <Label>Description:</Label>
-        <Input
-          type="text"
-          name="description"
-          value={description}
-          onChange={handleDescriptionChange}
-        />
+        <Label>Select Label Method:</Label>
+        <Select name="labelOption" value={labelOption} onChange={handleLabelOptionChange}>
+          <option value="select">Select from list</option>
+          <option value="custom">Custom a label</option>
+        </Select>
       </InputField>
+
+      {labelOption === 'custom' ? (
+        <InputField>
+          <Label>Description:</Label>
+          <Input
+            type="text"
+            name="description"
+            value={description}
+            onChange={handleDescriptionChange}
+          />
+        </InputField>) : (
+        <InputField>
+          <LabelSelection onLabelSelect={handleLabelSelection}/>
+        </InputField> ) 
+      }
+
       <InputField>
         <Label>Select Media:</Label>
         <FileClear>
