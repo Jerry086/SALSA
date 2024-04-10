@@ -65,14 +65,14 @@ const Input = styled.input`
   }
 `;
 
-const Select = styled(Input).attrs({ as: 'select' })``;
+const Select = styled(Input).attrs({ as: "select" })``;
 
 function UploadMediaModal({ setModalOpen }) {
   const [audioFile, setAudioFile] = useState(null);
   const [latitude, setLatitude] = useState(null);
   const [longitude, setLongitude] = useState(null);
   const [description, setDescription] = useState([]);
-  const [labelOption, setLabelOption] = useState('select');
+  const [labelOption, setLabelOption] = useState("select");
   const [selectedLabel, setSelectedLabel] = useState([]);
   const [date, setDate] = useState(null);
   const fileInputRef = useRef(null);
@@ -135,10 +135,25 @@ function UploadMediaModal({ setModalOpen }) {
 
   const handleUpload = async () => {
     if (audioFile) {
-      console.log("Uploading:", audioFile.name, latitude, longitude, date);
+      console.log(
+        "Uploading:",
+        audioFile.name,
+        latitude,
+        longitude,
+        date,
+        description,
+        selectedLabel
+      );
+      const labels = description.length === 0 ? selectedLabel : description;
       setAudioFile(null);
       fileInputRef.current.value = "";
-      const newAudio = await uploadAudio(audioFile, latitude, longitude, date);
+      const newAudio = await uploadAudio(
+        audioFile,
+        latitude,
+        longitude,
+        date,
+        labels
+      );
       addAudio(newAudio);
       setModalOpen(false);
     } else {
@@ -150,13 +165,17 @@ function UploadMediaModal({ setModalOpen }) {
     <UploadContainer>
       <InputField>
         <Label>Select Label Method:</Label>
-        <Select name="labelOption" value={labelOption} onChange={handleLabelOptionChange}>
+        <Select
+          name="labelOption"
+          value={labelOption}
+          onChange={handleLabelOptionChange}
+        >
           <option value="select">Select from list</option>
           <option value="custom">Custom a label</option>
         </Select>
       </InputField>
 
-      {labelOption === 'custom' ? (
+      {labelOption === "custom" ? (
         <InputField>
           <Label>Description:</Label>
           <Input
@@ -165,11 +184,12 @@ function UploadMediaModal({ setModalOpen }) {
             value={description}
             onChange={handleDescriptionChange}
           />
-        </InputField>) : (
+        </InputField>
+      ) : (
         <InputField>
-          <LabelSelection onLabelSelect={handleLabelSelection}/>
-        </InputField> ) 
-      }
+          <LabelSelection onLabelSelect={handleLabelSelection} />
+        </InputField>
+      )}
 
       <InputField>
         <Label>Select Media:</Label>

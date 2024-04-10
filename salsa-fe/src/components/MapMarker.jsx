@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import H from "@here/maps-api-for-javascript";
 import "../utils/styles.css";
 

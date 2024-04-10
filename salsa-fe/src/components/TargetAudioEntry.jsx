@@ -94,7 +94,7 @@ const TargetAudioEntry = forwardRef(({ clip }, ref) => {
   return (
     <StyledTargetAudioEntry ref={ref} isCurrentAudio={isCurrentAudio}>
       {labels && <Labels onClick={handleClick}>{labels?.join(", ")}</Labels>}
-      {filename && <Labels onClick={handleClick}>{filename}</Labels>}
+      {/* {filename && <Labels onClick={handleClick}>{filename}</Labels>} */}
       <ButtonContainer>
         <StyledButton onClick={handlePlay}>Play</StyledButton>
         {!isCurrentTargetAudio && (

@@ -32,13 +32,24 @@ export async function getSimilarAudios(videoId, k, date, radius) {
   }
 }
 
-export async function uploadAudio(audioFile, longitude, latitude, time) {
+export async function uploadAudio(
+  audioFile,
+  latitude,
+  longitude,
+  time,
+  labels
+) {
   try {
+    console.log(labels);
+
     const formData = new FormData();
     formData.append("file", audioFile);
     formData.append("longitude", longitude);
     formData.append("latitude", latitude);
     formData.append("time", time);
+    labels.forEach((label) => {
+      formData.append("labels", label);
+    });
 
     const response = await fetch(`${BASE_URL}/audio`, {
       method: "POST",
