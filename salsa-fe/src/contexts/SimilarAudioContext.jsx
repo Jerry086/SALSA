@@ -55,11 +55,7 @@ function SimilarAudioProvider({ children }) {
     if (radius !== null) {
       newRange.radius = radius;
     }
-    return newRange;
-  }
-
-  function getRange() {
-    return range;
+    dispatch({ type: "similar_audio_clips/setRange", payload: newRange });
   }
 
   return (
@@ -70,7 +66,7 @@ function SimilarAudioProvider({ children }) {
         getSimilarSounds,
         setSimilarSounds,
         setRange,
-        getRange,
+        range,
       }}
     >
       {children}

@@ -1,24 +1,25 @@
 import TopKQuery from "./TopKQuery";
 import TimeQuery from "./TimeQuery";
 import DistanceQuery from "./DistanceQuery";
+import { useState } from "react";
 
 const topQueryBarStyle = {
-    display: 'flex',
-    justifyContent: 'space-around',
-    alignItems: 'center',
-    padding: '15px 0',
-    backgroundColor: '#98c099',
-    color: 'white',
+  display: "flex",
+  justifyContent: "space-around",
+  alignItems: "center",
+  padding: "15px 0",
+  backgroundColor: "#98c099",
+  color: "white",
 };
 
 function TopQueryBar() {
-    return (
-        <div style={topQueryBarStyle}>
-            <TopKQuery />
-            <TimeQuery />
-            <DistanceQuery />
-        </div>
-    );
+  return (
+    <div style={topQueryBarStyle}>
+      <TopKQuery />
+      <TimeQuery />
+      <DistanceQuery />
+    </div>
+  );
 }
 
 export default TopQueryBar;
