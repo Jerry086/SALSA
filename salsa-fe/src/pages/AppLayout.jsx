@@ -1,5 +1,4 @@
 import TopQueryBar from "../components/TopQueryBar";
-import Spinner from "../ui/Spinner";
 import Map from "./Map";
 import Sidebar from "./Sidebar";
 import styled from "styled-components";

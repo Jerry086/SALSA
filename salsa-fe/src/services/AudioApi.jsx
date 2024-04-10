@@ -1,4 +1,4 @@
-const BASE_URL = "http://127.0.0.1:5000";
+const BASE_URL = "http://35.81.65.102";
 
 export async function getAllAudios() {
   try {
@@ -24,7 +24,7 @@ export async function getSimilarAudios(
       similarity: similarity,
     }).toString();
 
-    const response = await fetch(`${BASE_URL}/similarity?${queryParams}`, {
+    const response = await fetch(`${BASE_URL}/topk?${queryParams}`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

@@ -30,6 +30,7 @@ function SimilarAudioProvider({ children }) {
     const sortedData = data.sort((a, b) => {
       return new Date(a.time) - new Date(b.time);
     });
+    console.log(sortedData);
     dispatch({ type: "similar_audio_clips/loaded", payload: sortedData });
   }
 
