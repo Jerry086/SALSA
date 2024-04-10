@@ -47,8 +47,11 @@ try:
     print("Pinged your deployment. You successfully connected to MongoDB!")
 except Exception as e:
     print(e)
-db = mongo_client["SALSA"]
-audios_collection = db["audios"]
+
+MONGO_DB = os.getenv("MONGO_DB")
+MONGO_COLLECTION = os.getenv("MONGO_COLLECTION")
+db = mongo_client[MONGO_DB]
+audios_collection = db[MONGO_COLLECTION]
 
 # Create a FAISS index
 EMBEDDING_DIMENSION = 128
