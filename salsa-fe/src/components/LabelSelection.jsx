@@ -23,14 +23,14 @@ function LabelSelection({ onLabelSelect }) {
   }, []);
 
   const onSelect = (selectedList, selectedItem) => {
+    setSelectedLabel(selectedList);
     const labels = selectedList.map(item => item.name);
-    setSelectedLabel(labels);
     onLabelSelect(labels);
   };
 
   const onRemove = (selectedList, removedItem) => {
+    setSelectedLabel(selectedList);
     const labels = selectedList.map(item => item.name);
-    setSelectedLabel(labels);
     onLabelSelect(labels);
   };
 
