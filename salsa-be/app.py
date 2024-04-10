@@ -92,13 +92,20 @@ def get_item(video_id):
 
 
 # get top similarity percent of audios by video_id
+# this request handler is used for testing purposes
 @app.route("/similarity", methods=["GET"])
 def get_similar_items():
     video_id = request.args.get("video_id", default=None, type=str)
-    # in kilometers
     radius = request.args.get("radius", default=float("inf"), type=float)
-    year_after = request.args.get("year_after", default=-1, type=int)
+    timestamp_after = request.args.get("timestamp_after", default="", type=str)
     similarity = request.args.get("similarity", default=0.999, type=float)
+
+    timestamp_after_date = None
+    if timestamp_after:
+        try:
+            timestamp_after_date = datetime.strptime(timestamp_after, "%Y-%m-%d")
+        except ValueError:
+            return jsonify({"error": "Invalid date format. Use yyyy-mm-dd"}), 400
 
     target_item = audios_collection.find_one({"video_id": video_id}, {"_id": 0})
     if not target_item:
@@ -124,11 +131,13 @@ def get_similar_items():
         item = audios_collection.find_one(
             {"video_id": video_id}, {"_id": 0, "embeddings": 0}
         )
+        if not item:
+            continue
         item["distance"] = distance
 
         # Filter out items before the specified "year_after"
         item_time = datetime.strptime(item["time"], "%Y-%m-%d %H:%M")
-        if item_time.year < year_after:
+        if timestamp_after_date and item_time.date() < timestamp_after_date.date():
             continue
 
         # Filter out items outside the specified radius
@@ -153,8 +162,15 @@ def get_topK_items():
     video_id = request.args.get("video_id", default=None, type=str)
     # in kilometers
     radius = request.args.get("radius", default=float("inf"), type=float)
-    year_after = request.args.get("year_after", default=-1, type=int)
+    timestamp_after = request.args.get("timestamp_after", default="", type=str)
     k = request.args.get("k", default=10, type=int)
+
+    timestamp_after_date = None
+    if timestamp_after:
+        try:
+            timestamp_after_date = datetime.strptime(timestamp_after, "%Y-%m-%d")
+        except ValueError:
+            return jsonify({"error": "Invalid date format. Use yyyy-mm-dd"}), 400
 
     target_item = audios_collection.find_one({"video_id": video_id}, {"_id": 0})
     if not target_item:
@@ -171,11 +187,14 @@ def get_topK_items():
         item = audios_collection.find_one(
             {"video_id": video_id}, {"_id": 0, "embeddings": 0}
         )
+        if not item:
+            continue
+
         item["distance"] = float(distance)
 
         # Filter out items before the specified "year_after"
         item_time = datetime.strptime(item["time"], "%Y-%m-%d %H:%M")
-        if item_time.year < year_after:
+        if timestamp_after_date and item_time.date() < timestamp_after_date.date():
             continue
 
         # Filter out items outside the specified radius
