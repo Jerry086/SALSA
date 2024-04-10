@@ -1,7 +1,6 @@
 import TopKQuery from "./TopKQuery";
 import TimeQuery from "./TimeQuery";
 import DistanceQuery from "./DistanceQuery";
-import { useState } from "react";
 
 const topQueryBarStyle = {
   display: "flex",

@@ -1,35 +1,86 @@
-import { useRef, useState } from "react";
+import { useContext, useRef, useState } from "react";
 import { styled } from "styled-components";
 import Modal from "./Modal";
 import { uploadAudio } from "../services/AudioApi";
+import { TargetAudioContext } from "../contexts/TargetAudioContext";
 
 const UploadContainer = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
 `;
 
 const InputField = styled.div`
-  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
 `;
 
-const FileItem = styled.div`
+const FileClear = styled.div`
   display: flex;
+  gap: 2rem;
   align-items: center;
+  width: 100%;
   justify-content: space-between;
+`;
+
+const Label = styled.label`
+  font-weight: bold;
+  color: #333;
+`;
+
+const Button = styled.button`
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #0056b3;
+  }
+
+  &:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+`;
+
+const Input = styled.input`
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+
+  &:focus {
+    border-color: #007bff;
+  }
 `;
 
 function UploadMediaModal({ setModalOpen }) {
   const [audioFile, setAudioFile] = useState(null);
   const [latitude, setLatitude] = useState(null);
   const [longitude, setLongitude] = useState(null);
+  const [description, setDescription] = useState("");
   const [date, setDate] = useState(null);
   const fileInputRef = useRef(null);
+  const { addAudio } = useContext(TargetAudioContext);
   //   const [isDragOver, setIsDragOver] = useState(false);
 
   //   const handleUploadClick = () => {
   //     console.log("Uploading:", audioFile);
   //   };
+
+  const handleDescriptionChange = (e) => {
+    setDescription(e.target.value);
+  };
 
   const handleClear = () => {
     setAudioFile(null);
@@ -68,12 +119,14 @@ function UploadMediaModal({ setModalOpen }) {
     setLatitude(e.target.value);
   };
 
-  const handleUpload = () => {
+  const handleUpload = async () => {
     if (audioFile) {
       console.log("Uploading:", audioFile.name, latitude, longitude, date);
       setAudioFile(null);
       fileInputRef.current.value = "";
-      uploadAudio(audioFile, latitude, longitude, date);
+      const newAudio = await uploadAudio(audioFile, latitude, longitude, date);
+      addAudio(newAudio);
+      setModalOpen(false);
     } else {
       alert("Please select an audio file to upload.");
     }
@@ -82,23 +135,32 @@ function UploadMediaModal({ setModalOpen }) {
   const uploadContent = (
     <UploadContainer>
       <InputField>
-        <label>Select Media:</label>
-        <input
-          type="file"
-          ref={fileInputRef}
-          accept="audio/*"
-          onChange={handleFileChange}
+        <Label>Description:</Label>
+        <Input
+          type="text"
+          name="description"
+          value={description}
+          onChange={handleDescriptionChange}
         />
-        {audioFile && (
-          <>
-            <p>Selected File: {audioFile.name}</p>
-            <button onClick={handleClear}>clear</button>
-          </>
-        )}
       </InputField>
       <InputField>
-        <label>Latitude:</label>
-        <input
+        <Label>Select Media:</Label>
+        <FileClear>
+          <Input
+            type="file"
+            ref={fileInputRef}
+            accept="audio/*"
+            onChange={handleFileChange}
+          />
+
+          <Button onClick={handleClear} disabled={!audioFile}>
+            clear
+          </Button>
+        </FileClear>
+      </InputField>
+      <InputField>
+        <Label>Latitude:</Label>
+        <Input
           type="number"
           name="latitude"
           step="any"
@@ -108,8 +170,8 @@ function UploadMediaModal({ setModalOpen }) {
       </InputField>
 
       <InputField>
-        <label>Longitude:</label>
-        <input
+        <Label>Longitude:</Label>
+        <Input
           type="number"
           name="longitude"
           step="any"
@@ -119,8 +181,8 @@ function UploadMediaModal({ setModalOpen }) {
       </InputField>
 
       <InputField>
-        <label>Date:</label>
-        <input
+        <Label>Date:</Label>
+        <Input
           type="date"
           name="Date"
           value={date}
@@ -128,7 +190,7 @@ function UploadMediaModal({ setModalOpen }) {
         />
       </InputField>
 
-      <button onClick={handleUpload}>Upload</button>
+      <Button onClick={handleUpload}>Upload</Button>
     </UploadContainer>
   );
 

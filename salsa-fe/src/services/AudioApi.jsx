@@ -45,7 +45,7 @@ export async function uploadAudio(audioFile, longitude, latitude, time) {
       body: formData,
     });
     const data = await response.json();
-    console.log(data);
+    return data;
   } catch (err) {
     console.log("upload audio error: ", err);
   }

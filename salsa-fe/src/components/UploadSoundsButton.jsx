@@ -26,7 +26,7 @@ function UploadSoundsButton() {
   return (
     <>
       <StyledUploadButton onClick={handleClick}>
-        Upload and find similar sounds
+        Upload Your Own Audio
       </StyledUploadButton>
       {isUploadModalOpen && (
         <UploadMediaModal setModalOpen={setIsUploadModalOpen} />

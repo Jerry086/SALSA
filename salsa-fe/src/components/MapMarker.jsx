@@ -14,9 +14,13 @@ function addBubble(coords, audio, handleModalOpen, ui, setCurrentAudio) {
   content.classList.add("bubble-content");
 
   // Style for the labels element
-  const labels = document.createElement("div");
-  labels.textContent = audio.labels.join(`, `);
-  labels.style.fontWeight = "bold";
+  const name = document.createElement("div");
+  if (audio.labels) {
+    name.textContent = audio.labels.join(`, `);
+  } else {
+    name.textContent = audio.filename;
+  }
+  name.style.fontWeight = "bold";
 
   // Style for the location element
   const location = document.createElement("div");
@@ -36,7 +40,7 @@ function addBubble(coords, audio, handleModalOpen, ui, setCurrentAudio) {
   playButton.onclick = handleModalOpen;
 
   // Append elements to the content
-  content.appendChild(labels);
+  content.appendChild(name);
   content.appendChild(location);
   content.appendChild(time);
   content.appendChild(playButton);

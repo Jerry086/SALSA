@@ -53,7 +53,7 @@ const StyledButton = styled.button`
 `;
 
 const TargetAudioEntry = forwardRef(({ clip }, ref) => {
-  const { video_id, labels } = clip;
+  const { video_id, labels, filename } = clip;
   const {
     currentAudio,
     setCurrentTargetAudio,
@@ -93,7 +93,8 @@ const TargetAudioEntry = forwardRef(({ clip }, ref) => {
 
   return (
     <StyledTargetAudioEntry ref={ref} isCurrentAudio={isCurrentAudio}>
-      <Labels onClick={handleClick}>{labels?.join(", ")}</Labels>
+      {labels && <Labels onClick={handleClick}>{labels?.join(", ")}</Labels>}
+      {filename && <Labels onClick={handleClick}>{filename}</Labels>}
       <ButtonContainer>
         <StyledButton onClick={handlePlay}>Play</StyledButton>
         {!isCurrentTargetAudio && (
