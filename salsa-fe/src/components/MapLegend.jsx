@@ -39,15 +39,15 @@ const MapLegend = () => {
       </LegendItem>
       <LegendItem>
         <Icon color="lightblue" />
-        {"0.9 <= Similarity < 0.95"}
+        {"0.90 <= Similarity < 0.95"}
       </LegendItem>
       <LegendItem>
         <Icon color="green" />
-        {"0.8 <= Similarity < 0.9"}
+        {"0.85 <= Similarity < 0.90"}
       </LegendItem>
       <LegendItem>
         <Icon color="red" />
-        {" Similarity < 0.8"}
+        {" Similarity < 0.85"}
       </LegendItem>
     </LegendContainer>
   );

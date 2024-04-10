@@ -1,5 +1,4 @@
 import { createContext, useEffect, useReducer } from "react";
-import { readCSVFile } from "../utils/convertCsv";
 import { getAllAudios } from "../services/AudioApi";
 
 export const TargetAudioContext = createContext();
@@ -27,6 +26,8 @@ function reducer(state, action) {
       return { ...state, modalOpen: false };
     case "audio_clip/target_loaded":
       return { ...state, isLoading: false, currentTargetAudio: action.payload };
+    case "audio_clip/upload_audio":
+      return { ...state, isLoading: false, audio_clips: action.payload };
     default:
       throw new Error("unknown action");
   }
@@ -44,7 +45,7 @@ function TargetAudioProvider({ children }) {
       try {
         // const data = await readCSVFile("/audioset/sample_audio_list.csv");
         const data = await getAllAudios();
-        dispatch({ type: "audio_clips/loaded", payload: data.slice(0, 1000) });
+        dispatch({ type: "audio_clips/loaded", payload: data.slice(0, 100) });
       } catch (err) {
         console.log(err);
       }
@@ -75,6 +76,13 @@ function TargetAudioProvider({ children }) {
     }
   }
 
+  function addAudio(clip) {
+    if (clip) {
+      const newAudio = [clip, ...audio_clips];
+      dispatch({ type: "audio_clip/upload_audio", payload: newAudio });
+    }
+  }
+
   return (
     <TargetAudioContext.Provider
       value={{
@@ -86,6 +94,7 @@ function TargetAudioProvider({ children }) {
         setCurrentTargetAudio,
         modalOpen,
         setModalOpen,
+        addAudio,
       }}
     >
       {children}

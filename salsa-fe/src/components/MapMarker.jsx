@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import H from "@here/maps-api-for-javascript";
 import "../utils/styles.css";
 
+const threshold = { 0: 357719.5250000001, 1: 395849.3, 2: 421536.2 };
+
 function addBubble(coords, audio, handleModalOpen, ui, setCurrentAudio) {
   const bubbleCoords = {
     lat: coords.lat,
@@ -12,9 +14,13 @@ function addBubble(coords, audio, handleModalOpen, ui, setCurrentAudio) {
   content.classList.add("bubble-content");
 
   // Style for the labels element
-  const labels = document.createElement("div");
-  labels.textContent = audio.labels.join(`, `);
-  labels.style.fontWeight = "bold";
+  const name = document.createElement("div");
+  if (audio.labels) {
+    name.textContent = audio.labels.join(`, `);
+  } else {
+    name.textContent = audio.filename;
+  }
+  name.style.fontWeight = "bold";
 
   // Style for the location element
   const location = document.createElement("div");
@@ -34,7 +40,7 @@ function addBubble(coords, audio, handleModalOpen, ui, setCurrentAudio) {
   playButton.onclick = handleModalOpen;
 
   // Append elements to the content
-  content.appendChild(labels);
+  content.appendChild(name);
   content.appendChild(location);
   content.appendChild(time);
   content.appendChild(playButton);
@@ -81,11 +87,17 @@ function MapMarker({
       let iconPath = "/sound.svg";
 
       if (isCurrentTargetAudio) {
-        if (audio.similarity >= 0.95) {
+        if (audio.distance <= threshold[0]) {
           iconPath = "/play-blue.svg";
-        } else if (audio.similarity >= 0.9) {
+        } else if (
+          audio.distance > threshold[0] &&
+          audio.distance <= threshold[1]
+        ) {
           iconPath = "/play-lightblue.svg";
-        } else if (audio.similarity >= 0.8) {
+        } else if (
+          audio.distance > threshold[1] &&
+          audio.distance <= threshold[2]
+        ) {
           iconPath = "/play-green.svg";
         } else {
           iconPath = "/play-red.svg";

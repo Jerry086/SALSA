@@ -53,7 +53,7 @@ const StyledButton = styled.button`
 `;
 
 const TargetAudioEntry = forwardRef(({ clip }, ref) => {
-  const { video_id, labels } = clip;
+  const { video_id, labels, filename } = clip;
   const {
     currentAudio,
     setCurrentTargetAudio,
@@ -61,7 +61,7 @@ const TargetAudioEntry = forwardRef(({ clip }, ref) => {
     setModalOpen,
     currentTargetAudio,
   } = useContext(TargetAudioContext);
-  const { setSimilarSounds, getSimilarSounds } =
+  const { setSimilarSounds, getSimilarSounds, range } =
     useContext(SimilarAudioContext);
   const isCurrentAudio = currentAudio && currentAudio.video_id === video_id;
   const isCurrentTargetAudio =
@@ -69,7 +69,8 @@ const TargetAudioEntry = forwardRef(({ clip }, ref) => {
 
   async function handleSimilarSounds() {
     setCurrentTargetAudio(clip);
-    getSimilarSounds(video_id);
+    console.log(range);
+    getSimilarSounds(video_id, range.k, range.date, range.radius);
   }
 
   function handleClick() {
@@ -92,7 +93,8 @@ const TargetAudioEntry = forwardRef(({ clip }, ref) => {
 
   return (
     <StyledTargetAudioEntry ref={ref} isCurrentAudio={isCurrentAudio}>
-      <Labels onClick={handleClick}>{labels?.join(", ")}</Labels>
+      {labels && <Labels onClick={handleClick}>{labels?.join(", ")}</Labels>}
+      {filename && <Labels onClick={handleClick}>{filename}</Labels>}
       <ButtonContainer>
         <StyledButton onClick={handlePlay}>Play</StyledButton>
         {!isCurrentTargetAudio && (
