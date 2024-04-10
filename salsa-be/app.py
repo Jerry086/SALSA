@@ -230,6 +230,7 @@ def upload_file():
     latitude = request.form.get("latitude")
     time = request.form.get("time")
     labels = request.form.get("labels")
+    labels = [label.strip() for label in labels.split(",")]
 
     # Check if any of the metadata fields are missing
     if not all([longitude, latitude, time]):
