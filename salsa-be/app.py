@@ -57,6 +57,9 @@ audios_collection = db[MONGO_COLLECTION]
 EMBEDDING_DIMENSION = 128
 faiss_index = FaissIndex(dimension=EMBEDDING_DIMENSION, use_gpu=False)
 
+# cache metadata to avoid exhausting mongodb resources
+metadata = {}
+
 documents = audios_collection.find({}, {"_id": 0, "embeddings": 1, "video_id": 1})
 embeddings = [(doc["video_id"], doc["embeddings"]) for doc in documents]
 video_ids, embeddings = zip(*embeddings)
@@ -83,6 +86,9 @@ def get_items():
 # get specific audio metadata by video_id
 @app.route("/audio/<string:video_id>", methods=["GET"])
 def get_item(video_id):
+    if video_id in metadata:
+        return jsonify(metadata[video_id])
+
     item = audios_collection.find_one(
         {"video_id": video_id}, {"_id": 0, "embeddings": 0}
     )
@@ -113,12 +119,12 @@ def get_similar_items():
 
     target_embedding = target_item["embeddings"]
 
-    all_items = audios_collection.find({}, {"_id": 0, "video_id": 1, "embeddings": 1})
+    # all_items = audios_collection.find({}, {"_id": 0, "video_id": 1, "embeddings": 1})
     distances = []
 
-    for item in all_items:
-        distance = euclidean_distance(target_embedding, item["embeddings"])
-        distances.append((item["video_id"], distance))
+    for item in zip(video_ids, embeddings):
+        distance = euclidean_distance(target_embedding, item[1])
+        distances.append((item[0], distance))
 
     # Sort items by distance
     distances.sort(key=lambda x: x[1])
@@ -128,12 +134,17 @@ def get_similar_items():
 
     results = []
     for video_id, distance in distances:
-        item = audios_collection.find_one(
-            {"video_id": video_id}, {"_id": 0, "embeddings": 0}
-        )
+        if video_id in metadata:
+            item = metadata[video_id]
+        else:
+            item = audios_collection.find_one(
+                {"video_id": video_id}, {"_id": 0, "embeddings": 0}
+            )
         if not item:
             continue
+
         item["distance"] = distance
+        metadata[video_id] = item
 
         # Filter out items before the specified "year_after"
         item_time = datetime.strptime(item["time"], "%Y-%m-%d %H:%M")
@@ -184,13 +195,17 @@ def get_topK_items():
     # Construct and return the response
     results = []
     for distance, video_id in zip(distances, video_ids):
-        item = audios_collection.find_one(
-            {"video_id": video_id}, {"_id": 0, "embeddings": 0}
-        )
+        if video_id in metadata:
+            item = metadata[video_id]
+        else:
+            item = audios_collection.find_one(
+                {"video_id": video_id}, {"_id": 0, "embeddings": 0}
+            )
         if not item:
             continue
 
         item["distance"] = float(distance)
+        metadata[video_id] = item
 
         # Filter out items before the specified "year_after"
         item_time = datetime.strptime(item["time"], "%Y-%m-%d %H:%M")
@@ -277,35 +292,35 @@ def upload_file():
         return jsonify({"error": str(e)}), 400
 
 
-@app.route("/audio/<string:video_id>", methods=["PUT"])
-def update_item(video_id):
-    item = audios_collection.find_one(
-        {"video_id": video_id}, {"_id": 0, "embeddings": 0}
-    )
-    if not item:
-        return jsonify({"error": "Video ID not found"}), 404
+# @app.route("/audio/<string:video_id>", methods=["PUT"])
+# def update_item(video_id):
+#     item = audios_collection.find_one(
+#         {"video_id": video_id}, {"_id": 0, "embeddings": 0}
+#     )
+#     if not item:
+#         return jsonify({"error": "Video ID not found"}), 404
 
-    update_data = request.json
-    if not update_data:
-        return jsonify({"error": "No data provided to update the audio sample"}), 400
+#     update_data = request.json
+#     if not update_data:
+#         return jsonify({"error": "No data provided to update the audio sample"}), 400
 
-    result = audios_collection.update_one({"video_id": video_id}, {"$set": update_data})
+#     result = audios_collection.update_one({"video_id": video_id}, {"$set": update_data})
 
-    if result.matched_count == 0:
-        return jsonify({"error": "Audio sample not found"}), 404
-    elif result.modified_count == 0:
-        return jsonify({"message": "No changes made to the audio sample"}), 200
-    else:
-        return jsonify({"message": "Audio sample updated successfully"}), 200
+#     if result.matched_count == 0:
+#         return jsonify({"error": "Audio sample not found"}), 404
+#     elif result.modified_count == 0:
+#         return jsonify({"message": "No changes made to the audio sample"}), 200
+#     else:
+#         return jsonify({"message": "Audio sample updated successfully"}), 200
 
 
-@app.route("/audio/<string:video_id>", methods=["DELETE"])
-def delete_item(video_id):
-    result = audios_collection.delete_one({"_id": video_id})
-    if result.deleted_count:
-        return jsonify({"message": "Audio sample deleted successfully"}), 200
-    else:
-        return jsonify({"error": "Item not found"}), 404
+# @app.route("/audio/<string:video_id>", methods=["DELETE"])
+# def delete_item(video_id):
+#     result = audios_collection.delete_one({"_id": video_id})
+#     if result.deleted_count:
+#         return jsonify({"message": "Audio sample deleted successfully"}), 200
+#     else:
+#         return jsonify({"error": "Item not found"}), 404
 
 
 if __name__ == "__main__":
