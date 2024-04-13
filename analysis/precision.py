@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+from collections import defaultdict
 import requests
 
 
@@ -35,7 +36,7 @@ def query_server(video_id, k):
         return None
 
 
-test_file = "../dataset/test_samples_id.csv"
+test_file = "../dataset/testing_samples_id_based_on_class_size.csv"
 test_data = pd.read_csv(test_file)
 test_data["root_classes"] = test_data["root_classes"].apply(eval)
 
@@ -49,3 +50,4 @@ for idx, row in test_data.iterrows():
     precision.append(cal_precisionK(query_labels, neighbors_labels))
 
 print("Precision@10: ", np.mean(precision))
+# Precision@10:  0.6898659517426274
