@@ -73,7 +73,7 @@ model = VGGish()
 
 @app.route("/")
 def home():
-    return "Hello, World!"
+    return "Hello World!"
 
 
 # get all audios metadata
@@ -104,7 +104,7 @@ def get_similar_items():
     video_id = request.args.get("video_id", default=None, type=str)
     radius = request.args.get("radius", default=float("inf"), type=float)
     timestamp_after = request.args.get("timestamp_after", default="", type=str)
-    similarity = request.args.get("similarity", default=0.999, type=float)
+    similarity = request.args.get("similarity", default=None, type=float)
 
     timestamp_after_date = None
     if timestamp_after:
@@ -130,7 +130,10 @@ def get_similar_items():
     distances.sort(key=lambda x: x[1])
 
     # Select the top similarity percent
-    top_n = int(len(distances) * (1 - similarity))
+    if similarity:
+        top_n = int(len(distances) * (1 - similarity))
+    else:
+        top_n = 10
 
     results = []
     for video_id, distance in distances:
