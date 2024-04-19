@@ -77,6 +77,7 @@ function MapMarker({
   handleModalOpen,
   currentTargetAudio,
   isVisible,
+  index,
 }) {
   // console.log(currentAudio);
   useEffect(() => {
@@ -109,8 +110,9 @@ function MapMarker({
       iconElement.className = "custom-marker";
       iconElement.innerHTML = `
         <img src="${iconPath}" width="30" height="30" />
-        <div class="timestamp">${audio.time.slice(0, 10)}</div>
+        ${index != null ? `<div class="timestamp">${index + 1}</div>` : ""}
       `;
+      // <div class="timestamp">${audio.time.slice(0, 10)}</div>
 
       const icon = new H.map.DomIcon(iconElement);
       const coords = { lat: audio.latitude, lng: audio.longitude };

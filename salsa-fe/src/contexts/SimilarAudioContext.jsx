@@ -28,13 +28,17 @@ function SimilarAudioProvider({ children }) {
   );
 
   async function getSimilarSounds(videoId, k, date, radius) {
-    dispatch({ type: "loading" });
-    const data = await getSimilarAudios(videoId, k, date, radius);
-    const sortedData = data.sort((a, b) => {
-      return new Date(a.time) - new Date(b.time);
-    });
-    console.log(sortedData);
-    dispatch({ type: "similar_audio_clips/loaded", payload: sortedData });
+    try {
+      dispatch({ type: "loading" });
+      const data = await getSimilarAudios(videoId, k, date, radius);
+      const sortedData = data?.sort((a, b) => {
+        return new Date(a.time) - new Date(b.time);
+      });
+      console.log(sortedData);
+      dispatch({ type: "similar_audio_clips/loaded", payload: sortedData });
+    } catch (err) {
+      console.log("get similar sounds", err);
+    }
   }
 
   function setSimilarSounds(audio) {

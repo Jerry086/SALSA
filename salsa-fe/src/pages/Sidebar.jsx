@@ -46,7 +46,6 @@ function Sidebar() {
     }
   }, [currentAudio]);
 
-  console.log(audio_clips);
   return (
     <StyledSidebar>
       <UploadSoundsButton />
