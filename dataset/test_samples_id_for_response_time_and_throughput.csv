@@ -1,0 +1,1901 @@
+video_id,start_time_seconds,end_time_seconds,labels,root_classes
+AuEPed8B0kw,30.0,40.0,"['Speech', 'Hands']","['Hands', 'Human voice']"
+0YcJSD6q-yw,0.0,10.0,['Finger snapping'],['Hands']
+tzvB-r8YaRc,90.0,100.0,"['Speech', 'Singing', 'Clapping']","['Human group actions', 'Hands', 'Human voice']"
+y4EOFoW0ix8,10.0,20.0,"['Speech', 'Clapping', 'Music']","['Music', 'Human group actions', 'Hands', 'Human voice']"
+8HXqsTTG2AA,30.0,40.0,['Finger snapping'],['Hands']
+AiGF0850kT8,6.0,16.0,"['Clapping', 'Music']","['Music', 'Human group actions', 'Hands']"
+Avs_-f9_n8A,30.0,40.0,"['Speech', 'Finger snapping']","['Hands', 'Human voice']"
+UjelVJif6-w,30.0,40.0,"['Speech', 'Clapping', 'Tap']","['Domestic sounds, home sounds', 'Human group actions', 'Human voice', 'Hands', 'Generic impact sounds']"
+EWI6u8wVAlk,0.0,10.0,"['Clapping', 'Applause', 'Crowd']","['Human group actions', 'Hands']"
+DPv42TS7EY8,3.0,13.0,['Finger snapping'],['Hands']
+AEMzmaMsV9M,100.0,110.0,"['Speech', 'Finger snapping']","['Hands', 'Human voice']"
+gW9U5w-IaTo,120.0,130.0,['Finger snapping'],['Hands']
+6aBqeQYPGGM,120.0,130.0,['Finger snapping'],['Hands']
+L0Fpb1V6VT4,20.0,30.0,['Hands'],['Hands']
+Cq9_hnJw5Rs,400.0,410.0,"['Speech', 'Clapping']","['Human group actions', 'Hands', 'Human voice']"
+J66cd8MLqK4,30.0,40.0,"['Finger snapping', 'Music']","['Music', 'Hands']"
+nSIskMwIBKg,0.0,10.0,"['Child speech, kid speaking', 'Clapping']","['Human group actions', 'Hands', 'Human voice']"
+a54qawS9wCk,0.0,10.0,"['Singing', 'Hands', 'Clapping']","['Human group actions', 'Hands', 'Human voice']"
+ApJA85gwNFo,30.0,40.0,['Clapping'],"['Human group actions', 'Hands']"
+vxrM-HU9ITQ,30.0,40.0,"['Speech', 'Finger snapping', 'Music']","['Music', 'Hands', 'Human voice']"
+kKvWJdGJzx8,50.0,60.0,"['Hands', 'Roar']","['Wild animals', 'Hands']"
+teVE2waWdsU,30.0,40.0,['Clapping'],"['Human group actions', 'Hands']"
+7Ep2a7_sbmc,260.0,270.0,"['Speech', 'Clapping']","['Human group actions', 'Hands', 'Human voice']"
+b2sgO1Lbak4,80.0,90.0,"['Speech', 'Finger snapping', 'Inside, small room']","['Acoustic environment', 'Hands', 'Human voice']"
+Aysvc4tVke8,170.0,180.0,['Hands'],['Hands']
+vUXCWzZyMew,20.0,30.0,"['Speech', 'Hands']","['Hands', 'Human voice']"
+jSLUMk6B_5A,230.0,240.0,"['Speech', 'Finger snapping', 'Inside, small room']","['Acoustic environment', 'Hands', 'Human voice']"
+kCzuYhXBfJY,10.0,20.0,"['Speech', 'Hands']","['Hands', 'Human voice']"
+DEBKRavuTfM,10.0,20.0,['Clapping'],"['Human group actions', 'Hands']"
+dyNbC_W0W50,480.0,490.0,"['Speech', 'Finger snapping']","['Hands', 'Human voice']"
+XEG1OdTNlKM,90.0,100.0,['Finger snapping'],['Hands']
+LSMd0B5dASQ,30.0,40.0,"['Speech', 'Finger snapping']","['Hands', 'Human voice']"
+G-dfsi7M4SA,40.0,50.0,"['Hands', 'Inside, small room']","['Hands', 'Acoustic environment']"
+3PliaLqMSqg,30.0,40.0,"['Speech', 'Clapping', 'Applause']","['Human group actions', 'Hands', 'Human voice']"
+l5sbP_vmgl8,240.0,250.0,['Clapping'],"['Human group actions', 'Hands']"
+dI_Bx8wwxJc,490.0,500.0,"['Hands', 'Inside, small room']","['Hands', 'Acoustic environment']"
+SwaMPxI4Nck,300.0,310.0,"['Speech', 'Child speech, kid speaking', 'Finger snapping', 'Music', 'Inside, small room']","['Music', 'Acoustic environment', 'Hands', 'Human voice']"
+7SpYywlGPyM,30.0,40.0,"['Speech', 'Child speech, kid speaking', 'Hands', 'Clapping']","['Human group actions', 'Hands', 'Human voice']"
+S40zKdprTj0,40.0,50.0,"['Clapping', 'Music']","['Music', 'Human group actions', 'Hands']"
+EL0KxeMuGEA,110.0,120.0,"['Speech', 'Clapping']","['Human group actions', 'Hands', 'Human voice']"
+J3W0GUqDDag,100.0,110.0,"['Speech', 'Finger snapping']","['Hands', 'Human voice']"
+aMln3YY4J0E,60.0,70.0,"['Speech', 'Finger snapping', 'Shuffling cards']","['Domestic sounds, home sounds', 'Hands', 'Human voice']"
+AiGF0850kT8,6.0,16.0,"['Clapping', 'Music']","['Music', 'Human group actions', 'Hands']"
+9n8SD0d81ag,90.0,100.0,"['Hands', 'Inside, small room']","['Hands', 'Acoustic environment']"
+AuEPed8B0kw,30.0,40.0,"['Speech', 'Hands']","['Hands', 'Human voice']"
+2y9ikTsTsl0,30.0,40.0,"['Speech', 'Clapping', 'Applause']","['Human group actions', 'Hands', 'Human voice']"
+MK1NzQm9XaQ,60.0,70.0,['Clapping'],"['Human group actions', 'Hands']"
+J3W0GUqDDag,100.0,110.0,"['Speech', 'Finger snapping']","['Hands', 'Human voice']"
+7Ep2a7_sbmc,260.0,270.0,"['Speech', 'Clapping']","['Human group actions', 'Hands', 'Human voice']"
+qwirJuALyC4,40.0,50.0,['Hands'],['Hands']
+-ihTfc5Kx8s,17.0,27.0,['Pump (liquid)'],['Liquid']
+tFa6Jrsmx9c,280.0,290.0,"['Speech', 'Slosh']","['Liquid', 'Human voice']"
+Bj7_pVIHsnE,30.0,40.0,"['Water', 'Pump (liquid)']","['Water', 'Liquid']"
+Yp3dpKDbisk,220.0,230.0,"['Gush', 'Pump (liquid)']",['Liquid']
+br_ZD5D4Ni4,30.0,40.0,['Drip'],['Liquid']
+-UGmXiQ8yiY,50.0,60.0,"['Speech', 'Bathtub (filling or washing)', 'Fill (with liquid)']","['Domestic sounds, home sounds', 'Liquid', 'Human voice']"
+5iW26-LNSaY,21.0,31.0,"['Water', 'Pump (liquid)']","['Water', 'Liquid']"
+2BTD4IYcanQ,10.0,20.0,"['Water', 'Water tap, faucet', 'Pump (liquid)']","['Domestic sounds, home sounds', 'Water', 'Liquid']"
+e4d2_9wpgas,350.0,360.0,"['Speech', 'Pour']","['Liquid', 'Human voice']"
+CkvFO8-UmVo,30.0,40.0,"['Music', 'Spray']","['Music', 'Liquid']"
+8fFN09mPlfY,21.0,31.0,"['Speech', 'Music', 'Slosh']","['Music', 'Liquid', 'Human voice']"
+PlW8HtjzsoI,150.0,160.0,['Gush'],['Liquid']
+jMalHZ-UfmI,160.0,170.0,"['Speech', 'Boiling', 'Inside, small room']","['Acoustic environment', 'Liquid', 'Human voice']"
+2rPN7Ry_Hx8,200.0,210.0,"['Speech', 'Splash, splatter']","['Liquid', 'Human voice']"
+rv6CV6xKAYg,30.0,40.0,['Fill (with liquid)'],['Liquid']
+PjmcjXBYH2o,170.0,180.0,['Stir'],['Liquid']
+NWxMLHYEJN0,460.0,470.0,"['Speech', 'Fill (with liquid)']","['Liquid', 'Human voice']"
+ZLTOJmQuxNE,290.0,300.0,"['Speech', 'Drip', 'Inside, small room']","['Acoustic environment', 'Liquid', 'Human voice']"
+gPypzLeZkwA,30.0,40.0,"['Speech', 'Squish']","['Liquid', 'Onomatopoeia', 'Human voice']"
+pjunQedPkGY,30.0,40.0,"['Speech', 'Squish']","['Liquid', 'Onomatopoeia', 'Human voice']"
+zJd0EnLwt44,0.0,10.0,['Boiling'],['Liquid']
+Q21kSb_OioI,160.0,170.0,"['Frying (food)', 'Stir', 'Sizzle']","['Domestic sounds, home sounds', 'Liquid', 'Onomatopoeia']"
+GIwNMYOIb6E,130.0,140.0,"['Liquid', 'Pour']",['Liquid']
+SRKm_-3wPNk,50.0,60.0,"['Speech', 'Pour']","['Liquid', 'Human voice']"
+_P0wk3ovrRg,0.0,10.0,"['Duck', 'Bird', 'Splash, splatter']","['Wild animals', 'Livestock, farm animals, working animals', 'Liquid']"
+-ockHs8mYQo,12.0,22.0,"['Speech', 'Slosh']","['Liquid', 'Human voice']"
+uMpXpoDfMWY,30.0,40.0,"['Speech', 'Drip']","['Liquid', 'Human voice']"
+kwNbjG4BTms,20.0,30.0,"['Animal', 'Music', 'Sink (filling or washing)', 'Gush']","['Domestic sounds, home sounds', 'Music', 'Liquid', 'Animal']"
+-LBl0UeKNyU,430.0,440.0,"['Speech', 'Slosh', 'Inside, small room', 'Outside, urban or manmade']","['Acoustic environment', 'Liquid', 'Human voice']"
+a3FThSHYa3s,170.0,180.0,"['Speech', 'Child speech, kid speaking', 'Splash, splatter']","['Liquid', 'Human voice']"
+KMWBepdMJMI,10.0,20.0,"['Speech', 'Gush']","['Liquid', 'Human voice']"
+dQqG3lZfztM,260.0,270.0,"['Water', 'Fill (with liquid)']","['Water', 'Liquid']"
+_uQJBxWQTDg,170.0,180.0,"['Speech', 'Drip']","['Liquid', 'Human voice']"
+baOGizjtS5s,190.0,200.0,"['Water', 'Pump (liquid)']","['Water', 'Liquid']"
+4eiqiX_Q5B8,29.0,39.0,"['Water', 'Pump (liquid)']","['Water', 'Liquid']"
+KvqU8IjDTuk,20.0,30.0,"['Speech', 'Slosh', 'Outside, urban or manmade']","['Acoustic environment', 'Liquid', 'Human voice']"
+97ddBh0eOiE,530.0,540.0,"['Speech', 'Music', 'Gush']","['Music', 'Liquid', 'Human voice']"
+ywyHIQlgMB8,130.0,140.0,"['Speech', 'Water', 'Drip', 'Inside, small room']","['Acoustic environment', 'Water', 'Liquid', 'Human voice']"
+IthnyUlPdk0,70.0,80.0,['Gush'],['Liquid']
+k0lNRkCFgow,200.0,210.0,"['Water', 'Toilet flush', 'Gush']","['Domestic sounds, home sounds', 'Water', 'Liquid']"
+HO5LZZ7Uijo,210.0,220.0,"['Speech', 'Trickle, dribble']","['Liquid', 'Human voice']"
+NXGOZ5ns3Zo,20.0,30.0,['Spray'],['Liquid']
+1DH7AhyL0KU,13.0,23.0,"['Speech', 'Spray']","['Liquid', 'Human voice']"
+6VV5Amm51C8,230.0,240.0,"['Speech', 'Trickle, dribble']","['Liquid', 'Human voice']"
+uMpXpoDfMWY,30.0,40.0,"['Speech', 'Drip']","['Liquid', 'Human voice']"
+3YGB2o-lw6w,30.0,40.0,"['Water', 'Pump (liquid)']","['Water', 'Liquid']"
+RqY-5iN986o,30.0,40.0,['Spray'],['Liquid']
+iCB6boYRyxM,310.0,320.0,"['Speech', 'Water', 'Splash, splatter']","['Water', 'Liquid', 'Human voice']"
+F0iagDD7iQI,90.0,100.0,"['Speech', 'Water', 'Trickle, dribble', 'Gush']","['Water', 'Liquid', 'Human voice']"
+XXZZfx6mwsk,90.0,100.0,"['Frying (food)', 'Stir']","['Domestic sounds, home sounds', 'Liquid']"
+1gfkQ8bmN1Q,30.0,40.0,"['Livestock, farm animals, working animals', 'Cattle, bovinae', 'Moo']","['Livestock, farm animals, working animals']"
+Fb_hLZnMOCY,250.0,260.0,"['Fowl', 'Chicken, rooster', 'Cluck', 'Crowing, cock-a-doodle-doo']","['Livestock, farm animals, working animals']"
+gEWPYk1Wl4Y,20.0,30.0,"['Livestock, farm animals, working animals', 'Cowbell']","['Livestock, farm animals, working animals', 'Music']"
+1c5rSQsqmBE,0.0,10.0,"['Speech', 'Duck', 'Quack', 'Music']","['Livestock, farm animals, working animals', 'Music', 'Human voice']"
+24QxEmxh-tc,20.0,30.0,"['Speech', 'Child speech, kid speaking', 'Animal', 'Pig', 'Oink']","['Livestock, farm animals, working animals', 'Animal', 'Human voice']"
+hubCDqXiT2M,5.0,15.0,"['Livestock, farm animals, working animals', 'Cattle, bovinae', 'Moo']","['Livestock, farm animals, working animals']"
+jAWS7CuV4-8,30.0,40.0,"['Speech', 'Oink']","['Livestock, farm animals, working animals', 'Human voice']"
+kU5_oNlg1tE,30.0,40.0,"['Speech', 'Oink']","['Livestock, farm animals, working animals', 'Human voice']"
+sTZ4QONAgIs,400.0,410.0,"['Animal', 'Pig']","['Livestock, farm animals, working animals', 'Animal']"
+szbrqFCLr1c,22.0,32.0,"['Fowl', 'Goose', 'Honk']","['Livestock, farm animals, working animals']"
+ORdW-nWhCfE,400.0,410.0,"['Speech', 'Conversation', 'Animal', 'Livestock, farm animals, working animals', 'Goat']","['Livestock, farm animals, working animals', 'Animal', 'Human voice']"
+7hDS0w1VZQ8,21.0,31.0,"['Speech', 'Animal', 'Horse', 'Neigh, whinny', 'Music']","['Livestock, farm animals, working animals', 'Music', 'Animal', 'Human voice']"
+yxAMBg3_RFE,30.0,40.0,"['Speech', 'Animal', 'Livestock, farm animals, working animals', 'Goat']","['Livestock, farm animals, working animals', 'Animal', 'Human voice']"
+6kEVmrfasFE,100.0,110.0,"['Animal', 'Pig', 'Outside, rural or natural']","['Livestock, farm animals, working animals', 'Animal', 'Acoustic environment']"
+4QJXQjQESlU,23.0,33.0,"['Speech', 'Bleat', 'Sheep']","['Livestock, farm animals, working animals', 'Human voice']"
+8u_gw7ZUpwU,30.0,40.0,"['Oink', 'Music']","['Livestock, farm animals, working animals', 'Music']"
+24QxEmxh-tc,20.0,30.0,"['Speech', 'Child speech, kid speaking', 'Animal', 'Pig', 'Oink']","['Livestock, farm animals, working animals', 'Animal', 'Human voice']"
+gfsV97ZQbNQ,30.0,40.0,"['Speech', 'Quack', 'Music']","['Livestock, farm animals, working animals', 'Music', 'Human voice']"
+TVNbeloInk4,30.0,40.0,"['Bleat', 'Sheep']","['Livestock, farm animals, working animals']"
+sj4d4dLPJMo,23.0,33.0,"['Speech', 'Oink', 'Music']","['Livestock, farm animals, working animals', 'Music', 'Human voice']"
+5UUf4vEJSX4,30.0,40.0,"['Fowl', 'Goose', 'Honk', 'Bird', 'Bird vocalization, bird call, bird song']","['Wild animals', 'Livestock, farm animals, working animals']"
+MviNb4jpRCU,30.0,40.0,"['Oink', 'Music']","['Livestock, farm animals, working animals', 'Music']"
+AMso8W3_2mk,30.0,40.0,"['Speech', 'Oink']","['Livestock, farm animals, working animals', 'Human voice']"
+JdlcNI3fuIc,30.0,40.0,"['Speech', 'Animal', 'Clip-clop']","['Livestock, farm animals, working animals', 'Onomatopoeia', 'Animal', 'Human voice']"
+Giig8ACsMFY,19.0,29.0,"['Fowl', 'Chicken, rooster', 'Cluck']","['Livestock, farm animals, working animals']"
+2kfrIsD2ot0,10.0,20.0,"['Fowl', 'Turkey', 'Gobble']","['Livestock, farm animals, working animals']"
+BmFBcMxFy7Q,110.0,120.0,"['Speech', 'Animal', 'Horse', 'Neigh, whinny']","['Livestock, farm animals, working animals', 'Animal', 'Human voice']"
+qxMTR2wU9F0,170.0,180.0,"['Animal', 'Livestock, farm animals, working animals', 'Horse']","['Livestock, farm animals, working animals', 'Animal']"
+0Kwzah-Rf70,40.0,50.0,['Quack'],"['Livestock, farm animals, working animals']"
+5k6EjPymsRc,350.0,360.0,"['Fowl', 'Chicken, rooster', 'Crowing, cock-a-doodle-doo', 'Turkey', 'Gobble', 'Bird', 'Bird vocalization, bird call, bird song', 'Chirp, tweet']","['Wild animals', 'Livestock, farm animals, working animals', 'Onomatopoeia']"
+OcsAOCUCvFY,40.0,50.0,"['Animal', 'Livestock, farm animals, working animals', 'Horse']","['Livestock, farm animals, working animals', 'Animal']"
+iSHfnvy5mkA,30.0,40.0,"['Speech', 'Bleat', 'Sheep']","['Livestock, farm animals, working animals', 'Human voice']"
+N0DNMYmC3LA,15.0,25.0,"['Duck', 'Quack', 'Music']","['Livestock, farm animals, working animals', 'Music']"
+dGosWOsKHgA,230.0,240.0,"['Speech', 'Duck']","['Livestock, farm animals, working animals', 'Human voice']"
+guRjcFOllIk,30.0,40.0,"['Speech', 'Quack', 'Music']","['Livestock, farm animals, working animals', 'Music', 'Human voice']"
+GRxS_70hwV4,30.0,40.0,"['Fowl', 'Turkey', 'Gobble']","['Livestock, farm animals, working animals']"
+FdGfzGC7hPw,30.0,40.0,"['Speech', 'Quack']","['Livestock, farm animals, working animals', 'Human voice']"
+cYdq2fjRhcg,10.0,20.0,"['Cheering', 'Crowd', 'Cowbell']","['Music', 'Livestock, farm animals, working animals', 'Human group actions']"
+_N2ivE-O5r8,30.0,40.0,"['Fowl', 'Chicken, rooster', 'Crowing, cock-a-doodle-doo']","['Livestock, farm animals, working animals']"
+t1ULMDpL35I,70.0,80.0,"['Cowbell', 'Percussion', 'Drum kit', 'Drum', 'Snare drum', 'Rimshot', 'Bass drum']","['Livestock, farm animals, working animals', 'Music']"
+q8IoeMKO0p8,30.0,40.0,"['Speech', 'Animal', 'Duck', 'Quack']","['Livestock, farm animals, working animals', 'Animal', 'Human voice']"
+HUeSV17soxs,30.0,40.0,"['Speech', 'Animal', 'Horse', 'Clip-clop']","['Livestock, farm animals, working animals', 'Onomatopoeia', 'Animal', 'Human voice']"
+DJuJhFRWBYE,30.0,40.0,"['Speech', 'Duck', 'Quack']","['Livestock, farm animals, working animals', 'Human voice']"
+FJrRUCWjUO4,0.0,10.0,"['Speech', 'Animal', 'Goat', 'Music']","['Livestock, farm animals, working animals', 'Music', 'Animal', 'Human voice']"
+yfFcNBQqe8E,0.0,10.0,"['Speech', 'Animal', 'Livestock, farm animals, working animals', 'Goat', 'Sheep']","['Livestock, farm animals, working animals', 'Animal', 'Human voice']"
+Qp8zD7i5DiQ,30.0,40.0,"['Fowl', 'Turkey', 'Gobble', 'Bird', 'Bird vocalization, bird call, bird song']","['Wild animals', 'Livestock, farm animals, working animals']"
+-Ar7D-GARhI,30.0,40.0,"['Speech', 'Bleat', 'Sheep']","['Livestock, farm animals, working animals', 'Human voice']"
+YVdHpVLby5I,50.0,60.0,"['Duck', 'Bird']","['Wild animals', 'Livestock, farm animals, working animals']"
+Qp8zD7i5DiQ,30.0,40.0,"['Fowl', 'Turkey', 'Gobble', 'Bird', 'Bird vocalization, bird call, bird song']","['Wild animals', 'Livestock, farm animals, working animals']"
+hZr2vG9w2x4,80.0,90.0,['Cowbell'],"['Livestock, farm animals, working animals', 'Music']"
+0Ufv6VdlPHM,30.0,40.0,['Eruption'],['Explosion']
+l-rA9a34Mq4,310.0,320.0,['Fireworks'],['Explosion']
+w7RLDvfM9HQ,140.0,150.0,"['Fireworks', 'Firecracker', 'Outside, urban or manmade']","['Acoustic environment', 'Explosion']"
+aMxLy5s3y8k,30.0,40.0,"['Gunshot, gunfire', 'Artillery fire']",['Explosion']
+r97yc6BfFQ4,320.0,330.0,"['Speech', 'Fusillade']","['Explosion', 'Human voice']"
+l-rA9a34Mq4,310.0,320.0,['Fireworks'],['Explosion']
+i-q5XKBVGWI,30.0,40.0,"['Gunshot, gunfire', 'Machine gun']",['Explosion']
+uLETIQnJM44,30.0,40.0,"['Gunshot, gunfire', 'Artillery fire']",['Explosion']
+P_oXjPQfHpM,250.0,260.0,['Fireworks'],['Explosion']
+BSPjTGVP1I4,30.0,40.0,"['Gunshot, gunfire', 'Machine gun']",['Explosion']
+Q67952dEguY,190.0,200.0,['Firecracker'],['Explosion']
+jUFNFPgfaaY,530.0,540.0,"['Gunshot, gunfire', 'Cap gun']",['Explosion']
+VA20N0XZgKs,10.0,20.0,['Fireworks'],['Explosion']
+LNN9XR8WnaM,30.0,40.0,['Eruption'],['Explosion']
+B_hJGfaCXq8,30.0,40.0,['Fireworks'],['Explosion']
+4JnYkujJGRA,530.0,540.0,"['Gunshot, gunfire', 'Cap gun']",['Explosion']
+kjsUeDTJgCk,20.0,30.0,"['Speech', 'Music', 'Firecracker']","['Music', 'Explosion', 'Human voice']"
+CCHRD-G9sfA,90.0,100.0,"['Speech', 'Explosion', 'Gunshot, gunfire', 'Fusillade', 'Fireworks']","['Explosion', 'Human voice']"
+sA73ScSPS30,0.0,10.0,"['Gunshot, gunfire', 'Machine gun']",['Explosion']
+MuvuZhHeM3s,490.0,500.0,['Fireworks'],['Explosion']
+sA73ScSPS30,0.0,10.0,"['Gunshot, gunfire', 'Machine gun']",['Explosion']
+u7V8SF5nUNY,340.0,350.0,['Firecracker'],['Explosion']
+QbpdaJNzxoA,460.0,470.0,"['Music', 'Boom']","['Music', 'Explosion']"
+m7pJFsP8wtc,290.0,300.0,['Firecracker'],['Explosion']
+grhlVfUgMF0,50.0,60.0,['Boom'],['Explosion']
+6KknUgdsPxw,160.0,170.0,"['Speech', 'Fireworks', 'Firecracker', 'Outside, urban or manmade']","['Acoustic environment', 'Explosion', 'Human voice']"
+N3yLARaRIYU,250.0,260.0,['Boom'],['Explosion']
+WO3CaMvZa_U,30.0,40.0,"['Speech', 'Music', 'Burst, pop']","['Music', 'Explosion', 'Human voice']"
+d4Cp1O3f028,30.0,40.0,['Eruption'],['Explosion']
+B9ZQcIBD4rA,30.0,40.0,"['Speech', 'Explosion', 'Eruption']","['Explosion', 'Human voice']"
+pCecMtQGGEA,40.0,50.0,"['Speech', 'Fireworks']","['Explosion', 'Human voice']"
+413emf-N9Vo,160.0,170.0,['Boom'],['Explosion']
+8a2OeWS3G-A,50.0,60.0,"['Speech', 'Music', 'Explosion']","['Music', 'Explosion', 'Human voice']"
+kbZN04LC1dA,30.0,40.0,"['Music', 'Boom', 'Sound effect']","['Other sourceless', 'Music', 'Explosion']"
+R6PP93tqBJY,40.0,50.0,"['Music', 'Firecracker']","['Music', 'Explosion']"
+muNZxQqWnt0,20.0,30.0,['Firecracker'],['Explosion']
+rXK8ohd1m5A,10.0,20.0,['Firecracker'],['Explosion']
+ISAb_cpjA9I,140.0,150.0,"['Speech', 'Music', 'Fusillade']","['Music', 'Explosion', 'Human voice']"
+sM6e857ES18,60.0,70.0,"['Speech', 'Firecracker', 'Squeal']","['Explosion', 'Onomatopoeia', 'Human voice']"
+FI8oYuHkjMU,0.0,10.0,"['Speech', 'Fusillade']","['Explosion', 'Human voice']"
+nhAismtQmkY,30.0,40.0,"['Gunshot, gunfire', 'Machine gun', 'Sound effect']","['Other sourceless', 'Explosion']"
+9MVCwolWlLE,6.0,16.0,"['Gunshot, gunfire', 'Machine gun']",['Explosion']
+nuuykD2akvI,28.0,38.0,"['Gunshot, gunfire', 'Cap gun']",['Explosion']
+m7pJFsP8wtc,290.0,300.0,['Firecracker'],['Explosion']
+_RcGC_ZN4DA,0.0,10.0,"['Speech', 'Eruption']","['Explosion', 'Human voice']"
+Z2EGusDSj8Y,30.0,40.0,['Eruption'],['Explosion']
+4lHEFcLCqmc,430.0,440.0,"['Speech', 'Boom']","['Explosion', 'Human voice']"
+FGaosBHdFMA,160.0,170.0,['Boom'],['Explosion']
+L3TpuDBTMFU,570.0,580.0,"['Speech', 'Eruption']","['Explosion', 'Human voice']"
+575SECGQ0Kg,20.0,30.0,"['Speech', 'Burst, pop']","['Explosion', 'Human voice']"
+G7vXKtePlGM,10.0,20.0,"['Animal', 'Domestic animals, pets', 'Dog', 'Bark']","['Domestic animals, pets', 'Animal']"
+2JEeD3O0NnM,30.0,40.0,"['Animal', 'Domestic animals, pets', 'Dog', 'Yip', 'Bow-wow', 'Music']","['Domestic animals, pets', 'Music', 'Animal']"
+N00rJwI56_c,190.0,200.0,"['Purr', 'Music']","['Domestic animals, pets', 'Music']"
+uirG0ugXGJo,10.0,20.0,"['Speech', 'Animal', 'Growling', 'Inside, small room']","['Human voice', 'Wild animals', 'Domestic animals, pets', 'Animal', 'Acoustic environment']"
+3zEWsAPEdd0,30.0,40.0,"['Speech', 'Animal', 'Domestic animals, pets', 'Dog', 'Yip', 'Bow-wow', 'Whimper (dog)']","['Domestic animals, pets', 'Animal', 'Human voice']"
+tImhcRHkP5E,27.0,37.0,"['Animal', 'Domestic animals, pets', 'Dog', 'Growling']","['Wild animals', 'Domestic animals, pets', 'Animal']"
+UMuVPp2pdyE,30.0,40.0,"['Hiss', 'Snake']","['Water', 'Wild animals', 'Domestic animals, pets', 'Onomatopoeia']"
+FTYgwHJUkaY,10.0,20.0,"['Animal', 'Domestic animals, pets', 'Dog', 'Bark', 'Bow-wow']","['Domestic animals, pets', 'Animal']"
+ImFz__A3jlA,20.0,30.0,"['Animal', 'Domestic animals, pets', 'Goat']","['Domestic animals, pets', 'Livestock, farm animals, working animals', 'Animal']"
+BYdB-oFZUZM,10.0,20.0,"['Animal', 'Domestic animals, pets', 'Cat', 'Caterwaul']","['Domestic animals, pets', 'Animal']"
+pjNGmUkc23c,170.0,180.0,"['Speech', 'Sniff', 'Animal', 'Domestic animals, pets', 'Dog', 'Inside, small room']","['Human voice', 'Respiratory sounds', 'Domestic animals, pets', 'Animal', 'Acoustic environment']"
+ND8dCH4e4w4,30.0,40.0,"['Animal', 'Domestic animals, pets', 'Cat', 'Caterwaul']","['Domestic animals, pets', 'Animal']"
+LiehcxCYdIo,70.0,80.0,"['Speech', 'Hubbub, speech noise, speech babble', 'Animal', 'Dog']","['Noise', 'Human group actions', 'Human voice', 'Domestic animals, pets', 'Animal']"
+-r1H8hBeYmw,21.0,31.0,"['Animal', 'Domestic animals, pets', 'Cat', 'Meow', 'Caterwaul']","['Domestic animals, pets', 'Animal']"
+UWpne-_bVsk,30.0,40.0,"['Hiss', 'Steam']","['Water', 'Wild animals', 'Domestic animals, pets', 'Onomatopoeia']"
+1f7lBXwf2rk,100.0,110.0,"['Animal', 'Domestic animals, pets', 'Pig']","['Domestic animals, pets', 'Livestock, farm animals, working animals', 'Animal']"
+GgMt9e2SsX4,28.0,38.0,"['Speech', 'Whimper', 'Animal', 'Domestic animals, pets']","['Domestic animals, pets', 'Animal', 'Human voice']"
+vZfCGYbqgho,10.0,20.0,"['Howl', 'Music']","['Wild animals', 'Domestic animals, pets', 'Music']"
+E0Q3USvTnXQ,10.0,20.0,"['Speech', 'Animal', 'Domestic animals, pets', 'Dog', 'Growling']","['Wild animals', 'Domestic animals, pets', 'Animal', 'Human voice']"
+27f-rlFiSho,60.0,70.0,"['Hiss', 'Steam whistle']","['Water', 'Alarm', 'Wild animals', 'Domestic animals, pets', 'Onomatopoeia']"
+UnD2YY2XHno,30.0,40.0,['Meow'],"['Domestic animals, pets']"
+JBT7vOfzx6M,10.0,20.0,"['Speech', 'Snicker', 'Animal', 'Domestic animals, pets', 'Dog']","['Domestic animals, pets', 'Animal', 'Human voice']"
+RB9xMnuB59A,0.0,10.0,"['Speech', 'Animal', 'Domestic animals, pets', 'Dog', 'Bark']","['Domestic animals, pets', 'Animal', 'Human voice']"
+EGkAJINaFTk,30.0,40.0,"['Speech', 'Yip']","['Domestic animals, pets', 'Human voice']"
+MxeGNBAWmm0,40.0,50.0,"['Animal', 'Domestic animals, pets', 'Dog', 'Music', 'Ding-dong']","['Domestic sounds, home sounds', 'Alarm', 'Music', 'Domestic animals, pets', 'Animal']"
+2DYxo-rDq8g,9.0,19.0,"['Speech', 'Animal', 'Dog', 'Bow-wow', 'Whimper (dog)']","['Domestic animals, pets', 'Animal', 'Human voice']"
+2p7QjnOHpUI,30.0,40.0,"['Animal', 'Domestic animals, pets', 'Dog', 'Yip']","['Domestic animals, pets', 'Animal']"
+zp4dKTwnQ2c,20.0,30.0,"['Animal', 'Domestic animals, pets', 'Dog', 'Howl', 'Canidae, dogs, wolves']","['Wild animals', 'Domestic animals, pets', 'Animal']"
+CJ0kz4TA8eE,30.0,40.0,['Purr'],"['Domestic animals, pets']"
+N00rJwI56_c,190.0,200.0,"['Purr', 'Music']","['Domestic animals, pets', 'Music']"
+81xMhkd8lCI,40.0,50.0,"['Animal', 'Domestic animals, pets', 'Cat', 'Purr']","['Domestic animals, pets', 'Animal']"
+DUsgjCMYyxQ,30.0,40.0,"['Animal', 'Domestic animals, pets', 'Dog', 'Yip', 'Whimper (dog)']","['Domestic animals, pets', 'Animal']"
+Q1So0Z9hiWM,0.0,10.0,"['Animal', 'Domestic animals, pets', 'Dog', 'Growling', 'Inside, small room']","['Wild animals', 'Domestic animals, pets', 'Animal', 'Acoustic environment']"
+m6d2TTB8VM0,20.0,30.0,"['Speech', 'Animal', 'Domestic animals, pets', 'Dog', 'Howl', 'Canidae, dogs, wolves']","['Wild animals', 'Domestic animals, pets', 'Animal', 'Human voice']"
+-By_0iIghuE,30.0,40.0,"['Animal', 'Domestic animals, pets', 'Cat', 'Caterwaul']","['Domestic animals, pets', 'Animal']"
+72wtqWYGKgA,10.0,20.0,"['Growling', 'Inside, small room']","['Wild animals', 'Domestic animals, pets', 'Acoustic environment']"
+J33agHBxiTw,10.0,20.0,"['Speech', 'Pant', 'Animal', 'Dog']","['Respiratory sounds', 'Domestic animals, pets', 'Animal', 'Human voice']"
+FeRaDiSPb2c,17.0,27.0,"['Animal', 'Domestic animals, pets', 'Dog', 'Bark']","['Domestic animals, pets', 'Animal']"
+MxeGNBAWmm0,40.0,50.0,"['Animal', 'Domestic animals, pets', 'Dog', 'Music', 'Ding-dong']","['Domestic sounds, home sounds', 'Alarm', 'Music', 'Domestic animals, pets', 'Animal']"
+3QiGuXETYnQ,12.0,22.0,"['Animal', 'Domestic animals, pets', 'Dog', 'Whimper (dog)']","['Domestic animals, pets', 'Animal']"
+BYdB-oFZUZM,10.0,20.0,"['Animal', 'Domestic animals, pets', 'Cat', 'Caterwaul']","['Domestic animals, pets', 'Animal']"
+YWR1uWi2VjA,30.0,40.0,"['Animal', 'Domestic animals, pets', 'Dog', 'Howl']","['Wild animals', 'Domestic animals, pets', 'Animal']"
+-QoZQDW4qjU,30.0,40.0,"['Animal', 'Domestic animals, pets', 'Dog', 'Yip', 'Whimper (dog)', 'Music']","['Domestic animals, pets', 'Music', 'Animal']"
+7q65Wybimvs,30.0,40.0,"['Speech', 'Animal', 'Howl', 'Canidae, dogs, wolves', 'Music']","['Music', 'Human voice', 'Wild animals', 'Domestic animals, pets', 'Animal']"
+P_dXuddk3fE,90.0,100.0,"['Animal', 'Domestic animals, pets', 'Dog', 'Bark']","['Domestic animals, pets', 'Animal']"
+5nBcyKL05Ok,30.0,40.0,"['Domestic animals, pets', 'Dog', 'Whimper (dog)']","['Domestic animals, pets']"
+AoYY_cXwZPs,30.0,40.0,"['Hiss', 'Snake']","['Water', 'Wild animals', 'Domestic animals, pets', 'Onomatopoeia']"
+KsT1OSUHFUY,30.0,40.0,"['Animal', 'Domestic animals, pets', 'Dog', 'Bark', 'Growling', 'Canidae, dogs, wolves']","['Wild animals', 'Domestic animals, pets', 'Animal']"
+ntCr4ixlFx0,0.0,10.0,"['Animal', 'Domestic animals, pets', 'Dog', 'Squeak']","['Domestic sounds, home sounds', 'Domestic animals, pets', 'Animal', 'Onomatopoeia']"
+EGkAJINaFTk,30.0,40.0,"['Speech', 'Yip']","['Domestic animals, pets', 'Human voice']"
+OiBoeXI-R9k,0.0,10.0,"['Music', 'Ding-dong']","['Domestic sounds, home sounds', 'Alarm', 'Music']"
+HRQ9uwkTGTU,0.0,10.0,"['Speech', 'Babbling', 'Toothbrush']","['Domestic sounds, home sounds', 'Human voice']"
+MpxbNBYTUoM,30.0,40.0,['Writing'],"['Domestic sounds, home sounds']"
+V8fcrz20Tdw,21.0,31.0,"['Water', 'Water tap, faucet', 'Sink (filling or washing)']","['Domestic sounds, home sounds', 'Water']"
+DplAor_l88w,30.0,40.0,"['Speech', 'Writing']","['Domestic sounds, home sounds', 'Human voice']"
+gdSG69vFcuM,560.0,570.0,['Frying (food)'],"['Domestic sounds, home sounds']"
+4stMCLHHZgk,30.0,40.0,['Chopping (food)'],"['Domestic sounds, home sounds']"
+pn8ZT1F_fyI,10.0,20.0,"['Music', 'Tap']","['Domestic sounds, home sounds', 'Music', 'Generic impact sounds']"
+bi-eEIPKtYw,40.0,50.0,['Drawer open or close'],"['Domestic sounds, home sounds']"
+FLBKeC8t62A,90.0,100.0,"['Speech', 'Knock']","['Domestic sounds, home sounds', 'Generic impact sounds', 'Human voice']"
+OrEut3mOMnM,50.0,60.0,"['Speech', 'Typewriter']","['Domestic sounds, home sounds', 'Human voice']"
+ntulS0PSBZE,100.0,110.0,['Blender'],"['Domestic sounds, home sounds']"
+fOwvOtPpXB4,460.0,470.0,"['Vehicle', 'Car', 'Keys jangling']","['Domestic sounds, home sounds', 'Vehicle']"
+AAB0AZGxF6w,200.0,210.0,"['Speech', 'Tap']","['Domestic sounds, home sounds', 'Generic impact sounds', 'Human voice']"
+KGqZoQ0tcIU,70.0,80.0,"['Speech', 'Music', 'Shuffling cards']","['Domestic sounds, home sounds', 'Music', 'Human voice']"
+11quy4AMt0I,30.0,40.0,['Tap'],"['Domestic sounds, home sounds', 'Generic impact sounds']"
+QNHEb3uKVTM,100.0,110.0,"['Speech', 'Music', 'Squeak']","['Domestic sounds, home sounds', 'Music', 'Onomatopoeia', 'Human voice']"
+Gb9DUjw8b74,100.0,110.0,['Hair dryer'],"['Domestic sounds, home sounds']"
+CEYm8gIZkqU,30.0,40.0,"['Music', 'Piano', 'Ding-dong']","['Domestic sounds, home sounds', 'Alarm', 'Music']"
+cus6miMF8Q8,30.0,40.0,"['Speech', 'Shuffling cards']","['Domestic sounds, home sounds', 'Human voice']"
+zNG3JJY1Gq0,430.0,440.0,"['Speech', 'Drawer open or close', 'Inside, small room']","['Domestic sounds, home sounds', 'Acoustic environment', 'Human voice']"
+_vpfycBBX2I,520.0,530.0,['Vacuum cleaner'],"['Domestic sounds, home sounds']"
+OHAlKNgoEiA,320.0,330.0,"['Dishes, pots, and pans', 'Cutlery, silverware']","['Domestic sounds, home sounds']"
+XaHTDVnA8sY,150.0,160.0,['Blender'],"['Domestic sounds, home sounds']"
+a6RiChF6JW4,60.0,70.0,['Vacuum cleaner'],"['Domestic sounds, home sounds']"
+aTn_8hd3xN0,180.0,190.0,"['Speech', 'Cupboard open or close']","['Domestic sounds, home sounds', 'Human voice']"
+FjLv-4OAgpo,90.0,100.0,['Squeak'],"['Domestic sounds, home sounds', 'Onomatopoeia']"
+8LCredoNWN4,160.0,170.0,['Coin (dropping)'],"['Domestic sounds, home sounds']"
+yHcgLjd2n9g,250.0,260.0,"['Speech', 'Keys jangling']","['Domestic sounds, home sounds', 'Human voice']"
+w9rxjSpj6gk,150.0,160.0,"['Speech', 'Cupboard open or close']","['Domestic sounds, home sounds', 'Human voice']"
+0gzJkUrw-ko,110.0,120.0,['Computer keyboard'],"['Domestic sounds, home sounds']"
+gj-1ZPsbG-c,80.0,90.0,"['Speech', 'Computer keyboard']","['Domestic sounds, home sounds', 'Human voice']"
+zOOasM0HvsY,60.0,70.0,"['Speech', 'Male speech, man speaking', 'Typewriter']","['Domestic sounds, home sounds', 'Human voice']"
+wKpENKAyuXc,150.0,160.0,"['Dishes, pots, and pans', 'Cutlery, silverware']","['Domestic sounds, home sounds']"
+-FYyJ2sAWk4,200.0,210.0,['Coin (dropping)'],"['Domestic sounds, home sounds']"
+6lgH1cWR4Wo,21.0,31.0,"['Speech', 'Door']","['Domestic sounds, home sounds', 'Human voice']"
+-H5kC4WsuI8,30.0,40.0,"['Speech', 'Tap']","['Domestic sounds, home sounds', 'Generic impact sounds', 'Human voice']"
+DpbEoAEI0Sk,110.0,120.0,"['Speech', 'Vehicle', 'Car', 'Keys jangling']","['Domestic sounds, home sounds', 'Vehicle', 'Human voice']"
+EqS6PGLdmNk,20.0,30.0,"['Music', 'Toothbrush']","['Domestic sounds, home sounds', 'Music']"
+-M_5w6KKfgQ,0.0,10.0,"['Speech', 'Music', 'Knock']","['Domestic sounds, home sounds', 'Generic impact sounds', 'Music', 'Human voice']"
+OM8gYZ_X5kg,40.0,50.0,"['Speech', 'Electric toothbrush', 'Inside, small room']","['Domestic sounds, home sounds', 'Acoustic environment', 'Human voice']"
+zoK7XE8BWlY,60.0,70.0,['Vacuum cleaner'],"['Domestic sounds, home sounds']"
+Wx97oLyph4M,150.0,160.0,['Typing'],"['Domestic sounds, home sounds']"
+fPxWzZmh7eQ,40.0,50.0,"['Water', 'Toilet flush']","['Domestic sounds, home sounds', 'Water']"
+-70wVF5u-gg,30.0,40.0,['Chopping (food)'],"['Domestic sounds, home sounds']"
+wEZ5_0Mm6yI,26.0,36.0,"['Speech', 'Music', 'Vehicle', 'Car', 'Door']","['Domestic sounds, home sounds', 'Music', 'Vehicle', 'Human voice']"
+deGw0zCNimQ,30.0,40.0,['Writing'],"['Domestic sounds, home sounds']"
+99w08FiKJXE,420.0,430.0,"['Speech', 'Electric shaver, electric razor', 'Outside, urban or manmade']","['Domestic sounds, home sounds', 'Acoustic environment', 'Human voice']"
+0XXyOMw32z8,30.0,40.0,"['Speech', 'Music', 'Drawer open or close']","['Domestic sounds, home sounds', 'Music', 'Human voice']"
+Wx97oLyph4M,150.0,160.0,['Typing'],"['Domestic sounds, home sounds']"
+yxkqsbLKuLk,40.0,50.0,['Mechanical fan'],['Mechanisms']
+0eymuxOpj8s,140.0,150.0,['Camera'],['Mechanisms']
+ZaL-ZJVwIw4,270.0,280.0,"['Mechanisms', 'Ratchet, pawl', 'Gears', 'Pulleys']",['Mechanisms']
+SkhNjq1bU44,140.0,150.0,"['Alarm clock', 'Clock']","['Alarm', 'Mechanisms']"
+AYU0Ajfl0RU,30.0,40.0,"['Speech', 'Mechanical fan']","['Mechanisms', 'Human voice']"
+uL3TbMTpH4o,170.0,180.0,"['Mechanisms', 'Ratchet, pawl', 'Pulleys']",['Mechanisms']
+8XoY6gxDwLE,30.0,40.0,"['Clock', 'Tick', 'Tick-tock']","['Mechanisms', 'Onomatopoeia']"
+Hc_azQqSudA,30.0,40.0,"['Mechanisms', 'Ratchet, pawl', 'Gears']",['Mechanisms']
+LCnQ_dIn4Ro,260.0,270.0,['Air conditioning'],['Mechanisms']
+JXnqIBxioD0,510.0,520.0,"['Speech', 'Air conditioning']","['Mechanisms', 'Human voice']"
+vGQMNsxqXno,90.0,100.0,"['Wind noise (microphone)', 'Mechanical fan']","['Miscellaneous sources', 'Mechanisms', 'Wind']"
+G_hxZ38_4Rw,0.0,10.0,"['Speech', 'Printer']","['Mechanisms', 'Human voice']"
+pqIT5WDSb90,90.0,100.0,['Clock'],['Mechanisms']
+8b3PWpYU8Ns,30.0,40.0,"['Speech', 'Single-lens reflex camera']","['Mechanisms', 'Human voice']"
+CZ9d_gTXmUM,70.0,80.0,"['Mechanisms', 'Ratchet, pawl', 'Gears', 'Pulleys']",['Mechanisms']
+jHioomjIhoE,30.0,40.0,"['Mechanisms', 'Gears', 'Pulleys']",['Mechanisms']
+kiLbBNgiNMA,0.0,10.0,"['Music', 'Clock']","['Music', 'Mechanisms']"
+S6DMbrpfvSg,410.0,420.0,"['Sewing machine', 'Inside, small room']","['Mechanisms', 'Acoustic environment']"
+R405XAd7gvw,7.0,17.0,['Cash register'],['Mechanisms']
+DOrVw4rtY8g,30.0,40.0,"['Music', 'Air conditioning']","['Music', 'Mechanisms']"
+TxMWCaxBmnc,80.0,90.0,['Sewing machine'],['Mechanisms']
+K9sMmkRbAFs,120.0,130.0,['Camera'],['Mechanisms']
+SqSMYKictUU,420.0,430.0,"['Mechanisms', 'Creak']","['Mechanisms', 'Onomatopoeia']"
+pixzK9nQK_I,220.0,230.0,"['Speech', 'Sewing machine']","['Mechanisms', 'Human voice']"
+JQPzkgrCbe8,0.0,10.0,['Camera'],['Mechanisms']
+o_LqYMdKTHM,20.0,30.0,['Mechanical fan'],['Mechanisms']
+NbzutuP8240,23.0,33.0,"['Mechanisms', 'Ratchet, pawl', 'Gears', 'Pulleys']",['Mechanisms']
+HQ5Orc6j1Vs,60.0,70.0,['Tick'],"['Mechanisms', 'Onomatopoeia']"
+CNkb_FSWIxE,30.0,40.0,"['Tick', 'Tick-tock']","['Mechanisms', 'Onomatopoeia']"
+Ojaf1Aa69VE,10.0,20.0,"['Mechanisms', 'Pulleys']",['Mechanisms']
+36l2MBrBM6g,60.0,70.0,['Cash register'],['Mechanisms']
+4T1BihwS8Ls,30.0,40.0,"['Mechanisms', 'Creak']","['Mechanisms', 'Onomatopoeia']"
+JL58_-562kk,0.0,10.0,['Clock'],['Mechanisms']
+Cwur_jvxMzY,360.0,370.0,"['Speech', 'Vehicle', 'Car', 'Air conditioning']","['Mechanisms', 'Vehicle', 'Human voice']"
+lR_7_vKZbMw,0.0,10.0,"['Mechanisms', 'Creak']","['Mechanisms', 'Onomatopoeia']"
+9ebERNtJ86Q,30.0,40.0,"['Speech', 'Single-lens reflex camera']","['Mechanisms', 'Human voice']"
+UHBHCsrqYMw,30.0,40.0,['Tick-tock'],['Mechanisms']
+NfTpkyjMGSQ,30.0,40.0,"['Speech', 'Tick', 'Tick-tock']","['Onomatopoeia', 'Mechanisms', 'Human voice']"
+CHjRmbWaOuU,80.0,90.0,"['Music', 'Tick']","['Music', 'Mechanisms', 'Onomatopoeia']"
+CHjRmbWaOuU,80.0,90.0,"['Music', 'Tick']","['Music', 'Mechanisms', 'Onomatopoeia']"
+s0k1mdX5QsM,0.0,10.0,"['Vehicle', 'Car', 'Mechanical fan']","['Mechanisms', 'Vehicle']"
+MeFN5p0ZWQk,30.0,40.0,['Printer'],['Mechanisms']
+o3WBYfLPNyo,420.0,430.0,"['Speech', 'Music', 'Air conditioning']","['Music', 'Mechanisms', 'Human voice']"
+jHioomjIhoE,30.0,40.0,"['Mechanisms', 'Gears', 'Pulleys']",['Mechanisms']
+mnh9RHyGB9A,60.0,70.0,"['Mechanisms', 'Ratchet, pawl', 'Gears', 'Pulleys']",['Mechanisms']
+wWbfzes8S00,140.0,150.0,"['Mechanisms', 'Ratchet, pawl', 'Gears', 'Pulleys']",['Mechanisms']
+9Z7UYez0FUM,30.0,40.0,"['Speech', 'Cash register']","['Mechanisms', 'Human voice']"
+aN9EnF2eQhw,30.0,40.0,"['Mechanisms', 'Creak']","['Mechanisms', 'Onomatopoeia']"
+aSCH3Noht9A,320.0,330.0,"['Speech', 'Cash register']","['Mechanisms', 'Human voice']"
+bJhBfS6KAOo,20.0,30.0,['Camera'],['Mechanisms']
+QhrqMvGL7hY,30.0,40.0,"['Tools', 'Hammer']",['Tools']
+W5pCEmL5Rfc,220.0,230.0,"['Tools', 'Power tool', 'Drill']",['Tools']
+HcTWvbaqGEM,130.0,140.0,['Jackhammer'],['Tools']
+OKk1XPqBdCk,430.0,440.0,"['Speech', 'Electric toothbrush', 'Tools']","['Domestic sounds, home sounds', 'Tools', 'Human voice']"
+LK3G3dfuAqI,30.0,40.0,"['Sawing', 'Wood', 'Splinter']","['Tools', 'Wood']"
+W61SHfcSySQ,40.0,50.0,"['Speech', 'Jackhammer']","['Tools', 'Human voice']"
+xwh1v8WIz5g,330.0,340.0,"['Sanding', 'Rub']","['Tools', 'Surface contact']"
+cpwwF9iovHo,50.0,60.0,"['Filing (rasp)', 'Rub']","['Tools', 'Surface contact']"
+2ZemNvpljok,80.0,90.0,"['Sanding', 'Rub']","['Tools', 'Surface contact']"
+16VxjI3ubJs,130.0,140.0,"['Sanding', 'Rub']","['Tools', 'Surface contact']"
+FKOfuqjlofg,170.0,180.0,"['Sawing', 'Wood']","['Tools', 'Wood']"
+A3Li869kKPU,30.0,40.0,['Hammer'],['Tools']
+6EV8sCAySvw,40.0,50.0,"['Sawing', 'Wood']","['Tools', 'Wood']"
+UmlLEH2fpsA,200.0,210.0,"['Tools', 'Sawing', 'Power tool', 'Wood', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+a6sHMAd5oxY,140.0,150.0,"['Speech', 'Music', ""Dental drill, dentist's drill""]","['Music', 'Tools', 'Engine', 'Human voice']"
+yURIdR7A1oM,10.0,20.0,"[""Dental drill, dentist's drill""]","['Engine', 'Tools']"
+A7F5i0yASIw,350.0,360.0,['Hammer'],['Tools']
+pQfeR7F7Rg0,210.0,220.0,"['Engine', 'Jackhammer']","['Engine', 'Tools']"
+HbSH5rQcnh8,200.0,210.0,"['Sawing', 'Wood', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+9UanH79U3H4,30.0,40.0,"['Sawing', 'Wood', 'Splinter']","['Tools', 'Wood']"
+HbSH5rQcnh8,200.0,210.0,"['Sawing', 'Wood', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+-9ME9qMgkeY,270.0,280.0,"['Helicopter', ""Dental drill, dentist's drill""]","['Engine', 'Tools', 'Vehicle']"
+nwDTH1ggAzM,320.0,330.0,"['Filing (rasp)', 'Wood', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+rlga8BUNMhQ,460.0,470.0,"['Sanding', 'Wood', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+OGEtGy6JYcM,40.0,50.0,"['Speech', ""Dental drill, dentist's drill""]","['Engine', 'Tools', 'Human voice']"
+YNgkm5Yfdvs,200.0,210.0,"['Sawing', 'Wood', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+_2MXlOXq9k8,340.0,350.0,"['Sawing', 'Wood', 'Splinter', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+MDrN1-RZfk8,60.0,70.0,"['Helicopter', ""Dental drill, dentist's drill""]","['Engine', 'Tools', 'Vehicle']"
+2ZemNvpljok,80.0,90.0,"['Sanding', 'Rub']","['Tools', 'Surface contact']"
+4KBcujTbbs4,90.0,100.0,"['Sanding', 'Rub']","['Tools', 'Surface contact']"
+GwjfdroSAIw,270.0,280.0,"['Filing (rasp)', 'Rub']","['Tools', 'Surface contact']"
+jGtnK_fWJj4,130.0,140.0,"['Filing (rasp)', 'Wood', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+qMA5TimeIuI,60.0,70.0,['Hammer'],['Tools']
+QXvGzER8WOo,140.0,150.0,"['Sawing', 'Rub']","['Tools', 'Surface contact']"
+oAJBkWteljc,270.0,280.0,"['Jackhammer', 'Inside, large room or hall']","['Tools', 'Acoustic environment']"
+5DEC8pkPIpI,90.0,100.0,"['Sawing', 'Wood', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+TSoOxEM47_E,430.0,440.0,['Jackhammer'],['Tools']
+5DEC8pkPIpI,90.0,100.0,"['Sawing', 'Wood', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+P9jc8E0aN3k,130.0,140.0,['Hammer'],['Tools']
+xDluz7ZBHkQ,80.0,90.0,"['Sanding', 'Rub']","['Tools', 'Surface contact']"
+hzEUQKfAL98,30.0,40.0,['Hammer'],['Tools']
+FKqUqV_XmLU,320.0,330.0,"['Filing (rasp)', 'Wood', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+mFyS3HekU9o,290.0,300.0,['Hammer'],['Tools']
+Ps3agv3G5mI,90.0,100.0,"['Filing (rasp)', 'Rub']","['Tools', 'Surface contact']"
+fnCOPHxSOAs,90.0,100.0,"['Sanding', 'Rub']","['Tools', 'Surface contact']"
+1o6y6ssTCgU,170.0,180.0,"['Speech', ""Dental drill, dentist's drill"", 'Inside, small room']","['Acoustic environment', 'Engine', 'Tools', 'Human voice']"
+Gkl_422N6Dc,140.0,150.0,"['Sawing', 'Wood']","['Tools', 'Wood']"
+SOyzcYgP9HA,70.0,80.0,"['Sanding', 'Rub']","['Tools', 'Surface contact']"
+XnK_AGrCTxo,40.0,50.0,"['Sawing', 'Wood', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+KkUFgoU_LO0,80.0,90.0,['Hammer'],['Tools']
+nNSPgjtWi60,20.0,30.0,"['Thunderstorm', 'Thunder']",['Thunderstorm']
+LVW1oLMQksM,150.0,160.0,"['Thunderstorm', 'Thunder', 'Rain', 'Rain on surface']","['Water', 'Thunderstorm']"
+mm3rBzXQI-k,0.0,10.0,"['Thunderstorm', 'Thunder', 'Rain', 'Raindrop']","['Water', 'Thunderstorm']"
+nNSPgjtWi60,20.0,30.0,"['Thunderstorm', 'Thunder']",['Thunderstorm']
+Xyf_kzNG-iA,350.0,360.0,"['Thunderstorm', 'Thunder', 'Rain', 'Raindrop', 'Rain on surface']","['Water', 'Thunderstorm']"
+AP8todOyU78,0.0,10.0,"['Thunderstorm', 'Thunder', 'Rain', 'Rain on surface']","['Water', 'Thunderstorm']"
+9FH7i5Q4rGI,190.0,200.0,"['Thunderstorm', 'Thunder', 'Rain']","['Water', 'Thunderstorm']"
+jotE032i05c,190.0,200.0,"['Thunderstorm', 'Thunder', 'Rain', 'Raindrop', 'Rain on surface']","['Water', 'Thunderstorm']"
+7sEqD9pB1nI,70.0,80.0,"['Thunderstorm', 'Thunder', 'Rain', 'Rain on surface']","['Water', 'Thunderstorm']"
+h6voPlJG0m0,500.0,510.0,"['Thunderstorm', 'Thunder', 'Rain', 'Raindrop']","['Water', 'Thunderstorm']"
+N3I0bQOafN8,30.0,40.0,"['Thunderstorm', 'Thunder', 'Rain']","['Water', 'Thunderstorm']"
+3y2aZEs1F5s,70.0,80.0,"['Thunderstorm', 'Thunder', 'Rain', 'Raindrop', 'Rain on surface', 'Rustle']","['Water', 'Onomatopoeia', 'Thunderstorm']"
+-Uw2HHni78U,80.0,90.0,"['Thunderstorm', 'Thunder']",['Thunderstorm']
+3y2aZEs1F5s,70.0,80.0,"['Thunderstorm', 'Thunder', 'Rain', 'Raindrop', 'Rain on surface', 'Rustle']","['Water', 'Onomatopoeia', 'Thunderstorm']"
+u_KQFX8hZyk,0.0,10.0,"['Thunderstorm', 'Thunder']",['Thunderstorm']
+BEuIJ5dw5kY,0.0,10.0,"['Thunderstorm', 'Thunder', 'Rain']","['Water', 'Thunderstorm']"
+Xyf_kzNG-iA,350.0,360.0,"['Thunderstorm', 'Thunder', 'Rain', 'Raindrop', 'Rain on surface']","['Water', 'Thunderstorm']"
+qDvjPPKHZlI,0.0,10.0,"['Thunderstorm', 'Thunder', 'Rain', 'Rain on surface']","['Water', 'Thunderstorm']"
+MElc-0XqoSw,0.0,10.0,"['Thunderstorm', 'Thunder', 'Rain', 'Rain on surface']","['Water', 'Thunderstorm']"
+T8ohX1UzM7Q,20.0,30.0,"['Thunder', 'Rustle']","['Onomatopoeia', 'Thunderstorm']"
+qqvt3ra8hZk,60.0,70.0,"['Thunderstorm', 'Thunder']",['Thunderstorm']
+xOUZBQdeXGc,400.0,410.0,"['Thunderstorm', 'Thunder', 'Rain', 'Rain on surface']","['Water', 'Thunderstorm']"
+dxcs_lpcwj0,80.0,90.0,"['Thunderstorm', 'Thunder', 'Rain', 'Rain on surface']","['Water', 'Thunderstorm']"
+-Uw2HHni78U,80.0,90.0,"['Thunderstorm', 'Thunder']",['Thunderstorm']
+WoWhNyJll9I,60.0,70.0,"['Thunderstorm', 'Thunder', 'Rain']","['Water', 'Thunderstorm']"
+wRO3h_zt1b4,20.0,30.0,"['Thunderstorm', 'Thunder', 'Rain']","['Water', 'Thunderstorm']"
+u_KQFX8hZyk,0.0,10.0,"['Thunderstorm', 'Thunder']",['Thunderstorm']
+HQsOY0A3xoI,30.0,40.0,"['Thunderstorm', 'Thunder', 'Rain', 'Rain on surface']","['Water', 'Thunderstorm']"
+nyR4ONkiUaU,30.0,40.0,"['Thunderstorm', 'Thunder', 'Rain', 'Rain on surface']","['Water', 'Thunderstorm']"
+APYXZHZPCE4,50.0,60.0,"['Thunderstorm', 'Thunder', 'Rain']","['Water', 'Thunderstorm']"
+-uSlzn9oPQ4,20.0,30.0,"['Thunderstorm', 'Thunder', 'Rain', 'Rain on surface']","['Water', 'Thunderstorm']"
+wRO3h_zt1b4,20.0,30.0,"['Thunderstorm', 'Thunder', 'Rain']","['Water', 'Thunderstorm']"
+CRmOXocqKRo,0.0,10.0,"['Thunderstorm', 'Thunder', 'Rustle']","['Onomatopoeia', 'Thunderstorm']"
+5190n8RJI_k,140.0,150.0,"['Thunderstorm', 'Thunder', 'Rustle']","['Onomatopoeia', 'Thunderstorm']"
+7sEqD9pB1nI,70.0,80.0,"['Thunderstorm', 'Thunder', 'Rain', 'Rain on surface']","['Water', 'Thunderstorm']"
+jotE032i05c,190.0,200.0,"['Thunderstorm', 'Thunder', 'Rain', 'Raindrop', 'Rain on surface']","['Water', 'Thunderstorm']"
+DwyOjLK00jQ,30.0,40.0,"['Thunderstorm', 'Thunder', 'Rain', 'Rain on surface']","['Water', 'Thunderstorm']"
+7sEqD9pB1nI,70.0,80.0,"['Thunderstorm', 'Thunder', 'Rain', 'Rain on surface']","['Water', 'Thunderstorm']"
+4lNM6Ah99hw,0.0,10.0,"['Thunderstorm', 'Thunder', 'Rain']","['Water', 'Thunderstorm']"
+dI9HTTk6Mgs,0.0,10.0,"['Thunderstorm', 'Thunder', 'Rain', 'Rain on surface']","['Water', 'Thunderstorm']"
+dxcs_lpcwj0,80.0,90.0,"['Thunderstorm', 'Thunder', 'Rain', 'Rain on surface']","['Water', 'Thunderstorm']"
+5piIqrQB5rU,30.0,40.0,"['Thunderstorm', 'Thunder', 'Rain', 'Raindrop']","['Water', 'Thunderstorm']"
+h6voPlJG0m0,500.0,510.0,"['Thunderstorm', 'Thunder', 'Rain', 'Raindrop']","['Water', 'Thunderstorm']"
+h6voPlJG0m0,500.0,510.0,"['Thunderstorm', 'Thunder', 'Rain', 'Raindrop']","['Water', 'Thunderstorm']"
+-uSlzn9oPQ4,20.0,30.0,"['Thunderstorm', 'Thunder', 'Rain', 'Rain on surface']","['Water', 'Thunderstorm']"
+MElc-0XqoSw,0.0,10.0,"['Thunderstorm', 'Thunder', 'Rain', 'Rain on surface']","['Water', 'Thunderstorm']"
+8pJUJvPfIx0,110.0,120.0,"['Thunder', 'Rain', 'Rustle']","['Water', 'Onomatopoeia', 'Thunderstorm']"
+y2A1Pmiu7yw,30.0,40.0,"['Thunderstorm', 'Thunder', 'Rain', 'Rain on surface']","['Water', 'Thunderstorm']"
+4lNM6Ah99hw,0.0,10.0,"['Thunderstorm', 'Thunder', 'Rain']","['Water', 'Thunderstorm']"
+jDdYqpYoIGY,100.0,110.0,"['Thunderstorm', 'Thunder', 'Rain', 'Raindrop', 'Rain on surface']","['Water', 'Thunderstorm']"
+9L3EMXLufVg,0.0,10.0,"['Music', 'Bicycle bell']","['Alarm', 'Music', 'Vehicle']"
+BNb8AV5xz20,24.0,34.0,"['Speech', 'Music', 'Buzzer']","['Alarm', 'Music', 'Human voice']"
+S4bUmXQ7Bis,0.0,10.0,"['Hiss', 'Steam', 'Steam whistle']","['Water', 'Alarm', 'Wild animals', 'Domestic animals, pets', 'Onomatopoeia']"
+cwJ4tEsWxjo,50.0,60.0,['Whistle'],['Alarm']
+dP1p1Yl63CI,30.0,40.0,"['Music', 'Telephone dialing, DTMF']","['Alarm', 'Music']"
+pC_R_4iYp-M,30.0,40.0,"['Emergency vehicle', 'Police car (siren)', 'Fire engine, fire truck (siren)', 'Siren']","['Alarm', 'Vehicle']"
+7AfaA5FM4W0,30.0,40.0,"['Siren', 'Civil defense siren']",['Alarm']
+YIju3UFD-ow,200.0,210.0,['Car alarm'],"['Alarm', 'Vehicle']"
+2QcOD8uCu0E,0.0,10.0,"['Speech', 'Telephone bell ringing']","['Alarm', 'Human voice']"
+ATbEwmTJwD0,30.0,40.0,"['Emergency vehicle', 'Ambulance (siren)', 'Siren']","['Alarm', 'Vehicle']"
+ozVZFzX3rIE,370.0,380.0,['Whistle'],['Alarm']
+vRCf3uU7xxg,220.0,230.0,"['Speech', 'Music', 'Foghorn']","['Alarm', 'Music', 'Human voice']"
+HZiZYd9DE9Q,100.0,110.0,"['Speech', 'Bicycle bell']","['Alarm', 'Music', 'Vehicle', 'Human voice']"
+nagRgYmxhx8,220.0,230.0,"['Emergency vehicle', 'Ambulance (siren)', 'Siren']","['Alarm', 'Vehicle']"
+CDwk_DbprX4,30.0,40.0,"['Speech', 'Fire alarm', 'Beep, bleep']","['Alarm', 'Onomatopoeia', 'Human voice']"
+yEgpugnGvlw,320.0,330.0,"['Vehicle', 'Car', 'Race car, auto racing', 'Foghorn', 'Outside, urban or manmade']","['Alarm', 'Vehicle', 'Acoustic environment']"
+Bbm-b0z_XpE,30.0,40.0,"['Alarm', 'Alarm clock', 'Clock']","['Alarm', 'Mechanisms']"
+d1o334I5X_k,30.0,40.0,"['Hiss', 'Steam', 'Rail transport', 'Train', 'Train whistle', 'Railroad car, train wagon', 'Steam whistle', 'Clickety-clack']","['Water', 'Vehicle', 'Alarm', 'Wild animals', 'Domestic animals, pets', 'Onomatopoeia']"
+CVBCHb30GsM,30.0,40.0,['Buzzer'],['Alarm']
+AsQXL6yXbvs,30.0,40.0,"['Emergency vehicle', 'Police car (siren)', 'Siren']","['Alarm', 'Vehicle']"
+hOiGqU4KQFA,10.0,20.0,"['Bicycle bell', 'Alarm clock', 'Clock']","['Mechanisms', 'Alarm', 'Music', 'Vehicle']"
+9L3EMXLufVg,0.0,10.0,"['Music', 'Bicycle bell']","['Alarm', 'Music', 'Vehicle']"
+ZaofVJP8QYI,40.0,50.0,"['Alarm', 'Fire alarm']",['Alarm']
+J4NTFM4WNwA,0.0,10.0,"['Music', 'Ding-dong']","['Domestic sounds, home sounds', 'Alarm', 'Music']"
+v4ehaGeo6vs,190.0,200.0,"['Smoke detector, smoke alarm']",['Alarm']
+EE8_ddz0XvI,30.0,40.0,"['Music', 'Toot']","['Alarm', 'Music', 'Vehicle']"
+Lyu7R0tfZas,90.0,100.0,"['Speech', 'Telephone', 'Telephone dialing, DTMF', 'Inside, small room']","['Alarm', 'Acoustic environment', 'Human voice']"
+BslDb2Uresk,10.0,20.0,"['Speech', 'Vehicle', 'Motor vehicle (road)', 'Car', 'Toot', 'Traffic noise, roadway noise']","['Alarm', 'Vehicle', 'Human voice']"
+EQbNUh1uQbw,10.0,20.0,"['Telephone', 'Telephone bell ringing', 'Ringtone']",['Alarm']
+s1L8oRfvGf0,30.0,40.0,"['Emergency vehicle', 'Police car (siren)', 'Siren', 'Civil defense siren']","['Alarm', 'Vehicle']"
+IqXmQwHAzt8,0.0,10.0,"['Music', 'Doorbell', 'Inside, small room']","['Domestic sounds, home sounds', 'Alarm', 'Music', 'Acoustic environment']"
+ALjgoKbg4h4,180.0,190.0,"['Emergency vehicle', 'Police car (siren)', 'Siren']","['Alarm', 'Vehicle']"
+g9C5ZNz7ERE,0.0,10.0,"['Speech', 'Telephone', 'Telephone dialing, DTMF', 'Dial tone']","['Alarm', 'Human voice']"
+FzT-vZ7e94Q,10.0,20.0,"['Synthetic singing', 'Music', 'Ringtone']","['Alarm', 'Music', 'Human voice']"
+sgILbRbZGH4,10.0,20.0,['Busy signal'],['Alarm']
+g8wdhSb01RY,0.0,10.0,['Alarm'],['Alarm']
+4c1omzV5pP8,90.0,100.0,"['Rail transport', 'Train', 'Doorbell']","['Domestic sounds, home sounds', 'Alarm', 'Vehicle']"
+BjKTGhSeGyE,30.0,40.0,"['Siren', 'Civil defense siren']",['Alarm']
+70ia88_c-rU,30.0,40.0,"['Vehicle horn, car horn, honking', 'Air horn, truck horn', 'Outside, rural or natural']","['Alarm', 'Vehicle', 'Acoustic environment']"
+_PoDrQC5qAo,50.0,60.0,"['Speech', 'Music', 'Doorbell']","['Domestic sounds, home sounds', 'Alarm', 'Music', 'Human voice']"
+MLY__fadQAw,40.0,50.0,['Car alarm'],"['Alarm', 'Vehicle']"
+D_zlJGQz0Eg,30.0,40.0,"['Steam', 'Siren', 'Civil defense siren', 'Steam whistle']","['Alarm', 'Water']"
+qTSC3vaKuhY,0.0,10.0,"['Speech', 'Dial tone', 'Inside, small room']","['Alarm', 'Acoustic environment', 'Human voice']"
+Ne2ywzuyI68,120.0,130.0,"['Speech', 'Crying, sobbing', 'Alarm clock']","['Alarm', 'Human voice']"
+QRKC7JUuyGk,30.0,40.0,"['Hiss', 'Steam', 'Whistle', 'Steam whistle']","['Water', 'Alarm', 'Wild animals', 'Domestic animals, pets', 'Onomatopoeia']"
+rsRZQpsltMk,70.0,80.0,"['Speech', 'Child speech, kid speaking', 'Bicycle bell']","['Alarm', 'Music', 'Vehicle', 'Human voice']"
+g8wdhSb01RY,0.0,10.0,['Alarm'],['Alarm']
+PvGpTY3C9bs,480.0,490.0,"['Doorbell', 'Inside, small room']","['Domestic sounds, home sounds', 'Alarm', 'Acoustic environment']"
+13PjLquqF3U,440.0,450.0,['Alarm clock'],['Alarm']
+ozUHk3S5xnc,0.0,10.0,"['Telephone dialing, DTMF']",['Alarm']
+nv0fUg5Y0I0,30.0,40.0,"['Speech', 'Snort']","['Respiratory sounds', 'Human voice']"
+EVxPhpPTVeU,570.0,580.0,"['Speech', 'Pant']","['Respiratory sounds', 'Human voice']"
+fIvj2yZLcVg,40.0,50.0,"['Speech', 'Gasp', 'Sneeze']","['Respiratory sounds', 'Human voice']"
+Ewwd8Ui4KuM,50.0,60.0,"['Sniff', 'Animal', 'Domestic animals, pets', 'Dog']","['Respiratory sounds', 'Domestic animals, pets', 'Animal']"
+fIvj2yZLcVg,40.0,50.0,"['Speech', 'Gasp', 'Sneeze']","['Respiratory sounds', 'Human voice']"
+DoDHKl7VDno,10.0,20.0,['Snoring'],['Respiratory sounds']
+C27eNiXJAHg,30.0,40.0,['Gasp'],['Respiratory sounds']
+IENkN-ZSMNY,30.0,40.0,"['Speech', 'Throat clearing', 'Music']","['Respiratory sounds', 'Music', 'Human voice']"
+lJYpbAleJhU,110.0,120.0,"['Speech', 'Breathing']","['Respiratory sounds', 'Human voice']"
+K16Htmq7rbc,130.0,140.0,"['Breathing', 'Inside, small room']","['Respiratory sounds', 'Acoustic environment']"
+TL69HIcUSxo,10.0,20.0,"['Breathing', 'Wheeze']",['Respiratory sounds']
+J0HWQBkDook,70.0,80.0,"['Speech', 'Breathing']","['Respiratory sounds', 'Human voice']"
+nq3vCSHR5hQ,30.0,40.0,"['Grunt', 'Gasp']","['Respiratory sounds', 'Human voice']"
+Yc0w1-1WoRc,80.0,90.0,"['Sniff', 'Inside, small room']","['Respiratory sounds', 'Acoustic environment']"
+_CMi6njTXZc,300.0,310.0,"['Speech', 'Pant']","['Respiratory sounds', 'Human voice']"
+ZspyTazOS8I,110.0,120.0,"['Pant', 'Animal', 'Domestic animals, pets', 'Dog']","['Respiratory sounds', 'Domestic animals, pets', 'Animal']"
+vSrP2g8zUoY,330.0,340.0,"['Speech', 'Breathing']","['Respiratory sounds', 'Human voice']"
+0ey3c39Vll8,80.0,90.0,"['Speech', 'Sneeze', 'Music']","['Respiratory sounds', 'Music', 'Human voice']"
+8N5XxcJ7QOU,20.0,30.0,"['Speech', 'Cough', 'Throat clearing', 'Music', 'Vehicle', 'Car']","['Respiratory sounds', 'Music', 'Vehicle', 'Human voice']"
+36afHU7dS2I,30.0,40.0,"['Snort', 'Animal']","['Respiratory sounds', 'Animal']"
+sgs0pr3vzbM,140.0,150.0,"['Speech', 'Wheeze']","['Respiratory sounds', 'Human voice']"
+WiVLgHykmFc,30.0,40.0,"['Speech', 'Snort']","['Respiratory sounds', 'Human voice']"
+I5MfWDvGp5Y,30.0,40.0,['Throat clearing'],['Respiratory sounds']
+K3z6Wi3kpNY,30.0,40.0,['Snoring'],['Respiratory sounds']
+XEO3DdfIhMI,30.0,40.0,['Pant'],['Respiratory sounds']
+n-qlHKbwTzQ,15.0,25.0,"['Speech', 'Sniff']","['Respiratory sounds', 'Human voice']"
+1jc3YPwYfC4,220.0,230.0,"['Speech', 'Cough']","['Respiratory sounds', 'Human voice']"
+1kodCcFED6E,50.0,60.0,"['Speech', 'Breathing']","['Respiratory sounds', 'Human voice']"
+YTP7YMaEm1s,20.0,30.0,['Cough'],['Respiratory sounds']
+CNXZhVIMgtE,0.0,10.0,"['Speech', 'Snoring']","['Respiratory sounds', 'Human voice']"
+_97xkAkbwxQ,0.0,10.0,"['Speech', 'Throat clearing']","['Respiratory sounds', 'Human voice']"
+oBLLs2UcJbQ,100.0,110.0,"['Speech', 'Child speech, kid speaking', 'Cough']","['Respiratory sounds', 'Human voice']"
+zcW0wZ8CaAw,70.0,80.0,"['Speech', 'Snoring']","['Respiratory sounds', 'Human voice']"
+D05sefx0n2U,10.0,20.0,['Breathing'],['Respiratory sounds']
+5P_1NuHrDks,30.0,40.0,"['Gasp', 'Music']","['Respiratory sounds', 'Music']"
+NPVIL-WOOM4,30.0,40.0,"['Speech', 'Wheeze']","['Respiratory sounds', 'Human voice']"
+cwgGYQBCt5A,180.0,190.0,"['Speech', 'Gasp', 'Outside, rural or natural']","['Respiratory sounds', 'Acoustic environment', 'Human voice']"
+B8dq3Zi_NDA,30.0,40.0,"['Speech', 'Sneeze', 'Outside, urban or manmade']","['Respiratory sounds', 'Acoustic environment', 'Human voice']"
+iga_4dsQYPE,490.0,500.0,['Gasp'],['Respiratory sounds']
+oVyvglHg-Ss,0.0,10.0,['Snoring'],['Respiratory sounds']
+GeDXgtlqHvs,18.0,28.0,"['Speech', 'Snort']","['Respiratory sounds', 'Human voice']"
+-gie2dhqP2c,440.0,450.0,"['Speech', 'Breathing', 'Snoring']","['Respiratory sounds', 'Human voice']"
+NbEVOJKxsBA,440.0,450.0,['Snoring'],['Respiratory sounds']
+4WyFn2L44m0,30.0,40.0,['Throat clearing'],['Respiratory sounds']
+qEv7NBFezUA,20.0,30.0,"['Wheeze', 'Sneeze']",['Respiratory sounds']
+vSrP2g8zUoY,330.0,340.0,"['Speech', 'Breathing']","['Respiratory sounds', 'Human voice']"
+1e3_ucOz0Ik,20.0,30.0,"['Speech', 'Child speech, kid speaking', 'Cough', 'Throat clearing']","['Respiratory sounds', 'Human voice']"
+rpxqIoFfs1Q,350.0,360.0,"['Speech', 'Snort']","['Respiratory sounds', 'Human voice']"
+XIGtpkq5u6w,10.0,20.0,"['Speech', 'Gasp']","['Respiratory sounds', 'Human voice']"
+MoXvWqQ2v38,300.0,310.0,"['Speech', 'Cough', 'Burping, eructation']","['Respiratory sounds', 'Digestive', 'Human voice']"
+07MJhv4uVlU,30.0,40.0,"['Speech', 'Music', 'Radio']","['Sound reproduction', 'Music', 'Human voice']"
+5f9pfwJCRBY,30.0,40.0,"['Music', 'Field recording']","['Sound reproduction', 'Music']"
+JcMQp5-jvmY,90.0,100.0,"['Speech', 'Radio']","['Sound reproduction', 'Human voice']"
+kAyWijaBatQ,0.0,10.0,"['Vehicle', 'Car', 'Field recording']","['Sound reproduction', 'Vehicle']"
+qYZo8SyvCzU,210.0,220.0,"['Speech', 'Vehicle', 'Aircraft', 'Fixed-wing aircraft, airplane', 'Outside, rural or natural', 'Field recording']","['Sound reproduction', 'Acoustic environment', 'Vehicle', 'Human voice']"
+_aTI-fEpD9Y,50.0,60.0,"['Speech', 'Domestic animals, pets', 'Cat', 'Caterwaul', 'Inside, small room', 'Television']","['Sound reproduction', 'Domestic animals, pets', 'Acoustic environment', 'Human voice']"
+3NQ5rukF0bY,50.0,60.0,['Field recording'],['Sound reproduction']
+_bYe6wcQCXs,90.0,100.0,"['Vehicle', 'Car', 'Field recording']","['Sound reproduction', 'Vehicle']"
+jjHKsc220mo,360.0,370.0,"['Speech', 'Music', 'Television']","['Sound reproduction', 'Music', 'Human voice']"
+C9BTCVxSHR8,30.0,40.0,['Field recording'],['Sound reproduction']
+ExqedxdXuBc,70.0,80.0,"['Speech', 'Vehicle', 'Car', 'Traffic noise, roadway noise', 'Field recording']","['Sound reproduction', 'Vehicle', 'Human voice']"
+rNsFSVhZi9w,330.0,340.0,['Television'],['Sound reproduction']
+4n1JMHxLROw,30.0,40.0,"['Speech', 'Field recording']","['Sound reproduction', 'Human voice']"
+MYSoj-wXlsE,540.0,550.0,"['Speech', 'Music', 'Radio']","['Sound reproduction', 'Music', 'Human voice']"
+08IPzx0imsA,30.0,40.0,"['Music', 'Radio']","['Sound reproduction', 'Music']"
+GUQ9YKKKWXY,40.0,50.0,['Television'],['Sound reproduction']
+OxQzccG7N2g,110.0,120.0,"['Wedding music', 'Television']","['Sound reproduction', 'Music']"
+Lf_fYuh9aD8,30.0,40.0,['Television'],['Sound reproduction']
+1mtro6Jnz3c,30.0,40.0,"['Speech', 'Radio']","['Sound reproduction', 'Human voice']"
+C9BTCVxSHR8,30.0,40.0,['Field recording'],['Sound reproduction']
+AiT4seZGR2w,220.0,230.0,"['Speech', 'Radio']","['Sound reproduction', 'Human voice']"
+Hqs28NRK1cs,80.0,90.0,"['Sidetone', 'Radio']","['Sound reproduction', 'Noise']"
+jjHKsc220mo,360.0,370.0,"['Speech', 'Music', 'Television']","['Sound reproduction', 'Music', 'Human voice']"
+F9oAALawYgA,190.0,200.0,"['Speech', 'Radio', 'Field recording']","['Sound reproduction', 'Human voice']"
+yVXgN1Sp0TI,30.0,40.0,"['Speech', 'Car', 'Outside, rural or natural', 'Field recording']","['Sound reproduction', 'Acoustic environment', 'Vehicle', 'Human voice']"
+C9BTCVxSHR8,30.0,40.0,['Field recording'],['Sound reproduction']
+GU4_d7lp2Zw,370.0,380.0,"['Speech', 'Music', 'Radio']","['Sound reproduction', 'Music', 'Human voice']"
+wtC4hhd4ZoI,280.0,290.0,"['Speech', 'Radio']","['Sound reproduction', 'Human voice']"
+J5EhyeM_aC0,360.0,370.0,"['Vehicle', 'Aircraft', 'Fixed-wing aircraft, airplane', 'Field recording']","['Sound reproduction', 'Vehicle']"
+4OWph2BvqAA,30.0,40.0,"['Speech', 'Radio']","['Sound reproduction', 'Human voice']"
+GL-0BaGiGoY,0.0,10.0,"['Speech', 'Music', 'Field recording']","['Sound reproduction', 'Music', 'Human voice']"
+Lf_fYuh9aD8,30.0,40.0,['Television'],['Sound reproduction']
+BEBOP2QIhFU,240.0,250.0,"['Vehicle', 'Boat, Water vehicle', 'Field recording']","['Sound reproduction', 'Vehicle']"
+bqPkbvp8PK4,260.0,270.0,"['Vehicle', 'Car', 'Outside, urban or manmade', 'Field recording']","['Sound reproduction', 'Vehicle', 'Acoustic environment']"
+z6UY194Fr9Y,340.0,350.0,"['Speech', 'Television']","['Sound reproduction', 'Human voice']"
+3eWeSi-dI-k,30.0,40.0,"['Speech', 'Music', 'Radio']","['Sound reproduction', 'Music', 'Human voice']"
+DRfjAfjPnIo,240.0,250.0,['Field recording'],['Sound reproduction']
+rNsFSVhZi9w,330.0,340.0,['Television'],['Sound reproduction']
+f9tznd-ABEQ,230.0,240.0,"['Vehicle', 'Car', 'Race car, auto racing', 'Radio']","['Sound reproduction', 'Vehicle']"
+-3IGxVTJvgI,30.0,40.0,"['Speech', 'Radio']","['Sound reproduction', 'Human voice']"
+BEBOP2QIhFU,240.0,250.0,"['Vehicle', 'Boat, Water vehicle', 'Field recording']","['Sound reproduction', 'Vehicle']"
+fOvgWlyTdf4,100.0,110.0,['Television'],['Sound reproduction']
+hF8WIKLNZSI,120.0,130.0,"['Inside, public space', 'Outside, urban or manmade', 'Field recording']","['Sound reproduction', 'Acoustic environment']"
+ZQ0WfE3nAEU,230.0,240.0,"['Speech', 'Boat, Water vehicle', 'Outside, rural or natural', 'Field recording']","['Sound reproduction', 'Acoustic environment', 'Vehicle', 'Human voice']"
+5go_w4Z-KUo,0.0,10.0,['Field recording'],['Sound reproduction']
+xPn1SPvHim8,50.0,60.0,"['Speech', 'Jet engine', 'Field recording']","['Sound reproduction', 'Engine', 'Vehicle', 'Human voice']"
+-JuVh6islEI,30.0,40.0,"['Speech', 'Radio']","['Sound reproduction', 'Human voice']"
+Hqs28NRK1cs,80.0,90.0,"['Sidetone', 'Radio']","['Sound reproduction', 'Noise']"
+PF84q5hweIg,270.0,280.0,"['Speech', 'Music', 'Sidetone', 'Television']","['Noise', 'Music', 'Sound reproduction', 'Human voice']"
+kDQNoavzZyw,30.0,40.0,"['Speech', 'Radio']","['Sound reproduction', 'Human voice']"
+3j3AM4taI-U,0.0,10.0,['Fire'],['Fire']
+RscrFWDOntw,330.0,340.0,"['Wind', 'Fire', 'Emergency vehicle', 'Police car (siren)', 'Siren']","['Fire', 'Alarm', 'Vehicle', 'Wind']"
+ZthT5nwFkJg,60.0,70.0,['Fire'],['Fire']
+620no3VhLzU,5.0,15.0,['Crackle'],"['Fire', 'Onomatopoeia']"
+9Pd12SkMum4,100.0,110.0,['Fire'],['Fire']
+zNswU3Pmyn0,30.0,40.0,['Fire'],['Fire']
+C9SbW7DnSho,50.0,60.0,['Fire'],['Fire']
+a2WYcwsDHU0,4.0,14.0,['Crackle'],"['Fire', 'Onomatopoeia']"
+DjX6Xh0GK6A,30.0,40.0,['Crackle'],"['Fire', 'Onomatopoeia']"
+AQsybSUDCiQ,10.0,20.0,['Crackle'],"['Fire', 'Onomatopoeia']"
+C72bv2YhZ6A,0.0,10.0,"['Speech', 'Fire', 'Explosion']","['Explosion', 'Fire', 'Human voice']"
+b28rQfs-Z2w,100.0,110.0,['Fire'],['Fire']
+73SYrra4rzM,30.0,40.0,"['Speech', 'Crackle']","['Onomatopoeia', 'Fire', 'Human voice']"
+KHsU40-Pqx8,30.0,40.0,"['Speech', 'Crackle']","['Onomatopoeia', 'Fire', 'Human voice']"
+XhUySw_CMg4,340.0,350.0,"['Speech', 'Crackle']","['Onomatopoeia', 'Fire', 'Human voice']"
+l21f-RphoQU,60.0,70.0,"['Wind', 'Wind noise (microphone)', 'Fire']","['Miscellaneous sources', 'Fire', 'Wind']"
+NI-ItTGKHuE,30.0,40.0,"['Wind', 'Wind noise (microphone)', 'Fire']","['Miscellaneous sources', 'Fire', 'Wind']"
+V1OJmx1GYfM,23.0,33.0,"['Speech', 'Crackle']","['Onomatopoeia', 'Fire', 'Human voice']"
+XFtUpf67mg0,30.0,40.0,['Crackle'],"['Fire', 'Onomatopoeia']"
+RsQdtJHB3Ww,5.0,15.0,"['Music', 'Crackle']","['Music', 'Fire', 'Onomatopoeia']"
+XhUySw_CMg4,340.0,350.0,"['Speech', 'Crackle']","['Onomatopoeia', 'Fire', 'Human voice']"
+g5Lgcen-PGI,30.0,40.0,"['Music', 'Crackle']","['Music', 'Fire', 'Onomatopoeia']"
+5NqDdoLAUjE,30.0,40.0,['Fire'],['Fire']
+49uNQY1i-UE,10.0,20.0,['Crackle'],"['Fire', 'Onomatopoeia']"
+C9SbW7DnSho,50.0,60.0,['Fire'],['Fire']
+DOOUC0UPOKA,50.0,60.0,"['Speech', 'Domestic animals, pets', 'Cat', 'Crackle']","['Onomatopoeia', 'Domestic animals, pets', 'Fire', 'Human voice']"
+hkPMts4DS3Y,210.0,220.0,"['Wind', 'Wind noise (microphone)', 'Fire']","['Miscellaneous sources', 'Fire', 'Wind']"
+miqwRA1QLw8,100.0,110.0,['Crackle'],"['Fire', 'Onomatopoeia']"
+E-J9vzpZFn4,50.0,60.0,['Fire'],['Fire']
+8Y3pAqq5s0E,150.0,160.0,"['Speech', 'Crackle']","['Onomatopoeia', 'Fire', 'Human voice']"
+-YZRsLrmqEA,0.0,10.0,['Crackle'],"['Fire', 'Onomatopoeia']"
+gS6EJd0gxx8,80.0,90.0,['Fire'],['Fire']
+KHsU40-Pqx8,30.0,40.0,"['Speech', 'Crackle']","['Onomatopoeia', 'Fire', 'Human voice']"
+YxRbaNArrdA,400.0,410.0,"['Speech', 'Hubbub, speech noise, speech babble', 'Fire', 'Vehicle']","['Noise', 'Vehicle', 'Human group actions', 'Human voice', 'Fire']"
+-RsGz8XRZUM,30.0,40.0,"['Biting', 'Crackle', 'Crunch']","['Digestive', 'Fire', 'Onomatopoeia']"
+KHsU40-Pqx8,30.0,40.0,"['Speech', 'Crackle']","['Onomatopoeia', 'Fire', 'Human voice']"
+8B3cEMueaDc,250.0,260.0,['Fire'],['Fire']
+8ryifCe_sIU,20.0,30.0,['Fire'],['Fire']
+73SYrra4rzM,30.0,40.0,"['Speech', 'Crackle']","['Onomatopoeia', 'Fire', 'Human voice']"
+Cl64_nI7A14,120.0,130.0,"['Wind', 'Wind noise (microphone)', 'Fire']","['Miscellaneous sources', 'Fire', 'Wind']"
+mD-Ec0NsjIg,230.0,240.0,['Crackle'],"['Fire', 'Onomatopoeia']"
+0PNUMPym0I8,240.0,250.0,['Crackle'],"['Fire', 'Onomatopoeia']"
+ogHTHIYZq80,30.0,40.0,"['Speech', 'Crackle']","['Onomatopoeia', 'Fire', 'Human voice']"
+hPdH5gl1fTo,30.0,40.0,"['Wind', 'Wind noise (microphone)', 'Fire']","['Miscellaneous sources', 'Fire', 'Wind']"
+YxRbaNArrdA,400.0,410.0,"['Speech', 'Hubbub, speech noise, speech babble', 'Fire', 'Vehicle']","['Noise', 'Vehicle', 'Human group actions', 'Human voice', 'Fire']"
+IHNQUYiF21o,140.0,150.0,"['Fire', 'Gush']","['Liquid', 'Fire']"
+C72bv2YhZ6A,0.0,10.0,"['Speech', 'Fire', 'Explosion']","['Explosion', 'Fire', 'Human voice']"
+RscrFWDOntw,330.0,340.0,"['Wind', 'Fire', 'Emergency vehicle', 'Police car (siren)', 'Siren']","['Fire', 'Alarm', 'Vehicle', 'Wind']"
+uLQPPdAKp1w,20.0,30.0,['Fire'],['Fire']
+SGIvE5HtFSQ,30.0,40.0,['Crackle'],"['Fire', 'Onomatopoeia']"
+AcYTVEdlGE4,580.0,590.0,['Glass'],['Glass']
+fPIG7nrpgec,10.0,20.0,"['Music', 'Musical instrument', 'Plucked string instrument', 'Guitar', 'Electric guitar', 'Bowed string instrument', 'Glass']","['Glass', 'Music']"
+AcYTVEdlGE4,580.0,590.0,['Glass'],['Glass']
+0H2uMhzSitY,520.0,530.0,"['Music', 'Shatter']","['Glass', 'Music']"
+rTPuPvHg5rg,30.0,40.0,"['Speech', 'Shatter', 'Inside, small room']","['Glass', 'Acoustic environment', 'Human voice']"
+Waljosxqz0Y,0.0,10.0,['Glass'],['Glass']
+O1wzDHhXgOw,470.0,480.0,"['Speech', 'Glass']","['Glass', 'Human voice']"
+P4BY72zK-aM,70.0,80.0,"['Speech', 'Music', 'Shatter']","['Glass', 'Music', 'Human voice']"
+AAEi8dByzyI,30.0,40.0,"['Music', 'Chink, clink']","['Glass', 'Music']"
+RoeqoS8L1xQ,30.0,40.0,"['Chink, clink']",['Glass']
+2aDcV6zKmF8,60.0,70.0,['Glass'],['Glass']
+-8CrCItCO24,30.0,40.0,"['Chink, clink']",['Glass']
+VXnHav1KTos,230.0,240.0,"['Speech', 'Glass', 'Inside, small room']","['Glass', 'Acoustic environment', 'Human voice']"
+II4UebN1Dxw,10.0,20.0,"['Speech', 'Shatter']","['Glass', 'Human voice']"
+U7pc2A42FFI,30.0,40.0,"['Speech', 'Chink, clink', 'Outside, rural or natural']","['Glass', 'Acoustic environment', 'Human voice']"
+nlS05E29D88,120.0,130.0,"['Speech', 'Chink, clink']","['Glass', 'Human voice']"
+6R8mmrJvXgc,220.0,230.0,"['Speech', 'Shatter']","['Glass', 'Human voice']"
+cOQgl4Y2wSw,90.0,100.0,['Glass'],['Glass']
+rzmX8IPoaUc,230.0,240.0,"['Singing', 'Music', 'Shatter']","['Glass', 'Music', 'Human voice']"
+U7pc2A42FFI,30.0,40.0,"['Speech', 'Chink, clink', 'Outside, rural or natural']","['Glass', 'Acoustic environment', 'Human voice']"
+0maiaspDy5k,110.0,120.0,"['Music', 'Musical instrument', 'Guitar', 'Pizzicato', 'Glass']","['Glass', 'Music']"
+U8-jaLo_OO4,70.0,80.0,"['Speech', 'Music', 'Shatter']","['Glass', 'Music', 'Human voice']"
+8ODqVm4HMA0,80.0,90.0,"['Chink, clink', 'Silence']","['Glass', 'Silence']"
+SJI1-C3Cx1o,0.0,10.0,"['Music', 'Shatter', 'Inside, large room or hall']","['Glass', 'Music', 'Acoustic environment']"
+Ico8A_Pcqf4,30.0,40.0,"['Speech', 'Chink, clink']","['Glass', 'Human voice']"
+81a39gW9Tik,120.0,130.0,"['Speech', 'Glass']","['Glass', 'Human voice']"
+-8CrCItCO24,30.0,40.0,"['Chink, clink']",['Glass']
+ofESdVdX-fY,10.0,20.0,['Glass'],['Glass']
+gp5KCk-WRhA,130.0,140.0,['Glass'],['Glass']
+7SZFvCNKCNg,540.0,550.0,['Shatter'],['Glass']
+-8CrCItCO24,30.0,40.0,"['Chink, clink']",['Glass']
+1PeBvAdub4w,370.0,380.0,"['Chink, clink']",['Glass']
+PQmDM4qhdoo,190.0,200.0,"['Speech', 'Music', 'Shatter']","['Glass', 'Music', 'Human voice']"
+wA_8eyt8pZ0,140.0,150.0,"['Speech', 'Glass', 'Chink, clink']","['Glass', 'Human voice']"
+tOfzHviIYyw,530.0,540.0,"['Speech', 'Shatter', 'Inside, small room']","['Glass', 'Acoustic environment', 'Human voice']"
+rhnbEZ85wZA,20.0,30.0,['Glass'],['Glass']
+GPQJCqOP8V0,70.0,80.0,"['Speech', 'Water', 'Glass']","['Glass', 'Water', 'Human voice']"
+SVsz5CKZaUQ,160.0,170.0,['Shatter'],['Glass']
+zWEznZ40k2Q,30.0,40.0,"['Speech', 'Music', 'Music for children', 'Chink, clink']","['Glass', 'Music', 'Human voice']"
+KMLRFtWwCUc,260.0,270.0,"['Chink, clink']",['Glass']
+fJ36wVWhiio,40.0,50.0,"['Music', 'Shatter']","['Glass', 'Music']"
+6-orAgas6K8,12.0,22.0,"['Speech', 'Chink, clink']","['Glass', 'Human voice']"
+nlS05E29D88,120.0,130.0,"['Speech', 'Chink, clink']","['Glass', 'Human voice']"
+pP--79vW59k,200.0,210.0,"['Speech', 'Glass']","['Glass', 'Human voice']"
+UyhdMa1ikKM,90.0,100.0,"['Speech', 'Glass']","['Glass', 'Human voice']"
+5AtdNZxX0Z8,0.0,10.0,"['Glass', 'Chink, clink']",['Glass']
+rBkHd299nY8,210.0,220.0,"['Music', 'Chink, clink']","['Glass', 'Music']"
+wA_8eyt8pZ0,140.0,150.0,"['Speech', 'Glass', 'Chink, clink']","['Glass', 'Human voice']"
+MDruN8n3lNM,30.0,40.0,"['Speech', 'Chink, clink']","['Glass', 'Human voice']"
+A8ED8Iix7XQ,190.0,200.0,"['Speech', 'Dishes, pots, and pans', 'Glass']","['Domestic sounds, home sounds', 'Glass', 'Human voice']"
+QXNgo7S7Cxw,130.0,140.0,"['Wind', 'Wind noise (microphone)', 'Ocean', 'Boat, Water vehicle', 'Ship']","['Miscellaneous sources', 'Water', 'Vehicle', 'Wind']"
+TeA1puWNGgw,350.0,360.0,"['Wind', 'Wind noise (microphone)', 'Ocean', 'Waves, surf', 'Boat, Water vehicle', 'Sailboat, sailing ship']","['Miscellaneous sources', 'Water', 'Vehicle', 'Wind']"
+4nzHWYg4oFE,20.0,30.0,"['Water', 'Water tap, faucet', 'Bathtub (filling or washing)']","['Domestic sounds, home sounds', 'Water']"
+wRO3h_zt1b4,20.0,30.0,"['Thunderstorm', 'Thunder', 'Rain']","['Water', 'Thunderstorm']"
+UrEXSRyBCzk,30.0,40.0,"['Music', 'Water', 'Liquid', 'Inside, large room or hall']","['Water', 'Music', 'Liquid', 'Acoustic environment']"
+TvkwSM2RR4s,30.0,40.0,"['Rain', 'Raindrop']",['Water']
+mcnhvoxV0MM,220.0,230.0,['Waterfall'],['Water']
+CCHdI7-sRiA,30.0,40.0,['Gurgling'],['Water']
+bje0A_p_9RY,80.0,90.0,"['Water', 'Water tap, faucet', 'Sink (filling or washing)']","['Domestic sounds, home sounds', 'Water']"
+09zT8qlC384,30.0,40.0,"['Rain', 'Raindrop', 'Rain on surface']",['Water']
+27rCZL5yPU4,22.0,32.0,"['Wind', 'Wind noise (microphone)', 'Ocean', 'Waves, surf', 'Boat, Water vehicle', 'Sailboat, sailing ship']","['Miscellaneous sources', 'Water', 'Vehicle', 'Wind']"
+JzDXNC3r-FM,30.0,40.0,"['Ocean', 'Boat, Water vehicle', 'Rowboat, canoe, kayak']","['Water', 'Vehicle']"
+Dai4HuI98oA,40.0,50.0,"['Water', 'Boat, Water vehicle', 'Motorboat, speedboat', 'Pump (liquid)']","['Water', 'Liquid', 'Vehicle']"
+Rd0igPw8Xoc,8.0,18.0,"['Speech', 'Gurgling']","['Water', 'Human voice']"
+ZfOEmKm04YU,130.0,140.0,"['Hiss', 'Steam', 'Train whistle', 'Steam whistle']","['Water', 'Vehicle', 'Alarm', 'Wild animals', 'Domestic animals, pets', 'Onomatopoeia']"
+en-Lm8VRjiY,30.0,40.0,"['Water', 'Toilet flush']","['Domestic sounds, home sounds', 'Water']"
+cweD5wJ6nh8,40.0,50.0,"['Speech', 'Water', 'Drip', 'Inside, small room']","['Acoustic environment', 'Water', 'Liquid', 'Human voice']"
+jDdYqpYoIGY,100.0,110.0,"['Thunderstorm', 'Thunder', 'Rain', 'Raindrop', 'Rain on surface']","['Water', 'Thunderstorm']"
+ETiHg0_v210,180.0,190.0,"['Ocean', 'Waves, surf', 'Boat, Water vehicle', 'Ship']","['Water', 'Vehicle']"
+ffGnsZTie5k,30.0,40.0,['Gurgling'],['Water']
+LMZzvqMZGqw,20.0,30.0,['Stream'],['Water']
+DdSgYm2ZwAw,530.0,540.0,"['Hiss', 'Steam', 'Steam whistle']","['Water', 'Alarm', 'Wild animals', 'Domestic animals, pets', 'Onomatopoeia']"
+L_9U6xDeYcU,20.0,30.0,"['Speech', 'Ocean', 'Vehicle horn, car horn, honking', 'Foghorn', 'Outside, rural or natural']","['Water', 'Vehicle', 'Alarm', 'Human voice', 'Acoustic environment']"
+8h-M9SHTV1I,50.0,60.0,"['Water', 'Pump (liquid)']","['Water', 'Liquid']"
+0Qj73JaG8Ik,30.0,40.0,"['Rain', 'Raindrop', 'Rain on surface']",['Water']
+1TOi-OoaT8I,90.0,100.0,"['Speech', 'Water', 'Water tap, faucet', 'Sink (filling or washing)', 'Liquid']","['Domestic sounds, home sounds', 'Water', 'Liquid', 'Human voice']"
+0YsXXGEVmy8,30.0,40.0,"['Rain', 'Raindrop', 'Rain on surface']",['Water']
+sVpj-evVHxs,150.0,160.0,"['Thunderstorm', 'Thunder', 'Rain']","['Water', 'Thunderstorm']"
+7V4iwKKunGA,0.0,10.0,"['Water', 'Pump (liquid)']","['Water', 'Liquid']"
+APYXZHZPCE4,50.0,60.0,"['Thunderstorm', 'Thunder', 'Rain']","['Water', 'Thunderstorm']"
+JxQzzxIageA,30.0,40.0,"['Water', 'Sizzle']","['Water', 'Onomatopoeia']"
+aF8202ZbqVc,300.0,310.0,"['Water', 'Water tap, faucet', 'Sink (filling or washing)']","['Domestic sounds, home sounds', 'Water']"
+-gfBxHm8lhg,90.0,100.0,"['Speech', 'Water', 'Light engine (high frequency)']","['Water', 'Engine', 'Human voice']"
+EonsfqQZ0OU,10.0,20.0,"['Rain', 'Rustle']","['Water', 'Onomatopoeia']"
+FO6arunsodo,30.0,40.0,"['Ocean', 'Waves, surf', 'Boat, Water vehicle', 'Rowboat, canoe, kayak']","['Water', 'Vehicle']"
+hVS6bB3VFoQ,210.0,220.0,"['Water', 'Pump (liquid)']","['Water', 'Liquid']"
+Tb5FVrEeE50,30.0,40.0,"['Speech', 'Gurgling']","['Water', 'Human voice']"
+L_9U6xDeYcU,20.0,30.0,"['Speech', 'Ocean', 'Vehicle horn, car horn, honking', 'Foghorn', 'Outside, rural or natural']","['Water', 'Vehicle', 'Alarm', 'Human voice', 'Acoustic environment']"
+jUyJn-SpyAo,280.0,290.0,"['Hiss', 'Steam']","['Water', 'Wild animals', 'Domestic animals, pets', 'Onomatopoeia']"
+Orq5T9inyxQ,470.0,480.0,"['Water', 'Pump (liquid)']","['Water', 'Liquid']"
+97WDHopf1rA,100.0,110.0,"['Hiss', 'Snake']","['Water', 'Wild animals', 'Domestic animals, pets', 'Onomatopoeia']"
+WQNJDWRsG3s,250.0,260.0,"['Speech', 'Water', 'Liquid', 'Trickle, dribble', 'Outside, urban or manmade']","['Acoustic environment', 'Water', 'Liquid', 'Human voice']"
+sVpj-evVHxs,150.0,160.0,"['Thunderstorm', 'Thunder', 'Rain']","['Water', 'Thunderstorm']"
+5OEGEeRF1nk,15.0,25.0,['Gurgling'],['Water']
+u7KaWl9PTo0,240.0,250.0,"['Rain', 'Raindrop', 'Rain on surface']",['Water']
+m-Qo35y4GPQ,40.0,50.0,"['Water', 'Pump (liquid)']","['Water', 'Liquid']"
+wRh61zoelh8,21.0,31.0,"['Hiss', 'Snake']","['Water', 'Wild animals', 'Domestic animals, pets', 'Onomatopoeia']"
+4ztYgv_AzmY,70.0,80.0,"['Stream', 'Waterfall']",['Water']
+I1WB0a3IUt4,320.0,330.0,"['Music', 'Water', 'Vehicle', 'Car', 'Liquid', 'Outside, urban or manmade']","['Water', 'Liquid', 'Vehicle', 'Music', 'Acoustic environment']"
+zQFbu9kMk94,180.0,190.0,"['Water', 'Water tap, faucet', 'Sink (filling or washing)']","['Domestic sounds, home sounds', 'Water']"
+7bxEtiuLOsQ,500.0,510.0,"['Speech', 'Roar', 'Music']","['Wild animals', 'Music', 'Human voice']"
+onRvtbNSv90,10.0,20.0,"['Rodents, rats, mice', 'Patter']",['Wild animals']
+QGGy_B7hshY,30.0,40.0,"['Bird', 'Bird vocalization, bird call, bird song', 'Pigeon, dove', 'Coo']",['Wild animals']
+S4ncYfhH3EI,30.0,40.0,"['Owl', 'Hoot']",['Wild animals']
+ipuwZG_lUrc,0.0,10.0,['Patter'],['Wild animals']
+voufpP56Sgw,30.0,40.0,['Patter'],['Wild animals']
+rk6j7lhNf1o,29.0,39.0,"['Speech', 'Rattle', 'Music']","['Wild animals', 'Music', 'Onomatopoeia', 'Human voice']"
+PyqZ00cYDlU,160.0,170.0,"['Roar', 'Inside, large room or hall']","['Wild animals', 'Acoustic environment']"
+NvRB6Kwi2-c,30.0,40.0,"['Squawk', 'Music']","['Wild animals', 'Music']"
+gWMrFrICmNw,30.0,40.0,"['Animal', 'Crow', 'Caw']","['Wild animals', 'Animal']"
+xIY4UbYa8K8,270.0,280.0,"['Bird', 'Bird vocalization, bird call, bird song', 'Pigeon, dove', 'Coo']",['Wild animals']
+1NQWDv3XSWE,30.0,40.0,['Patter'],['Wild animals']
+5k6EjPymsRc,350.0,360.0,"['Fowl', 'Chicken, rooster', 'Crowing, cock-a-doodle-doo', 'Turkey', 'Gobble', 'Bird', 'Bird vocalization, bird call, bird song', 'Chirp, tweet']","['Wild animals', 'Livestock, farm animals, working animals', 'Onomatopoeia']"
+mL3GCt-X9Nk,30.0,40.0,"['Bird', 'Bird vocalization, bird call, bird song', 'Pigeon, dove', 'Coo']",['Wild animals']
+hZ4d_dQm8jA,0.0,10.0,"['Wheeze', 'Animal', 'Domestic animals, pets', 'Dog', 'Bark', 'Yip', 'Bow-wow', 'Growling', 'Canidae, dogs, wolves', 'Inside, small room']","['Respiratory sounds', 'Wild animals', 'Domestic animals, pets', 'Animal', 'Acoustic environment']"
+4Fuk29ZG7s8,30.0,40.0,"['Insect', 'Mosquito', 'Fly, housefly']",['Wild animals']
+e0ILAZZKAO8,6.0,16.0,"['Frog', 'Croak']",['Wild animals']
+33Bn8jbv9_o,30.0,40.0,"['Hiss', 'Snake']","['Water', 'Wild animals', 'Domestic animals, pets', 'Onomatopoeia']"
+FksdL1EWzvM,30.0,40.0,"['Rodents, rats, mice', 'Patter']",['Wild animals']
+8udxyD8JwZw,30.0,40.0,"['Owl', 'Hoot']",['Wild animals']
+od7-KBOwqAA,190.0,200.0,"['Bird', 'Bird vocalization, bird call, bird song', 'Chirp, tweet', 'Pigeon, dove', 'Coo']","['Wild animals', 'Onomatopoeia']"
+gjuJGlGDrtw,80.0,90.0,"['Insect', 'Mosquito', 'Fly, housefly', 'Frog']",['Wild animals']
+p5-25z-BAs8,80.0,90.0,"['Hiss', 'Snake']","['Water', 'Wild animals', 'Domestic animals, pets', 'Onomatopoeia']"
+pZbmULWeQKM,30.0,40.0,"['Insect', 'Mosquito', 'Fly, housefly']",['Wild animals']
+N7_kRPI3cjY,30.0,40.0,['Whale vocalization'],['Wild animals']
+N3bseCV5IZA,50.0,60.0,['Patter'],['Wild animals']
+jlaABLukECk,290.0,300.0,['Whale vocalization'],['Wild animals']
+kz_DD4hbFv8,70.0,80.0,"['Patter', 'Snake']",['Wild animals']
+6L8bljNWiwU,10.0,20.0,"['Bird', 'Bird vocalization, bird call, bird song', 'Chirp, tweet']","['Wild animals', 'Onomatopoeia']"
+BvFyTjlQ94c,30.0,40.0,"['Speech', 'Crow', 'Caw']","['Wild animals', 'Human voice']"
+M6TuE5oaWq8,80.0,90.0,['Whale vocalization'],['Wild animals']
+Bs0hFfFJfQg,540.0,550.0,['Growling'],"['Wild animals', 'Domestic animals, pets']"
+j8DVlyAwwAI,30.0,40.0,"['Speech', 'Mouse']","['Wild animals', 'Human voice']"
+h5EacXG1XWo,120.0,130.0,['Snake'],['Wild animals']
+Ek9VKTa-5gI,30.0,40.0,"['Hiss', 'Snake']","['Water', 'Wild animals', 'Domestic animals, pets', 'Onomatopoeia']"
+tnPs-9FDAIA,60.0,70.0,"['Insect', 'Fly, housefly', 'Bee, wasp, etc.']",['Wild animals']
+G9yiadmayg8,60.0,70.0,"['Animal', 'Domestic animals, pets', 'Dog', 'Squawk']","['Wild animals', 'Domestic animals, pets', 'Animal']"
+uirG0ugXGJo,10.0,20.0,"['Speech', 'Animal', 'Growling', 'Inside, small room']","['Human voice', 'Wild animals', 'Domestic animals, pets', 'Animal', 'Acoustic environment']"
+i5jp5sw0dTg,30.0,40.0,"['Crow', 'Caw']",['Wild animals']
+OBn4HAj_RbE,120.0,130.0,"['Animal', 'Wild animals', 'Roaring cats (lions, tigers)', 'Music']","['Wild animals', 'Music', 'Animal']"
+4LcMAREn89c,0.0,10.0,"['Animal', 'Domestic animals, pets', 'Dog', 'Canidae, dogs, wolves', 'Outside, urban or manmade']","['Wild animals', 'Domestic animals, pets', 'Animal', 'Acoustic environment']"
+usjxOxDQYHI,30.0,40.0,"['Speech', 'Rattle', 'Rattle (instrument)', 'Outside, rural or natural']","['Music', 'Onomatopoeia', 'Human voice', 'Wild animals', 'Acoustic environment']"
+dYWnTFRUVxY,30.0,40.0,"['Animal', 'Domestic animals, pets', 'Dog', 'Growling']","['Wild animals', 'Domestic animals, pets', 'Animal']"
+luVp3elLSGQ,30.0,40.0,"['Speech', 'Roar']","['Wild animals', 'Human voice']"
+LBgPiomp3Tk,30.0,40.0,"['Insect', 'Cricket']",['Wild animals']
+jvWhqjNARbI,30.0,40.0,"['Hiss', 'Snake']","['Water', 'Wild animals', 'Domestic animals, pets', 'Onomatopoeia']"
+j4cF8QaWJGo,180.0,190.0,"['Insect', 'Cricket']",['Wild animals']
+4z6mZw4I5Uo,20.0,30.0,"['Rattle', 'Vehicle', 'Car', 'Engine']","['Wild animals', 'Engine', 'Vehicle', 'Onomatopoeia']"
+8Q8Xd-8idTk,190.0,200.0,"['Insect', 'Fly, housefly', 'Bee, wasp, etc.']",['Wild animals']
+1oY0kFtKu20,470.0,480.0,"['Duck', 'Bird', 'Environmental noise']","['Noise', 'Wild animals', 'Livestock, farm animals, working animals']"
+njz6QG61ER0,0.0,10.0,"['Music', 'Musical instrument', 'Synthesizer', 'Effects unit', 'Reverberation']","['Miscellaneous sources', 'Music', 'Acoustic environment']"
+5J6CjNc8Njo,30.0,40.0,"['Music', 'Jazz']",['Music']
+z-YI1Xb_MCk,40.0,50.0,"['Chime', 'Wind chime']",['Music']
+aGMdcxeF6Ak,270.0,280.0,"['Singing', 'Music', 'Electronic music', 'Bang']","['Generic impact sounds', 'Music', 'Human voice']"
+7Mfy9hLqaiM,20.0,30.0,['Jingle bell'],['Music']
+U0qylEK2EY8,30.0,40.0,['Tubular bells'],['Music']
+dVuJQSASKDw,60.0,70.0,"['Music', 'Blues']",['Music']
+iMTHDuW_xKc,40.0,50.0,"['Percussion', 'Drum kit', 'Drum', 'Snare drum', 'Rimshot', 'Drum roll', 'Bass drum']",['Music']
+6zDSXOtWwZE,320.0,330.0,"['Music', 'Reggae']",['Music']
+0PpQ8rBtnVM,30.0,40.0,"['Speech', 'Gasp', 'Music']","['Respiratory sounds', 'Music', 'Human voice']"
+QthIhFS0hMU,30.0,40.0,"['Zither', 'Pizzicato']",['Music']
+oICW-zsmEfM,110.0,120.0,"['Music', 'Sampler']",['Music']
+BmH5NYySQyY,30.0,40.0,"['Music', 'Dubstep', 'Drum and bass']",['Music']
+2MZUbxulAI4,310.0,320.0,"['Percussion', 'Drum', 'Tabla']",['Music']
+cTqM5YOV7Qc,80.0,90.0,"['Speech', 'Animal', 'Wild animals', 'Roaring cats (lions, tigers)', 'Music']","['Wild animals', 'Music', 'Animal', 'Human voice']"
+Mhcdp8KcA28,30.0,40.0,"['Speech', 'Animal', 'Horse', 'Clip-clop', 'Neigh, whinny', 'Music']","['Livestock, farm animals, working animals', 'Music', 'Human voice', 'Animal', 'Onomatopoeia']"
+ZUg7rRpFGvA,30.0,40.0,"['Wind instrument, woodwind instrument', 'Shofar']",['Music']
+EaK7_sA9qGk,13.0,23.0,"['Music', 'Telephone', 'Ringtone']","['Alarm', 'Music']"
+W_zgEkvp4xU,140.0,150.0,"['Music', 'Music of Africa']",['Music']
+CKogmNGkGHE,180.0,190.0,"['Speech', 'Singing', 'Clapping', 'Music', 'Flamenco']","['Music', 'Human group actions', 'Hands', 'Human voice']"
+4Ua6i_VDYU4,30.0,40.0,"['Music', 'Exciting music']",['Music']
+669Fk7afszw,10.0,20.0,"['Speech', 'Music', 'Musical instrument', 'Plucked string instrument', 'Guitar', 'Banjo', 'Country', 'Bluegrass']","['Music', 'Human voice']"
+4_qvGF5U1Xw,30.0,40.0,"['Animal', 'Domestic animals, pets', 'Dog', 'Yip', 'Bow-wow', 'Music']","['Domestic animals, pets', 'Music', 'Animal']"
+7SRwq1t81Fk,10.0,20.0,"['Speech', 'Music', 'Bouncing']","['Generic impact sounds', 'Music', 'Human voice']"
+8HHrlxQuZKE,60.0,70.0,['Soul music'],['Music']
+m3gTh1f-8pk,40.0,50.0,"['Speech', 'Music', 'Tap']","['Domestic sounds, home sounds', 'Generic impact sounds', 'Music', 'Human voice']"
+ZNGJN30LCwM,30.0,40.0,"['Singing', 'Choir', 'Music', 'Christmas music']","['Music', 'Human voice']"
+hII5lOqV22s,160.0,170.0,"['Speech', 'Female speech, woman speaking', 'Hiccup', 'Music']","['Digestive', 'Music', 'Human voice']"
+Dd0dbqaHF6o,280.0,290.0,"['Music', 'Ambient music']",['Music']
+kUGg9_N_GDk,30.0,40.0,"['Music', 'Steelpan']",['Music']
+Sx__Ldoy_A4,30.0,40.0,"['Zither', 'Pizzicato']",['Music']
+vf5O9eXAXME,110.0,120.0,"['Percussion', 'Drum', 'Tabla']",['Music']
+IfA-DcUwZvs,30.0,40.0,"['Bellow', 'Whoop', 'Music']","['Music', 'Human voice']"
+nZOgoVEud_w,150.0,160.0,['Independent music'],['Music']
+zrouUQJjsSM,200.0,210.0,"['Music', 'Propeller, airscrew']","['Music', 'Vehicle']"
+OQdH8lH2iTc,70.0,80.0,"['Brass instrument', 'Trombone', 'Clarinet']",['Music']
+YLlbLSNxdQ4,200.0,210.0,"['Music', 'Glockenspiel', 'Music for children', 'Tick']","['Music', 'Mechanisms', 'Onomatopoeia']"
+sT4v57Ms2WM,60.0,70.0,"['Singing', 'Music', 'Song']","['Music', 'Human voice']"
+nHGis4rLffU,270.0,280.0,"['Music', 'Musical instrument', 'Mandolin']",['Music']
+RIx3DQWIv5s,30.0,40.0,"['Music', 'Wedding music']",['Music']
+QrKJs6lBfmM,10.0,20.0,"['Percussion', 'Drum', 'Snare drum', 'Rimshot', 'Drum roll', 'Bass drum', 'Wood block']",['Music']
+ViBUUQTLzcs,110.0,120.0,"['Music', 'Rattle (instrument)']",['Music']
+DSI9gamPHmA,30.0,40.0,"['Music', 'Techno', 'Dubstep', 'Drum and bass', 'Electronica', 'Trance music']",['Music']
+N5yG0Zt6Uoo,210.0,220.0,"['Music', 'Sidetone']","['Noise', 'Music']"
+UkTWmyy7ia8,30.0,40.0,"['Keyboard (musical)', 'Piano', 'Bowed string instrument', 'String section', 'Violin, fiddle', 'Cello', 'Double bass']",['Music']
+9IVYGuEjmX8,100.0,110.0,"['Music', 'Musical instrument', 'Steelpan']",['Music']
+IClVU7q66Cs,30.0,40.0,"['Music', 'A capella']",['Music']
+YV95e7uBRG4,0.0,10.0,['Tubular bells'],['Music']
+oynXCFZWxnI,30.0,40.0,"['Music', 'Sad music', 'Echo']","['Music', 'Acoustic environment']"
+Vhtu-Xo_cbI,30.0,40.0,"['Music', 'White noise']","['Noise', 'Music']"
+EckBRJSjumY,30.0,40.0,"['Heart sounds, heartbeat', 'Heart murmur']","['Heart sounds, heartbeat']"
+JudWpbMN-2w,30.0,40.0,"['Heart murmur', 'Music']","['Heart sounds, heartbeat', 'Music']"
+ID-AT98D3Tc,70.0,80.0,"['Speech', 'Heart murmur']","['Heart sounds, heartbeat', 'Human voice']"
+ZIF84Cq9ae0,0.0,10.0,['Heart murmur'],"['Heart sounds, heartbeat']"
+JudWpbMN-2w,30.0,40.0,"['Heart murmur', 'Music']","['Heart sounds, heartbeat', 'Music']"
+mlPtGad-EWw,30.0,40.0,"['Heart sounds, heartbeat', 'Throbbing']","['Heart sounds, heartbeat', 'Noise']"
+e_FxWfZd-a0,60.0,70.0,"['Heart sounds, heartbeat']","['Heart sounds, heartbeat']"
+LOetNqcZB5c,0.0,10.0,['Heart murmur'],"['Heart sounds, heartbeat']"
+ey_wXCMrS28,30.0,40.0,"['Heart sounds, heartbeat']","['Heart sounds, heartbeat']"
+4ii3rP7iK1I,30.0,40.0,['Heart murmur'],"['Heart sounds, heartbeat']"
+Kl8-ppfYyu0,30.0,40.0,"['Heart sounds, heartbeat', 'Hum', 'Throbbing']","['Heart sounds, heartbeat', 'Noise', 'Onomatopoeia']"
+stQTqkI2f-Y,20.0,30.0,['Heart murmur'],"['Heart sounds, heartbeat']"
+Tz5LuXmoBsQ,0.0,10.0,"['Heart sounds, heartbeat', 'Heart murmur']","['Heart sounds, heartbeat']"
+mlPtGad-EWw,30.0,40.0,"['Heart sounds, heartbeat', 'Throbbing']","['Heart sounds, heartbeat', 'Noise']"
+ey_wXCMrS28,30.0,40.0,"['Heart sounds, heartbeat']","['Heart sounds, heartbeat']"
+mR10DRflzF0,160.0,170.0,"['Heart sounds, heartbeat', 'Hum', 'Throbbing']","['Heart sounds, heartbeat', 'Noise', 'Onomatopoeia']"
+mlPtGad-EWw,30.0,40.0,"['Heart sounds, heartbeat', 'Throbbing']","['Heart sounds, heartbeat', 'Noise']"
+46j44YriLDo,40.0,50.0,"['Heart sounds, heartbeat', 'Static', 'Throbbing']","['Heart sounds, heartbeat', 'Noise']"
+brS8rfqB5Lw,30.0,40.0,"['Heart sounds, heartbeat', 'Hum', 'Throbbing']","['Heart sounds, heartbeat', 'Noise', 'Onomatopoeia']"
+4VL_PAsGhJQ,30.0,40.0,"['Heart sounds, heartbeat', 'Heart murmur', 'Music']","['Heart sounds, heartbeat', 'Music']"
+JudWpbMN-2w,30.0,40.0,"['Heart murmur', 'Music']","['Heart sounds, heartbeat', 'Music']"
+2CB3aKePbXM,220.0,230.0,"['Heart sounds, heartbeat', 'Hum', 'Throbbing']","['Heart sounds, heartbeat', 'Noise', 'Onomatopoeia']"
+WsaSvq0sDgU,30.0,40.0,"['Heart sounds, heartbeat', 'Throbbing']","['Heart sounds, heartbeat', 'Noise']"
+lp8gUJQvsSs,370.0,380.0,"['Heart sounds, heartbeat', 'Hum', 'Throbbing']","['Heart sounds, heartbeat', 'Noise', 'Onomatopoeia']"
+Vlz5rVf_Mlk,30.0,40.0,['Heart murmur'],"['Heart sounds, heartbeat']"
+w2bd5zzom9c,0.0,10.0,"['Heart sounds, heartbeat', 'Heart murmur', 'Music']","['Heart sounds, heartbeat', 'Music']"
+AWjbtXIIE54,26.0,36.0,"['Heart sounds, heartbeat', 'Heart murmur']","['Heart sounds, heartbeat']"
+KMg-uF91hG0,60.0,70.0,"['Heart sounds, heartbeat', 'Hum', 'Throbbing']","['Heart sounds, heartbeat', 'Noise', 'Onomatopoeia']"
+mgadzk41_oM,10.0,20.0,['Heart murmur'],"['Heart sounds, heartbeat']"
+lp8gUJQvsSs,370.0,380.0,"['Heart sounds, heartbeat', 'Hum', 'Throbbing']","['Heart sounds, heartbeat', 'Noise', 'Onomatopoeia']"
+AWjbtXIIE54,26.0,36.0,"['Heart sounds, heartbeat', 'Heart murmur']","['Heart sounds, heartbeat']"
+lp8gUJQvsSs,370.0,380.0,"['Heart sounds, heartbeat', 'Hum', 'Throbbing']","['Heart sounds, heartbeat', 'Noise', 'Onomatopoeia']"
+pbLD2Ljn-is,30.0,40.0,['Heart murmur'],"['Heart sounds, heartbeat']"
+p4Umoiyp7_o,3.0,13.0,"['Heart sounds, heartbeat']","['Heart sounds, heartbeat']"
+2TPXZlM7ZbM,350.0,360.0,"['Speech', 'Heart murmur']","['Heart sounds, heartbeat', 'Human voice']"
+EBMD15Aj0eA,20.0,30.0,['Heart murmur'],"['Heart sounds, heartbeat']"
+ot3nPo702pw,30.0,40.0,"['Heart sounds, heartbeat']","['Heart sounds, heartbeat']"
+s9P0PRt5IKY,0.0,10.0,['Heart murmur'],"['Heart sounds, heartbeat']"
+w2bd5zzom9c,0.0,10.0,"['Heart sounds, heartbeat', 'Heart murmur', 'Music']","['Heart sounds, heartbeat', 'Music']"
+UX3FMrhbvRM,19.0,29.0,"['Heart sounds, heartbeat']","['Heart sounds, heartbeat']"
+rdkRhekgUjk,30.0,40.0,"['Speech', 'Heart murmur']","['Heart sounds, heartbeat', 'Human voice']"
+eosgQDxEAXo,30.0,40.0,"['Heart sounds, heartbeat', 'Heart murmur']","['Heart sounds, heartbeat']"
+KUoEBJeHTRc,15.0,25.0,"['Heart sounds, heartbeat']","['Heart sounds, heartbeat']"
+-76P3VHPuus,10.0,20.0,['Heart murmur'],"['Heart sounds, heartbeat']"
+eosgQDxEAXo,30.0,40.0,"['Heart sounds, heartbeat', 'Heart murmur']","['Heart sounds, heartbeat']"
+KMg-uF91hG0,60.0,70.0,"['Heart sounds, heartbeat', 'Hum', 'Throbbing']","['Heart sounds, heartbeat', 'Noise', 'Onomatopoeia']"
+bldV5gyFoNM,30.0,40.0,"['Speech', 'Heart murmur']","['Heart sounds, heartbeat', 'Human voice']"
+5w5XYrdeQ7U,350.0,360.0,['Heart murmur'],"['Heart sounds, heartbeat']"
+ZIF84Cq9ae0,0.0,10.0,['Heart murmur'],"['Heart sounds, heartbeat']"
+3z5S5G8HSIo,10.0,20.0,"['Heart sounds, heartbeat', 'Hum', 'Throbbing']","['Heart sounds, heartbeat', 'Noise', 'Onomatopoeia']"
+7SRwq1t81Fk,10.0,20.0,"['Speech', 'Music', 'Bouncing']","['Generic impact sounds', 'Music', 'Human voice']"
+NkJCk0lvNkU,30.0,40.0,"['Speech', 'Flap']","['Generic impact sounds', 'Human voice']"
+m_R8mUEGEYk,40.0,50.0,"['Music', 'Bang', 'Inside, large room or hall']","['Music', 'Acoustic environment', 'Generic impact sounds']"
+fGFK3Z5Cks4,16.0,26.0,"['Whoosh, swoosh, swish', 'Whip']","['Miscellaneous sources', 'Generic impact sounds', 'Onomatopoeia']"
+Jz3aX3q3_is,80.0,90.0,"['Knock', 'Silence']","['Domestic sounds, home sounds', 'Silence', 'Generic impact sounds']"
+xw4qCfKt95o,20.0,30.0,"['Speech', 'Thunk']","['Miscellaneous sources', 'Generic impact sounds', 'Human voice']"
+bIVRlQuE4iM,30.0,40.0,['Flap'],['Generic impact sounds']
+gPNBdfJ3LlU,40.0,50.0,"['Singing', 'Bang']","['Generic impact sounds', 'Human voice']"
+UzIo6vUTlLY,30.0,40.0,['Flap'],['Generic impact sounds']
+htDp-eDKhvs,50.0,60.0,"['Slap, smack']",['Generic impact sounds']
+z1HR8RusQZI,20.0,30.0,"['Whack, thwack']",['Generic impact sounds']
+7PaOV4oC3eI,30.0,40.0,"['Speech', 'Tap']","['Domestic sounds, home sounds', 'Generic impact sounds', 'Human voice']"
+Wyw6Rsu6xLg,10.0,20.0,"['Slap, smack']",['Generic impact sounds']
+4BNX_JWdXa0,180.0,190.0,['Thunk'],"['Miscellaneous sources', 'Generic impact sounds']"
+uxTace8BosQ,5.0,15.0,"['Slap, smack']",['Generic impact sounds']
+6o8PU_E-4cg,2.0,12.0,"['Slap, smack']",['Generic impact sounds']
+GFBV97rw4S0,30.0,40.0,"['Smash, crash']",['Generic impact sounds']
+Lcnc81MH65U,30.0,40.0,['Flap'],['Generic impact sounds']
+gPNBdfJ3LlU,40.0,50.0,"['Singing', 'Bang']","['Generic impact sounds', 'Human voice']"
+StfGRdqiPxQ,80.0,90.0,"['Speech', 'Music', 'Thunk', 'Inside, small room']","['Miscellaneous sources', 'Music', 'Human voice', 'Acoustic environment', 'Generic impact sounds']"
+6kijTMUqcMI,0.0,10.0,"['Speech', 'Bouncing']","['Generic impact sounds', 'Human voice']"
+eMkkbJgzl_4,10.0,20.0,"['Crack', 'Breaking', 'Sound effect']","['Generic impact sounds', 'Other sourceless', 'Wood', 'Onomatopoeia']"
+wFRX-mSce8A,0.0,10.0,"['Whack, thwack']",['Generic impact sounds']
+O1Hgsk5XrWc,120.0,130.0,"['Slap, smack']",['Generic impact sounds']
+oekK5PiNgSg,80.0,90.0,"['Speech', 'Bouncing']","['Generic impact sounds', 'Human voice']"
+6o8PU_E-4cg,2.0,12.0,"['Slap, smack']",['Generic impact sounds']
+39MksqVeLdY,390.0,400.0,"['Music', 'Electronic music', 'Bang']","['Music', 'Generic impact sounds']"
+N-26aD8z19c,170.0,180.0,"['Speech', 'Thunk']","['Miscellaneous sources', 'Generic impact sounds', 'Human voice']"
+2Cb9U8poEEI,550.0,560.0,"['Speech', 'Breaking']","['Generic impact sounds', 'Human voice']"
+z1HR8RusQZI,20.0,30.0,"['Whack, thwack']",['Generic impact sounds']
+XlYMElBZO8A,140.0,150.0,"['Music', 'Thunk']","['Miscellaneous sources', 'Music', 'Generic impact sounds']"
+Imrt_R3Tc5U,70.0,80.0,['Whip'],['Generic impact sounds']
+2Cb9U8poEEI,550.0,560.0,"['Speech', 'Breaking']","['Generic impact sounds', 'Human voice']"
+4hhG4upVNcs,30.0,40.0,"['Whoosh, swoosh, swish', 'Whip']","['Miscellaneous sources', 'Generic impact sounds', 'Onomatopoeia']"
+8PT5MS2POEQ,60.0,70.0,"['Speech', 'Breaking']","['Generic impact sounds', 'Human voice']"
+rRP0j9TJlxc,430.0,440.0,"['Thump, thud']","['Miscellaneous sources', 'Generic impact sounds']"
+TgdjcC28d6o,0.0,10.0,['Bouncing'],['Generic impact sounds']
+L0wBWDNZeJo,30.0,40.0,['Tap'],"['Domestic sounds, home sounds', 'Generic impact sounds']"
+-HN5kqCKpEA,30.0,40.0,"['Speech', 'Music', 'Bang']","['Generic impact sounds', 'Music', 'Human voice']"
+uYNHHuIt_zE,210.0,220.0,"['Speech', 'Thunk']","['Miscellaneous sources', 'Generic impact sounds', 'Human voice']"
+GWX7U2J4HCk,170.0,180.0,"['Speech', 'Singing', 'Music', 'Bang']","['Generic impact sounds', 'Music', 'Human voice']"
+1_YHHL_t2GI,150.0,160.0,"['Music', 'Country', 'Tap']","['Domestic sounds, home sounds', 'Music', 'Generic impact sounds']"
+w_Dy6qMXg38,460.0,470.0,"['Music', 'Thunk']","['Miscellaneous sources', 'Music', 'Generic impact sounds']"
+3-Lvdqfmj2U,30.0,40.0,"['Speech', 'Music', 'Door', 'Knock', 'Tap']","['Domestic sounds, home sounds', 'Generic impact sounds', 'Music', 'Human voice']"
+dvuFXzrY8Cc,50.0,60.0,"['Thump, thud']","['Miscellaneous sources', 'Generic impact sounds']"
+Pkp7p-ZM7yU,30.0,40.0,"['Speech', 'Tap']","['Domestic sounds, home sounds', 'Generic impact sounds', 'Human voice']"
+6YicR55sWNA,30.0,40.0,"['Speech', 'Tap']","['Domestic sounds, home sounds', 'Generic impact sounds', 'Human voice']"
+t3w7iwpgmTw,300.0,310.0,"['Smash, crash']",['Generic impact sounds']
+9TyJBWp_gUA,30.0,40.0,"['Speech', 'Flap']","['Generic impact sounds', 'Human voice']"
+rjIlkj5EA3Y,100.0,110.0,"['Speech', 'Music', 'Thump, thud']","['Miscellaneous sources', 'Generic impact sounds', 'Music', 'Human voice']"
+N4_Vav7DA5E,110.0,120.0,"['Speech', 'Crack']","['Onomatopoeia', 'Wood', 'Human voice']"
+jLidXXhcmLo,30.0,40.0,['Rattle'],"['Wild animals', 'Onomatopoeia']"
+HjFNMdHxqoA,9.0,19.0,"['Speech', 'Animal', 'Horse', 'Clip-clop', 'Neigh, whinny', 'Music']","['Livestock, farm animals, working animals', 'Music', 'Human voice', 'Animal', 'Onomatopoeia']"
+xqtntZYr5i0,330.0,340.0,"['Speech', 'Music', 'Squeal']","['Music', 'Onomatopoeia', 'Human voice']"
+d-6916mMj_I,170.0,180.0,"['Crunch', 'Inside, small room']","['Acoustic environment', 'Onomatopoeia']"
+EtWlRyFehqY,480.0,490.0,"['Rail transport', 'Train', 'Train horn', 'Railroad car, train wagon', 'Clickety-clack']","['Vehicle', 'Onomatopoeia']"
+PSGZ2zQ-1nc,190.0,200.0,['Clang'],['Onomatopoeia']
+7wfM1zUa_zo,30.0,40.0,"['Speech', 'Animal', 'Horse', 'Clip-clop', 'Neigh, whinny']","['Livestock, farm animals, working animals', 'Onomatopoeia', 'Animal', 'Human voice']"
+90rgiP6MPM8,0.0,10.0,"['Speech', 'Plop']","['Onomatopoeia', 'Human voice']"
+qZva2pwH-FE,80.0,90.0,"['Hiss', 'Rail transport', 'Train', 'Train whistle', 'Railroad car, train wagon']","['Water', 'Vehicle', 'Wild animals', 'Domestic animals, pets', 'Onomatopoeia']"
+NHKls4K33OU,190.0,200.0,"['Frying (food)', 'Stir', 'Sizzle']","['Domestic sounds, home sounds', 'Liquid', 'Onomatopoeia']"
+d58amQtGkZ4,40.0,50.0,['Squeal'],['Onomatopoeia']
+DVEuOBxAyFM,20.0,30.0,"['Bird', 'Bird vocalization, bird call, bird song', 'Chirp, tweet', 'Rodents, rats, mice']","['Wild animals', 'Onomatopoeia']"
+R-ieGD15_n8,560.0,570.0,"['Rain', 'Rustle']","['Water', 'Onomatopoeia']"
+gDFfhqsN_s0,30.0,40.0,"['Speech', 'Music', 'Squish']","['Music', 'Liquid', 'Onomatopoeia', 'Human voice']"
+3Ob1Gq-4x-c,30.0,40.0,['Rustle'],['Onomatopoeia']
+OfB-IotfiTI,30.0,40.0,['Zing'],['Onomatopoeia']
+FXLcbrD6nsQ,30.0,40.0,"['Speech', 'Animal', 'Horse', 'Clip-clop', 'Music']","['Livestock, farm animals, working animals', 'Music', 'Human voice', 'Animal', 'Onomatopoeia']"
+ZN0HSZLPjPw,0.0,10.0,['Ding'],['Onomatopoeia']
+ckseES0mnrc,30.0,40.0,"['Hiss', 'Snake']","['Water', 'Wild animals', 'Domestic animals, pets', 'Onomatopoeia']"
+qQXDD_qpblY,240.0,250.0,"['Rail transport', 'Train', 'Railroad car, train wagon', 'Train wheels squealing', 'Clickety-clack']","['Vehicle', 'Onomatopoeia']"
+8lq-ftmI2CU,20.0,30.0,"['Music', 'Rumble', 'Inside, large room or hall']","['Music', 'Acoustic environment', 'Onomatopoeia']"
+qQXDD_qpblY,240.0,250.0,"['Rail transport', 'Train', 'Railroad car, train wagon', 'Train wheels squealing', 'Clickety-clack']","['Vehicle', 'Onomatopoeia']"
+LV5OO_2OPkY,9.0,19.0,['Ping'],['Onomatopoeia']
+GFhqFipJTOA,70.0,80.0,"['Music', 'Boing']","['Music', 'Onomatopoeia']"
+ASfZSrB3ttk,0.0,10.0,"['Speech', 'Bouncing', 'Ping']","['Generic impact sounds', 'Onomatopoeia', 'Human voice']"
+TtSAMbur5F8,10.0,20.0,"['Music', 'Clatter']","['Music', 'Onomatopoeia']"
+YjXUdlLkCLQ,80.0,90.0,"['Jingle, tinkle']",['Onomatopoeia']
+9JckqilwSI8,30.0,40.0,"['Mechanisms', 'Creak']","['Mechanisms', 'Onomatopoeia']"
+CSfbHfwsIVE,20.0,30.0,"['Speech', 'Alarm', 'Smoke detector, smoke alarm', 'Beep, bleep']","['Alarm', 'Onomatopoeia', 'Human voice']"
+wpfXm75wn7U,400.0,410.0,['Ding'],['Onomatopoeia']
+P4VkjLq-_bA,30.0,40.0,"['Heart sounds, heartbeat', 'Hum', 'Throbbing']","['Heart sounds, heartbeat', 'Noise', 'Onomatopoeia']"
+_9zw_CcaC3w,370.0,380.0,"['Vehicle', 'Car', 'Rumble']","['Vehicle', 'Onomatopoeia']"
+60cHxyLeuTo,270.0,280.0,"['Mechanisms', 'Creak']","['Mechanisms', 'Onomatopoeia']"
+enp9fi18JqE,30.0,40.0,"['Mechanisms', 'Creak']","['Mechanisms', 'Onomatopoeia']"
+K8-XdUaVPis,50.0,60.0,"['Music', 'A capella', 'Zing']","['Music', 'Onomatopoeia']"
+DhypZB6_06U,90.0,100.0,"['Hiss', 'Steam', 'Steam whistle']","['Water', 'Alarm', 'Wild animals', 'Domestic animals, pets', 'Onomatopoeia']"
+2dP7Vj-BjPc,120.0,130.0,['Sizzle'],['Onomatopoeia']
+fgePtd2aAZ8,30.0,40.0,"['Jingle, tinkle']",['Onomatopoeia']
+R4fiXaeg9TQ,410.0,420.0,"['Hiss', 'Steam', 'Steam whistle']","['Water', 'Alarm', 'Wild animals', 'Domestic animals, pets', 'Onomatopoeia']"
+3SCJ5Azaucg,30.0,40.0,"['Hum', 'Mains hum']","['Noise', 'Onomatopoeia']"
+Uee5rSrKryQ,30.0,40.0,"['Heart sounds, heartbeat', 'Hum', 'Throbbing']","['Heart sounds, heartbeat', 'Noise', 'Onomatopoeia']"
+Cbs3oYxw2u0,30.0,40.0,"['Speech', 'Animal', 'Horse', 'Clip-clop', 'Music']","['Livestock, farm animals, working animals', 'Music', 'Human voice', 'Animal', 'Onomatopoeia']"
+esTCAafs-kY,0.0,10.0,['Tick'],"['Mechanisms', 'Onomatopoeia']"
+6npxrceKQyQ,370.0,380.0,"['Hum', 'Mains hum']","['Noise', 'Onomatopoeia']"
+ExKxdQ_Kph0,200.0,210.0,"['Thunder', 'Rustle']","['Onomatopoeia', 'Thunderstorm']"
+z1Jkso4jTe4,110.0,120.0,"['Whoosh, swoosh, swish']","['Miscellaneous sources', 'Onomatopoeia']"
+9mm8Ls28j2E,110.0,120.0,"['Music', 'Crack', 'Crumpling, crinkling']","['Music', 'Wood', 'Deformable shell', 'Onomatopoeia']"
+KMkJgCbjv_w,100.0,110.0,"['Music', 'Crack']","['Music', 'Wood', 'Onomatopoeia']"
+IWu30tiC6UE,30.0,40.0,"['Mechanisms', 'Creak']","['Mechanisms', 'Onomatopoeia']"
+Rz53WSJeUfs,30.0,40.0,"['Walk, footsteps']",['Human locomotion']
+pi5IzVbCJhc,30.0,40.0,"['Speech', 'Run', 'Outside, urban or manmade']","['Acoustic environment', 'Human locomotion', 'Human voice']"
+-2hQKCE-oTI,30.0,40.0,"['Walk, footsteps']",['Human locomotion']
+Y4TEp8xLTUM,30.0,40.0,"['Speech', 'Shuffle']","['Human locomotion', 'Human voice']"
+hWJ8NjKw8cU,60.0,70.0,"['Run', 'Animal', 'Domestic animals, pets', 'Dog']","['Domestic animals, pets', 'Human locomotion', 'Animal']"
+UmbVKqmvaRY,150.0,160.0,"['Speech', 'Walk, footsteps']","['Human locomotion', 'Human voice']"
+o6nfEa2ooyY,350.0,360.0,"['Speech', 'Shuffle']","['Human locomotion', 'Human voice']"
+UmbVKqmvaRY,150.0,160.0,"['Speech', 'Walk, footsteps']","['Human locomotion', 'Human voice']"
+PhzsA7H-myg,100.0,110.0,"['Walk, footsteps']",['Human locomotion']
+1mm09kC1HW0,30.0,40.0,"['Speech', 'Shuffle', 'Music']","['Music', 'Human locomotion', 'Human voice']"
+HiQrkS04hyA,30.0,40.0,"['Speech', 'Run']","['Human locomotion', 'Human voice']"
+PhzsA7H-myg,100.0,110.0,"['Walk, footsteps']",['Human locomotion']
+MyeC6C7jwEk,30.0,40.0,['Run'],['Human locomotion']
+W4Ouv63YHIY,230.0,240.0,['Run'],['Human locomotion']
+_XBqA_26vus,30.0,40.0,"['Walk, footsteps', 'Outside, rural or natural']","['Human locomotion', 'Acoustic environment']"
+JQz76trKbNk,30.0,40.0,"['Speech', 'Male speech, man speaking', 'Run', 'Outside, urban or manmade']","['Acoustic environment', 'Human locomotion', 'Human voice']"
+g6hEiX4XTcw,340.0,350.0,"['Speech', 'Run', 'Outside, urban or manmade']","['Acoustic environment', 'Human locomotion', 'Human voice']"
+l_6AWXaSQKE,30.0,40.0,"['Speech', 'Shuffle']","['Human locomotion', 'Human voice']"
+GSO1x7beeNk,30.0,40.0,"['Shuffle', 'Music']","['Music', 'Human locomotion']"
+-IWlQN6cfe4,30.0,40.0,"['Walk, footsteps']",['Human locomotion']
+E4vMZ4hiP2c,30.0,40.0,"['Speech', 'Run', 'Outside, rural or natural']","['Acoustic environment', 'Human locomotion', 'Human voice']"
+fsgqa6oQq50,1.0,11.0,"['Speech', 'Run', 'Outside, urban or manmade']","['Acoustic environment', 'Human locomotion', 'Human voice']"
+fT_ccNQxaPA,30.0,40.0,"['Speech', 'Run', 'Music']","['Music', 'Human locomotion', 'Human voice']"
+2efDTZwa39s,550.0,560.0,"['Speech', 'Walk, footsteps']","['Human locomotion', 'Human voice']"
+JNH67Qy5yRI,260.0,270.0,['Run'],['Human locomotion']
+0KXc1iKGh7s,14.0,24.0,"['Walk, footsteps']",['Human locomotion']
+sp-G4OnKwqs,30.0,40.0,"['Speech', 'Shuffle']","['Human locomotion', 'Human voice']"
+0Us4I_vXrf4,11.0,21.0,"['Speech', 'Run', 'Inside, public space']","['Acoustic environment', 'Human locomotion', 'Human voice']"
+sp-G4OnKwqs,30.0,40.0,"['Speech', 'Shuffle']","['Human locomotion', 'Human voice']"
+Apd17vHNhMM,30.0,40.0,"['Shuffle', 'Music']","['Music', 'Human locomotion']"
+iWdfhh87RmY,30.0,40.0,"['Speech', 'Shuffle', 'Music', 'House music']","['Music', 'Human locomotion', 'Human voice']"
+0-bqcP2usR4,30.0,40.0,"['Speech', 'Run', 'Music']","['Music', 'Human locomotion', 'Human voice']"
+tOnbheVe0nI,170.0,180.0,"['Speech', 'Run']","['Human locomotion', 'Human voice']"
+sky988aB19w,30.0,40.0,"['Shuffle', 'Music']","['Music', 'Human locomotion']"
+dohLSefRWxg,9.0,19.0,"['Speech', 'Run', 'Animal', 'Liquid', 'Outside, rural or natural']","['Liquid', 'Human voice', 'Animal', 'Acoustic environment', 'Human locomotion']"
+UqX8QfCBtSA,300.0,310.0,"['Walk, footsteps', 'Music']","['Music', 'Human locomotion']"
+zxBo7nnAMVE,30.0,40.0,"['Speech', 'Run', 'Music', 'Outside, rural or natural']","['Music', 'Acoustic environment', 'Human locomotion', 'Human voice']"
+5ciRkY7tF6s,30.0,40.0,['Shuffle'],['Human locomotion']
+PdbSJW03FpQ,6.0,16.0,"['Speech', 'Run', 'Outside, urban or manmade']","['Acoustic environment', 'Human locomotion', 'Human voice']"
+8sXu3FjHPps,30.0,40.0,"['Speech', 'Run', 'Music']","['Music', 'Human locomotion', 'Human voice']"
+cyxzziWTK04,240.0,250.0,"['Speech', 'Walk, footsteps']","['Human locomotion', 'Human voice']"
+Kxa3vvie0TI,30.0,40.0,"['Speech', 'Run', 'Outside, urban or manmade']","['Acoustic environment', 'Human locomotion', 'Human voice']"
+UZriZzZQUbs,280.0,290.0,"['Speech', 'Walk, footsteps']","['Human locomotion', 'Human voice']"
+RgkT2Vea3OA,30.0,40.0,"['Run', 'Music', 'Outside, urban or manmade']","['Music', 'Human locomotion', 'Acoustic environment']"
+E4vMZ4hiP2c,30.0,40.0,"['Speech', 'Run', 'Outside, rural or natural']","['Acoustic environment', 'Human locomotion', 'Human voice']"
+R4sK2kZYbI4,30.0,40.0,"['Speech', 'Shuffle']","['Human locomotion', 'Human voice']"
+-2hQKCE-oTI,30.0,40.0,"['Walk, footsteps']",['Human locomotion']
+bhZMbeh2XxM,30.0,40.0,"['Shuffle', 'Music']","['Music', 'Human locomotion']"
+sp-G4OnKwqs,30.0,40.0,"['Speech', 'Shuffle']","['Human locomotion', 'Human voice']"
+22hbrVKr5ic,30.0,40.0,['Shuffle'],['Human locomotion']
+wLadCTrZciw,90.0,100.0,['Basketball bounce'],['Specific impact sounds']
+ACnNYVsurTE,30.0,40.0,"['Music', 'Basketball bounce']","['Specific impact sounds', 'Music']"
+oGT3waf-11Q,10.0,20.0,"['Trickle, dribble', 'Basketball bounce']","['Specific impact sounds', 'Liquid']"
+192AgE8E-cw,140.0,150.0,"['Speech', 'Basketball bounce']","['Specific impact sounds', 'Human voice']"
+pExh2tAcfOM,30.0,40.0,"['Speech', 'Basketball bounce', 'Bouncing']","['Generic impact sounds', 'Specific impact sounds', 'Human voice']"
+ACnNYVsurTE,30.0,40.0,"['Music', 'Basketball bounce']","['Specific impact sounds', 'Music']"
+ezt5nlOxhj4,0.0,10.0,"['Speech', 'Trickle, dribble', 'Basketball bounce']","['Specific impact sounds', 'Liquid', 'Human voice']"
+Gce5E2hjqnA,90.0,100.0,['Basketball bounce'],['Specific impact sounds']
+UZorVC0a2ko,20.0,30.0,"['Basketball bounce', 'Bouncing']","['Specific impact sounds', 'Generic impact sounds']"
+wKtX-v71_DI,130.0,140.0,"['Speech', 'Child speech, kid speaking', 'Run', 'Basketball bounce']","['Specific impact sounds', 'Human locomotion', 'Human voice']"
+BztVrOphyc4,180.0,190.0,"['Speech', 'Basketball bounce']","['Specific impact sounds', 'Human voice']"
+l6BkB2mTkRE,80.0,90.0,"['Speech', 'Music', 'Basketball bounce']","['Specific impact sounds', 'Music', 'Human voice']"
+4EKWTiWjPTQ,50.0,60.0,['Basketball bounce'],['Specific impact sounds']
+YtLl-jJLmg0,90.0,100.0,['Basketball bounce'],['Specific impact sounds']
+BztVrOphyc4,180.0,190.0,"['Speech', 'Basketball bounce']","['Specific impact sounds', 'Human voice']"
+C0HtFvZC5W8,80.0,90.0,['Basketball bounce'],['Specific impact sounds']
+pExh2tAcfOM,30.0,40.0,"['Speech', 'Basketball bounce', 'Bouncing']","['Generic impact sounds', 'Specific impact sounds', 'Human voice']"
+mhZXWq239lI,0.0,10.0,"['Speech', 'Basketball bounce']","['Specific impact sounds', 'Human voice']"
+GB1aiADP2YI,0.0,10.0,"['Speech', 'Basketball bounce']","['Specific impact sounds', 'Human voice']"
+IMXJr_dEUEg,180.0,190.0,['Basketball bounce'],['Specific impact sounds']
+u3wiO29Rmt8,0.0,10.0,['Basketball bounce'],['Specific impact sounds']
+WG0O7egnawI,50.0,60.0,['Basketball bounce'],['Specific impact sounds']
+YtLl-jJLmg0,90.0,100.0,['Basketball bounce'],['Specific impact sounds']
+T26g0HOmYdQ,50.0,60.0,['Basketball bounce'],['Specific impact sounds']
+9Iqde3SX3v0,20.0,30.0,['Basketball bounce'],['Specific impact sounds']
+KKrYmKdffcA,30.0,40.0,"['Music', 'Basketball bounce']","['Specific impact sounds', 'Music']"
+T26g0HOmYdQ,50.0,60.0,['Basketball bounce'],['Specific impact sounds']
+7gd0ZHHmLGw,40.0,50.0,['Basketball bounce'],['Specific impact sounds']
+musurEy0zWI,390.0,400.0,"['Speech', 'Basketball bounce', 'Bouncing']","['Generic impact sounds', 'Specific impact sounds', 'Human voice']"
+qiPKWD2Q3kE,110.0,120.0,"['Speech', 'Music', 'Basketball bounce', 'Outside, urban or manmade']","['Specific impact sounds', 'Music', 'Acoustic environment', 'Human voice']"
+ah4Z7LadZx0,0.0,10.0,"['Speech', 'Basketball bounce']","['Specific impact sounds', 'Human voice']"
+XrOlRy6s_B8,30.0,40.0,['Basketball bounce'],['Specific impact sounds']
+jQFHGrLHMdg,110.0,120.0,"['Speech', 'Basketball bounce']","['Specific impact sounds', 'Human voice']"
+qFOv3ahBCD0,10.0,20.0,"['Speech', 'Slam', 'Basketball bounce']","['Domestic sounds, home sounds', 'Specific impact sounds', 'Human voice']"
+jrQ_iE3kR7A,70.0,80.0,"['Music', 'Basketball bounce']","['Specific impact sounds', 'Music']"
+13gVMuGhK3g,240.0,250.0,"['Speech', 'Basketball bounce']","['Specific impact sounds', 'Human voice']"
+YtLl-jJLmg0,90.0,100.0,['Basketball bounce'],['Specific impact sounds']
+-KElVp2r03E,530.0,540.0,"['Speech', 'Slam', 'Basketball bounce']","['Domestic sounds, home sounds', 'Specific impact sounds', 'Human voice']"
+HvFzjf4R3sk,0.0,10.0,"['Speech', 'Basketball bounce']","['Specific impact sounds', 'Human voice']"
+V9gGx8FcJvE,470.0,480.0,"['Speech', 'Basketball bounce']","['Specific impact sounds', 'Human voice']"
+AK6S9-rWp-U,30.0,40.0,"['Speech', 'Music', 'Basketball bounce']","['Specific impact sounds', 'Music', 'Human voice']"
+Egn3JAfIYNY,0.0,10.0,"['Basketball bounce', 'Bouncing']","['Specific impact sounds', 'Generic impact sounds']"
+wLadCTrZciw,90.0,100.0,['Basketball bounce'],['Specific impact sounds']
+13gVMuGhK3g,240.0,250.0,"['Speech', 'Basketball bounce']","['Specific impact sounds', 'Human voice']"
+pDd274u1TDg,0.0,10.0,['Basketball bounce'],['Specific impact sounds']
+Cv3ioWgt7v8,320.0,330.0,['Basketball bounce'],['Specific impact sounds']
+UZorVC0a2ko,20.0,30.0,"['Basketball bounce', 'Bouncing']","['Specific impact sounds', 'Generic impact sounds']"
+musurEy0zWI,390.0,400.0,"['Speech', 'Basketball bounce', 'Bouncing']","['Generic impact sounds', 'Specific impact sounds', 'Human voice']"
+Pgo6VJyz3tY,0.0,10.0,"['Speech', 'Basketball bounce']","['Specific impact sounds', 'Human voice']"
+zCw3ezp7jTE,370.0,380.0,['Basketball bounce'],['Specific impact sounds']
+Zk5Nx_uVFIk,0.0,10.0,"['Music', 'Electronic tuner', 'Silence']","['Miscellaneous sources', 'Music', 'Silence']"
+vmAsxFQbEg4,190.0,200.0,"['Speech', 'Silence']","['Silence', 'Human voice']"
+Jz3aX3q3_is,80.0,90.0,"['Knock', 'Silence']","['Domestic sounds, home sounds', 'Silence', 'Generic impact sounds']"
+nDfjIxcNlKw,130.0,140.0,"['Thunk', 'Silence', 'Inside, large room or hall']","['Miscellaneous sources', 'Acoustic environment', 'Silence', 'Generic impact sounds']"
+KS3IS1WWpPU,0.0,10.0,"['Music', 'Silence']","['Music', 'Silence']"
+vHI-K4MAPVE,10.0,20.0,"['Music', 'Silence']","['Music', 'Silence']"
+I4yKEKiFHPQ,10.0,20.0,"['Single-lens reflex camera', 'Silence']","['Silence', 'Mechanisms']"
+8MAr2YZX-80,300.0,310.0,"['Sigh', 'Silence']","['Silence', 'Human voice']"
+vUuUsqhU934,560.0,570.0,['Silence'],['Silence']
+oQs4NFBTxd8,50.0,60.0,"['Music', 'Silence']","['Music', 'Silence']"
+vmAsxFQbEg4,190.0,200.0,"['Speech', 'Silence']","['Silence', 'Human voice']"
+wU_LR9I9ea4,0.0,10.0,"['Snoring', 'Silence', 'Inside, small room']","['Respiratory sounds', 'Silence', 'Acoustic environment']"
+Q_p6GcY59AE,10.0,20.0,"['Telephone dialing, DTMF', 'Silence', 'Inside, small room']","['Alarm', 'Silence', 'Acoustic environment']"
+crwW2hUoMjQ,10.0,20.0,['Silence'],['Silence']
+HTLK55-Fl80,0.0,10.0,"['Speech', 'Silence', 'Inside, small room']","['Acoustic environment', 'Silence', 'Human voice']"
+vmAsxFQbEg4,190.0,200.0,"['Speech', 'Silence']","['Silence', 'Human voice']"
+JoLdbmgLm1I,530.0,540.0,['Silence'],['Silence']
+Q_p6GcY59AE,10.0,20.0,"['Telephone dialing, DTMF', 'Silence', 'Inside, small room']","['Alarm', 'Silence', 'Acoustic environment']"
+HTLK55-Fl80,0.0,10.0,"['Speech', 'Silence', 'Inside, small room']","['Acoustic environment', 'Silence', 'Human voice']"
+oN1rNCe_qIg,200.0,210.0,"['Chewing, mastication', 'Silence', 'Inside, small room']","['Digestive', 'Silence', 'Acoustic environment']"
+rNUtYf6EdW8,470.0,480.0,"['Music', 'Scary music', 'Silence']","['Music', 'Silence']"
+X83qvgYnmOM,0.0,10.0,"['Music', 'Busy signal', 'Silence']","['Alarm', 'Music', 'Silence']"
+SyY1hl7cOMU,210.0,220.0,"['Sigh', 'Music', 'Silence']","['Music', 'Silence', 'Human voice']"
+8MAr2YZX-80,300.0,310.0,"['Sigh', 'Silence']","['Silence', 'Human voice']"
+SC2MOZtwocA,360.0,370.0,"['Music', 'Boing', 'Silence']","['Music', 'Silence', 'Onomatopoeia']"
+G9sncGg9bUQ,0.0,10.0,"['Speech', 'Music', 'Silence']","['Music', 'Silence', 'Human voice']"
+koZiVapPW4Q,220.0,230.0,"['Telephone bell ringing', 'Silence']","['Alarm', 'Silence']"
+zyGjrJfE_rg,120.0,130.0,"['Speech', 'Silence']","['Silence', 'Human voice']"
+oN1rNCe_qIg,200.0,210.0,"['Chewing, mastication', 'Silence', 'Inside, small room']","['Digestive', 'Silence', 'Acoustic environment']"
+crwW2hUoMjQ,10.0,20.0,['Silence'],['Silence']
+Jz3aX3q3_is,80.0,90.0,"['Knock', 'Silence']","['Domestic sounds, home sounds', 'Silence', 'Generic impact sounds']"
+nDfjIxcNlKw,130.0,140.0,"['Thunk', 'Silence', 'Inside, large room or hall']","['Miscellaneous sources', 'Acoustic environment', 'Silence', 'Generic impact sounds']"
+vHI-K4MAPVE,10.0,20.0,"['Music', 'Silence']","['Music', 'Silence']"
+cmtMUDcwHL4,170.0,180.0,"['Speech', 'Electric shaver, electric razor', 'Silence', 'Inside, small room']","['Domestic sounds, home sounds', 'Acoustic environment', 'Silence', 'Human voice']"
+N5NGtmtnz_c,0.0,10.0,"['Silence', 'Sidetone']","['Noise', 'Silence']"
+DO1EixrtWvw,370.0,380.0,"['Speech', 'Clicking', 'Silence']","['Silence', 'Onomatopoeia', 'Human voice']"
+rNUtYf6EdW8,470.0,480.0,"['Music', 'Scary music', 'Silence']","['Music', 'Silence']"
+wE5_OTgj51E,330.0,340.0,"['Music', 'Shatter', 'Silence']","['Glass', 'Music', 'Silence']"
+Zk5Nx_uVFIk,0.0,10.0,"['Music', 'Electronic tuner', 'Silence']","['Miscellaneous sources', 'Music', 'Silence']"
+WdNu0Yh85bM,250.0,260.0,"['Silence', 'Inside, small room']","['Silence', 'Acoustic environment']"
+TBBXRQHKFcE,0.0,10.0,"['Music', 'Silence']","['Music', 'Silence']"
+HoVrv3_xhS8,140.0,150.0,"['Speech', 'Bicycle bell', 'Silence', 'Inside, small room']","['Vehicle', 'Alarm', 'Music', 'Silence', 'Human voice', 'Acoustic environment']"
+SC2MOZtwocA,360.0,370.0,"['Music', 'Boing', 'Silence']","['Music', 'Silence', 'Onomatopoeia']"
+wf0DykggBpk,10.0,20.0,"['Speech', 'Groan', 'Silence']","['Silence', 'Human voice']"
+8MAr2YZX-80,300.0,310.0,"['Sigh', 'Silence']","['Silence', 'Human voice']"
+zyGjrJfE_rg,120.0,130.0,"['Speech', 'Silence']","['Silence', 'Human voice']"
+15cExYBs0D4,360.0,370.0,"['Speech', 'Silence']","['Silence', 'Human voice']"
+UMfMC4FMZGc,0.0,10.0,"['Silence', 'Sidetone']","['Noise', 'Silence']"
+oh08bbDVFZM,80.0,90.0,"['Eruption', 'Silence', 'Outside, urban or manmade']","['Acoustic environment', 'Silence', 'Explosion']"
+KS3IS1WWpPU,0.0,10.0,"['Music', 'Silence']","['Music', 'Silence']"
+pDH7G4gQrEk,50.0,60.0,['Applause'],['Human group actions']
+MTxSqcr9xss,0.0,10.0,"['Speech', 'Hubbub, speech noise, speech babble']","['Noise', 'Human group actions', 'Human voice']"
+u2iXtdqZIz8,50.0,60.0,"['Children shouting', 'Cheering', 'Crowd']","['Human group actions', 'Human voice']"
+dPqJgWpoOmk,10.0,20.0,"['Speech', 'Hubbub, speech noise, speech babble']","['Noise', 'Human group actions', 'Human voice']"
+0jaaX-we-8g,0.0,10.0,"['Speech', 'Hubbub, speech noise, speech babble', 'Outside, urban or manmade']","['Acoustic environment', 'Noise', 'Human group actions', 'Human voice']"
+CRCYiI6n5jE,20.0,30.0,"['Speech', 'Chatter', 'Outside, urban or manmade']","['Acoustic environment', 'Human group actions', 'Human voice']"
+klZUxsNdcas,340.0,350.0,"['Speech', 'Crowd', 'Hubbub, speech noise, speech babble']","['Noise', 'Human group actions', 'Human voice']"
+4AZPDLhB--g,60.0,70.0,"['Children shouting', 'Cheering', 'Crowd']","['Human group actions', 'Human voice']"
+17kDSc8viaY,170.0,180.0,"['Speech', 'Applause', 'Music']","['Music', 'Human group actions', 'Human voice']"
+xgsaq8Esr8c,60.0,70.0,"['Battle cry', 'Crowd']","['Human group actions', 'Human voice']"
+O7qkGnBxAzs,170.0,180.0,"['Battle cry', 'Crowd']","['Human group actions', 'Human voice']"
+69dKhidkKso,70.0,80.0,"['Speech', 'Children playing', 'Inside, small room']","['Acoustic environment', 'Human group actions', 'Human voice']"
+iO5-VJGf7wI,280.0,290.0,"['Speech', 'Crowd', 'Music', 'Steelpan']","['Music', 'Human group actions', 'Human voice']"
+y4EOFoW0ix8,10.0,20.0,"['Speech', 'Clapping', 'Music']","['Music', 'Human group actions', 'Hands', 'Human voice']"
+Uc6w5luF8yE,110.0,120.0,"['Speech', 'Child speech, kid speaking', 'Children playing']","['Human group actions', 'Human voice']"
+2MGsPzzb4yA,30.0,40.0,"['Battle cry', 'Cheering', 'Crowd']","['Human group actions', 'Human voice']"
+-RRi3QktLdc,500.0,510.0,"['Speech', 'Child speech, kid speaking', 'Children playing', 'Outside, urban or manmade']","['Acoustic environment', 'Human group actions', 'Human voice']"
+d-CizMuk6wE,140.0,150.0,"['Speech', 'Child speech, kid speaking', 'Children playing']","['Human group actions', 'Human voice']"
+wSDBLBR5r4Y,250.0,260.0,"['Children shouting', 'Cheering', 'Crowd']","['Human group actions', 'Human voice']"
+UZYDN3DBkAk,110.0,120.0,"['Children shouting', 'Cheering', 'Crowd']","['Human group actions', 'Human voice']"
+WtV5ird3gPM,270.0,280.0,"['Children shouting', 'Cheering', 'Crowd']","['Human group actions', 'Human voice']"
+dB1NAnKeRsg,160.0,170.0,"['Speech', 'Chatter']","['Human group actions', 'Human voice']"
+9xO4zF1fJgA,30.0,40.0,['Applause'],['Human group actions']
+dovcNqAhB3Q,150.0,160.0,"['Speech', 'Chatter']","['Human group actions', 'Human voice']"
+tEuEfUmiqbw,20.0,30.0,"['Speech', 'Chatter', 'Music', 'Outside, urban or manmade']","['Acoustic environment', 'Music', 'Human group actions', 'Human voice']"
+1IxBagCJeZc,150.0,160.0,"['Speech', 'Laughter', 'Clapping']","['Human group actions', 'Hands', 'Human voice']"
+T9SfXoYuvpo,40.0,50.0,"['Children shouting', 'Cheering', 'Crowd']","['Human group actions', 'Human voice']"
+pjm2rNsIvps,10.0,20.0,"['Speech', 'Chatter', 'Outside, urban or manmade']","['Acoustic environment', 'Human group actions', 'Human voice']"
+iYrfMKz1xE8,30.0,40.0,"['Speech', 'Male speech, man speaking', 'Cheering', 'Music']","['Music', 'Human group actions', 'Human voice']"
+CKogmNGkGHE,180.0,190.0,"['Speech', 'Singing', 'Clapping', 'Music', 'Flamenco']","['Music', 'Human group actions', 'Hands', 'Human voice']"
+-lw0uLmWjlE,240.0,250.0,"['Speech', 'Child speech, kid speaking', 'Children playing']","['Human group actions', 'Human voice']"
+i8o96xwalAM,180.0,190.0,"['Speech', 'Applause']","['Human group actions', 'Human voice']"
+r7Oq0c1GGqI,0.0,10.0,"['Battle cry', 'Cheering', 'Crowd']","['Human group actions', 'Human voice']"
+n5g96qczt5E,150.0,160.0,"['Speech', 'Children playing']","['Human group actions', 'Human voice']"
+2QqkmyMQ7zQ,30.0,40.0,"['Children playing', 'Music']","['Music', 'Human group actions']"
+lVCUaqXeBjY,70.0,80.0,"['Children shouting', 'Cheering', 'Crowd']","['Human group actions', 'Human voice']"
+WhqTqqzGRng,10.0,20.0,"['Children shouting', 'Cheering', 'Crowd']","['Human group actions', 'Human voice']"
+gkokj7BhkAE,220.0,230.0,"['Speech', 'Applause', 'Music', 'Steelpan']","['Music', 'Human group actions', 'Human voice']"
+nQp7qqTQcF8,320.0,330.0,"['Battle cry', 'Crowd']","['Human group actions', 'Human voice']"
+teVE2waWdsU,30.0,40.0,['Clapping'],"['Human group actions', 'Hands']"
+Mg4X4gznL7k,170.0,180.0,"['Speech', 'Chatter', 'Outside, urban or manmade']","['Acoustic environment', 'Human group actions', 'Human voice']"
+IpkSmoVcU20,320.0,330.0,"['Speech', 'Clapping', 'Slap, smack', 'Inside, large room or hall']","['Human group actions', 'Human voice', 'Acoustic environment', 'Hands', 'Generic impact sounds']"
+3PliaLqMSqg,30.0,40.0,"['Speech', 'Clapping', 'Applause']","['Human group actions', 'Hands', 'Human voice']"
+GSUrOmwrCdw,460.0,470.0,"['Speech', 'Chatter']","['Human group actions', 'Human voice']"
+hFTcS18hSn0,17.0,27.0,['Clapping'],"['Human group actions', 'Hands']"
+4mOTOTJLv5U,0.0,10.0,"['Speech', 'Child speech, kid speaking', 'Clapping']","['Human group actions', 'Hands', 'Human voice']"
+SxZXYlCkLt0,10.0,20.0,"['Children shouting', 'Cheering', 'Crowd']","['Human group actions', 'Human voice']"
+LiehcxCYdIo,70.0,80.0,"['Speech', 'Hubbub, speech noise, speech babble', 'Animal', 'Dog']","['Noise', 'Human group actions', 'Human voice', 'Domestic animals, pets', 'Animal']"
+klZUxsNdcas,340.0,350.0,"['Speech', 'Crowd', 'Hubbub, speech noise, speech babble']","['Noise', 'Human group actions', 'Human voice']"
+-IZsyroG6yo,420.0,430.0,"['Speech', 'Chatter']","['Human group actions', 'Human voice']"
+y5mdozqiREI,23.0,33.0,"['Heart sounds, heartbeat', 'Hum', 'Throbbing']","['Heart sounds, heartbeat', 'Noise', 'Onomatopoeia']"
+iOMF54wj2aA,70.0,80.0,"['Speech', 'Outside, urban or manmade', 'Pink noise']","['Noise', 'Acoustic environment', 'Human voice']"
+sHKsFM6wxmI,240.0,250.0,"['Music', 'Pink noise']","['Noise', 'Music']"
+FryyzTMnbCg,510.0,520.0,"['Speech', 'Hubbub, speech noise, speech babble']","['Noise', 'Human group actions', 'Human voice']"
+yMdOxfnxkB0,10.0,20.0,"['Speech', 'Hubbub, speech noise, speech babble', 'Music', 'Outside, urban or manmade']","['Noise', 'Music', 'Human group actions', 'Human voice', 'Acoustic environment']"
+cYusHSmZRMY,30.0,40.0,"['Music', 'Electric guitar', 'Effects unit', 'Distortion']","['Miscellaneous sources', 'Music', 'Noise']"
+b54Z49tWhlU,30.0,40.0,"['Hum', 'Static']","['Noise', 'Onomatopoeia']"
+bbZ9D87RFIM,420.0,430.0,"['Speech', 'Hubbub, speech noise, speech babble']","['Noise', 'Human group actions', 'Human voice']"
+iHTrYQjk_kA,30.0,40.0,"['Vehicle', 'Car', 'Race car, auto racing', 'Engine', 'Vibration']","['Noise', 'Engine', 'Vehicle']"
+tVZCe9vmQHk,260.0,270.0,"['Speech', 'Inside, large room or hall', 'Pink noise']","['Noise', 'Acoustic environment', 'Human voice']"
+3GMqiUz2tug,130.0,140.0,"['Hum', 'Mains hum']","['Noise', 'Onomatopoeia']"
+ph-3xRmnuiY,10.0,20.0,['Cacophony'],['Noise']
+zvDRFbVqMJg,160.0,170.0,"['Speech', 'Music', 'Outside, rural or natural', 'Pink noise']","['Noise', 'Music', 'Acoustic environment', 'Human voice']"
+3z5S5G8HSIo,10.0,20.0,"['Heart sounds, heartbeat', 'Hum', 'Throbbing']","['Heart sounds, heartbeat', 'Noise', 'Onomatopoeia']"
+U9fD26xPuiw,30.0,40.0,"['Hum', 'Static']","['Noise', 'Onomatopoeia']"
+2LKvz3E-kiA,30.0,40.0,"['Hum', 'Static', 'Throbbing']","['Noise', 'Onomatopoeia']"
+JZMBafpxf40,8.0,18.0,['White noise'],['Noise']
+rNaVVn0PzeQ,340.0,350.0,"['Music', 'Pink noise']","['Noise', 'Music']"
+Driy9TsSl2I,340.0,350.0,['Cacophony'],['Noise']
+6npxrceKQyQ,370.0,380.0,"['Hum', 'Mains hum']","['Noise', 'Onomatopoeia']"
+1ibhjYxaEvM,18.0,28.0,"['Heart sounds, heartbeat', 'Throbbing']","['Heart sounds, heartbeat', 'Noise']"
+2mOwAL8_vog,30.0,40.0,"['Hum', 'Static']","['Noise', 'Onomatopoeia']"
+b54Z49tWhlU,30.0,40.0,"['Hum', 'Static']","['Noise', 'Onomatopoeia']"
+40i3_JH6FYw,90.0,100.0,"['Music', 'Musical instrument', 'Plucked string instrument', 'Guitar', 'Bowed string instrument', 'Effects unit', 'Reverberation', 'Distortion']","['Miscellaneous sources', 'Noise', 'Music', 'Acoustic environment']"
+9e_oy8KyCgU,400.0,410.0,['Sidetone'],['Noise']
+iMl_HtFVS84,170.0,180.0,"['Music', 'Outside, rural or natural', 'Pink noise']","['Noise', 'Music', 'Acoustic environment']"
+oSbyAbS6e2c,30.0,40.0,"['Speech', 'Engine', 'Engine knocking', 'Accelerating, revving, vroom', 'Vibration']","['Noise', 'Engine', 'Human voice']"
+BBcXJhZHNZ8,0.0,10.0,['Static'],['Noise']
+KhCQ8zH8yKU,10.0,20.0,['Noise'],['Noise']
+Z5sQqTEvrGc,250.0,260.0,['Pink noise'],['Noise']
+2mBef9KrCpk,420.0,430.0,"['Speech', 'Pink noise']","['Noise', 'Human voice']"
+Sci2ZvIwqRY,10.0,20.0,"['Hum', 'Mains hum']","['Noise', 'Onomatopoeia']"
+s6qrUVWgCpc,120.0,130.0,"['Hum', 'Mains hum']","['Noise', 'Onomatopoeia']"
+Kl8-ppfYyu0,30.0,40.0,"['Heart sounds, heartbeat', 'Hum', 'Throbbing']","['Heart sounds, heartbeat', 'Noise', 'Onomatopoeia']"
+lwCZZEBgqg8,90.0,100.0,"['Music', 'Guitar', 'Electric guitar', 'Bass guitar', 'Effects unit', 'Distortion']","['Miscellaneous sources', 'Music', 'Noise']"
+2CB3aKePbXM,220.0,230.0,"['Heart sounds, heartbeat', 'Hum', 'Throbbing']","['Heart sounds, heartbeat', 'Noise', 'Onomatopoeia']"
+uRIzEtwt8MY,160.0,170.0,"['Speech', 'White noise']","['Noise', 'Human voice']"
+iOMF54wj2aA,70.0,80.0,"['Speech', 'Outside, urban or manmade', 'Pink noise']","['Noise', 'Acoustic environment', 'Human voice']"
+rO7f9vsE3Hk,30.0,40.0,"['Music', 'Musical instrument', 'Guitar', 'Effects unit', 'Chorus effect', 'Reverberation', 'Echo', 'Distortion']","['Miscellaneous sources', 'Noise', 'Music', 'Acoustic environment']"
+n2g-33m8YRw,30.0,40.0,"['Music', 'Electric guitar', 'Bass guitar', 'Tapping (guitar technique)', 'Distortion']","['Noise', 'Music']"
+MH9Oj_g6xYU,30.0,40.0,"['Engine', 'White noise']","['Noise', 'Engine']"
+yUqAKJXTN1o,10.0,20.0,"['Hum', 'Mains hum']","['Noise', 'Onomatopoeia']"
+zSSIGv82318,10.0,20.0,"['Music', 'Musical instrument', 'Plucked string instrument', 'Guitar', 'Effects unit', 'Chorus effect', 'Distortion']","['Miscellaneous sources', 'Music', 'Noise']"
+DwZUTNBDRL8,20.0,30.0,"['Speech', 'Outside, rural or natural', 'Environmental noise']","['Noise', 'Acoustic environment', 'Human voice']"
+K8z-YZmCdG4,10.0,20.0,"['Vehicle', 'Vibration']","['Noise', 'Vehicle']"
+DbQdgOVOjSU,30.0,40.0,"['Music', 'Soundtrack music', 'Video game music', 'Cacophony']","['Noise', 'Music']"
+PqcdHXCzsI8,420.0,430.0,"['Music', 'Synthesizer', 'Noise']","['Noise', 'Music']"
+Nnxk0BzreLU,30.0,40.0,['White noise'],['Noise']
+WkiX4Qmy7Ls,120.0,130.0,['Static'],['Noise']
+n179cK8EubU,320.0,330.0,"['Speech', 'Music', 'Musical instrument', 'Plucked string instrument', 'Guitar', 'Electric guitar', 'Effects unit', 'Echo', 'Distortion']","['Miscellaneous sources', 'Noise', 'Music', 'Human voice', 'Acoustic environment']"
+NzTggyH8J2U,580.0,590.0,"['Wind', 'Fire']","['Fire', 'Wind']"
+m3M8wMyXmUk,30.0,40.0,"['Insect', 'Cricket', 'Wind', 'Fire']","['Fire', 'Wild animals', 'Wind']"
+j0EIiaKEzGs,300.0,310.0,"['Wind', 'Fire']","['Fire', 'Wind']"
+4tQiC9E6Mxc,30.0,40.0,"['Wind', 'Wind noise (microphone)', 'Waves, surf', 'Boat, Water vehicle', 'Motorboat, speedboat']","['Miscellaneous sources', 'Water', 'Vehicle', 'Wind']"
+7rVjlroRQ64,30.0,40.0,"['Wind', 'Wind noise (microphone)', 'Boat, Water vehicle', 'Ship']","['Miscellaneous sources', 'Vehicle', 'Wind']"
+hO_wcYLXrIo,280.0,290.0,"['Speech', 'Rustling leaves', 'Outside, rural or natural']","['Acoustic environment', 'Wind', 'Human voice']"
+VPp9ArDokWY,30.0,40.0,"['Speech', 'Rustling leaves', 'Outside, rural or natural']","['Acoustic environment', 'Wind', 'Human voice']"
+UrToRNte8cU,10.0,20.0,"['Wind', 'Fire']","['Fire', 'Wind']"
+cVXoRWSqEBQ,30.0,40.0,"['Speech', 'Rustling leaves', 'Wind noise (microphone)']","['Miscellaneous sources', 'Wind', 'Human voice']"
+X2Urv2KkQqU,220.0,230.0,"['Wind', 'Wind noise (microphone)', 'Boat, Water vehicle', 'Sailboat, sailing ship']","['Miscellaneous sources', 'Vehicle', 'Wind']"
+TYoYRlICcZU,440.0,450.0,"['Wind', 'Wind noise (microphone)', 'Ocean', 'Waves, surf', 'Boat, Water vehicle', 'Sailboat, sailing ship']","['Miscellaneous sources', 'Water', 'Vehicle', 'Wind']"
+XYauTWG07Zw,0.0,10.0,"['Speech', 'Rustling leaves']","['Wind', 'Human voice']"
+L3Xr_NVi7UM,30.0,40.0,"['Wind', 'Wind noise (microphone)', 'Boat, Water vehicle', 'Motorboat, speedboat']","['Miscellaneous sources', 'Vehicle', 'Wind']"
+5kM5TBYx07g,200.0,210.0,"['Wind', 'Wind noise (microphone)', 'Boat, Water vehicle', 'Ship']","['Miscellaneous sources', 'Vehicle', 'Wind']"
+ttCOebeJ59A,510.0,520.0,"['Wind', 'Wind noise (microphone)', 'Fire']","['Miscellaneous sources', 'Fire', 'Wind']"
+AeWRWWba3z4,30.0,40.0,"['Wind', 'Wind noise (microphone)', 'Ocean', 'Waves, surf', 'Boat, Water vehicle', 'Ship']","['Miscellaneous sources', 'Water', 'Vehicle', 'Wind']"
+pVwPoANEqgU,150.0,160.0,"['Wind', 'Wind noise (microphone)', 'Boat, Water vehicle', 'Ship']","['Miscellaneous sources', 'Vehicle', 'Wind']"
+F3TUTfy1n60,30.0,40.0,"['Speech', 'Music', 'Rustling leaves']","['Music', 'Wind', 'Human voice']"
+ttCOebeJ59A,510.0,520.0,"['Wind', 'Wind noise (microphone)', 'Fire']","['Miscellaneous sources', 'Fire', 'Wind']"
+9W--1bU_zjg,550.0,560.0,"['Wind', 'Wind noise (microphone)', 'Boat, Water vehicle', 'Ship']","['Miscellaneous sources', 'Vehicle', 'Wind']"
+Ko9iUJ9Hz50,10.0,20.0,"['Wind', 'Fire']","['Fire', 'Wind']"
+6lhRhz7Ki_0,30.0,40.0,"['Chime', 'Wind chime', 'Wind']","['Music', 'Wind']"
+4qbK4fS99BA,30.0,40.0,['Rustling leaves'],['Wind']
+m3M8wMyXmUk,30.0,40.0,"['Insect', 'Cricket', 'Wind', 'Fire']","['Fire', 'Wild animals', 'Wind']"
+Ece7LPQPsGs,210.0,220.0,"['Speech', 'Animal', 'Rustling leaves', 'Stream']","['Water', 'Wind', 'Animal', 'Human voice']"
+9UP7L34-zus,250.0,260.0,"['Wind', 'Wind noise (microphone)', 'Ocean', 'Waves, surf', 'Boat, Water vehicle', 'Sailboat, sailing ship']","['Miscellaneous sources', 'Water', 'Vehicle', 'Wind']"
+GJvWWCx2UuU,90.0,100.0,"['Wind', 'Wind noise (microphone)', 'Boat, Water vehicle', 'Rowboat, canoe, kayak']","['Miscellaneous sources', 'Vehicle', 'Wind']"
+9KD9_wsWudk,70.0,80.0,"['Speech', 'Bird', 'Rustling leaves']","['Wild animals', 'Wind', 'Human voice']"
+BJVFqd7WYxA,390.0,400.0,"['Wind', 'Fire']","['Fire', 'Wind']"
+ttCOebeJ59A,510.0,520.0,"['Wind', 'Wind noise (microphone)', 'Fire']","['Miscellaneous sources', 'Fire', 'Wind']"
+7rVjlroRQ64,30.0,40.0,"['Wind', 'Wind noise (microphone)', 'Boat, Water vehicle', 'Ship']","['Miscellaneous sources', 'Vehicle', 'Wind']"
+YyZkOm4Q9Is,30.0,40.0,"['Wind', 'Wind noise (microphone)', 'Boat, Water vehicle', 'Sailboat, sailing ship']","['Miscellaneous sources', 'Vehicle', 'Wind']"
+VzEmLYAcX_4,120.0,130.0,"['Wind', 'Fire']","['Fire', 'Wind']"
+UKMMD3z4qX4,70.0,80.0,"['Wind', 'Wind noise (microphone)', 'Boat, Water vehicle', 'Ship']","['Miscellaneous sources', 'Vehicle', 'Wind']"
+-tL4aWGx01s,30.0,40.0,"['Wind', 'Wind noise (microphone)', 'Boat, Water vehicle', 'Sailboat, sailing ship']","['Miscellaneous sources', 'Vehicle', 'Wind']"
+6qi1KV9MoO0,110.0,120.0,"['Wind', 'Wind noise (microphone)', 'Ocean', 'Waves, surf', 'Boat, Water vehicle', 'Sailboat, sailing ship']","['Miscellaneous sources', 'Water', 'Vehicle', 'Wind']"
+1xa_I50b_bM,30.0,40.0,"['Rustling leaves', 'Wind noise (microphone)']","['Miscellaneous sources', 'Wind']"
+xwgQkNs904Q,21.0,31.0,"['Speech', 'Rustling leaves']","['Wind', 'Human voice']"
+Tuhso4n8pj4,30.0,40.0,"['Speech', 'Music', 'Rustling leaves']","['Music', 'Wind', 'Human voice']"
+7sLdN_5g_nk,250.0,260.0,"['Speech', 'Rustling leaves']","['Wind', 'Human voice']"
+9W--1bU_zjg,550.0,560.0,"['Wind', 'Wind noise (microphone)', 'Boat, Water vehicle', 'Ship']","['Miscellaneous sources', 'Vehicle', 'Wind']"
+Ko9iUJ9Hz50,10.0,20.0,"['Wind', 'Fire']","['Fire', 'Wind']"
+Xy8fR4pJNmo,200.0,210.0,"['Wind', 'Wind noise (microphone)', 'Boat, Water vehicle', 'Motorboat, speedboat']","['Miscellaneous sources', 'Vehicle', 'Wind']"
+vFj0aGmAqqI,13.0,23.0,['Rustling leaves'],['Wind']
+faWvKxwpJX8,0.0,10.0,"['Wind', 'Wind noise (microphone)', 'Ocean', 'Waves, surf', 'Boat, Water vehicle', 'Sailboat, sailing ship']","['Miscellaneous sources', 'Water', 'Vehicle', 'Wind']"
+AeWRWWba3z4,30.0,40.0,"['Wind', 'Wind noise (microphone)', 'Ocean', 'Waves, surf', 'Boat, Water vehicle', 'Ship']","['Miscellaneous sources', 'Water', 'Vehicle', 'Wind']"
+11-d3rWQxZY,40.0,50.0,"['Wind', 'Wind noise (microphone)', 'Fire']","['Miscellaneous sources', 'Fire', 'Wind']"
+cVXoRWSqEBQ,30.0,40.0,"['Speech', 'Rustling leaves', 'Wind noise (microphone)']","['Miscellaneous sources', 'Wind', 'Human voice']"
+4qbK4fS99BA,30.0,40.0,['Rustling leaves'],['Wind']
+7sLdN_5g_nk,250.0,260.0,"['Speech', 'Rustling leaves']","['Wind', 'Human voice']"
+H18auYh6y-Q,160.0,170.0,"['Speech', 'Animal', 'Wild animals', 'Music', 'Outside, rural or natural']","['Music', 'Human voice', 'Wild animals', 'Animal', 'Acoustic environment']"
+8vOBijliMRc,30.0,40.0,"['Speech', 'Animal', 'Crow', 'Caw']","['Wild animals', 'Animal', 'Human voice']"
+ainzK7QuseU,30.0,40.0,"['Animal', 'Domestic animals, pets', 'Dog', 'Canidae, dogs, wolves']","['Wild animals', 'Domestic animals, pets', 'Animal']"
+BD2mfuPbL4c,60.0,70.0,"['Speech', 'Animal', 'Wild animals', 'Roaring cats (lions, tigers)']","['Wild animals', 'Animal', 'Human voice']"
+G7vXKtePlGM,10.0,20.0,"['Animal', 'Domestic animals, pets', 'Dog', 'Bark']","['Domestic animals, pets', 'Animal']"
+62oVSUMNL7c,20.0,30.0,"['Animal', 'Domestic animals, pets', 'Dog', 'Howl', 'Music', 'Inside, small room']","['Music', 'Wild animals', 'Domestic animals, pets', 'Animal', 'Acoustic environment']"
+leVz0OdLXFE,30.0,40.0,"['Speech', 'Animal', 'Duck', 'Quack', 'Music']","['Livestock, farm animals, working animals', 'Music', 'Animal', 'Human voice']"
+9Mvg5bcwvRs,10.0,20.0,"['Speech', 'Animal', 'Pig']","['Livestock, farm animals, working animals', 'Animal', 'Human voice']"
+JBT7vOfzx6M,10.0,20.0,"['Speech', 'Snicker', 'Animal', 'Domestic animals, pets', 'Dog']","['Domestic animals, pets', 'Animal', 'Human voice']"
+hKsjyB8ur48,16.0,26.0,"['Speech', 'Animal', 'Crow', 'Caw']","['Wild animals', 'Animal', 'Human voice']"
+qxMTR2wU9F0,170.0,180.0,"['Animal', 'Livestock, farm animals, working animals', 'Horse']","['Livestock, farm animals, working animals', 'Animal']"
+hG1l66pQaAY,20.0,30.0,"['Speech', 'Animal', 'Domestic animals, pets', 'Dog', 'Growling']","['Wild animals', 'Domestic animals, pets', 'Animal', 'Human voice']"
+BGkXV9_wf9g,30.0,40.0,"['Speech', 'Animal', 'Domestic animals, pets', 'Cat', 'Meow']","['Domestic animals, pets', 'Animal', 'Human voice']"
+7WoFyN1R-1g,12.0,22.0,"['Speech', 'Animal', 'Domestic animals, pets', 'Cat', 'Meow', 'Caterwaul']","['Domestic animals, pets', 'Animal', 'Human voice']"
+JUduRWal4EA,0.0,10.0,"['Animal', 'Wild animals', 'Roaring cats (lions, tigers)', 'Roar']","['Wild animals', 'Animal']"
+-efgThyiXWI,25.0,35.0,"['Speech', 'Animal', 'Domestic animals, pets', 'Cat', 'Caterwaul', 'Music']","['Domestic animals, pets', 'Music', 'Animal', 'Human voice']"
+fVxcaUv0jPE,70.0,80.0,"['Speech', 'Pant', 'Animal', 'Domestic animals, pets', 'Dog']","['Respiratory sounds', 'Domestic animals, pets', 'Animal', 'Human voice']"
+5bjiFUed8gw,30.0,40.0,"['Speech', 'Animal', 'Domestic animals, pets', 'Dog', 'Whimper (dog)']","['Domestic animals, pets', 'Animal', 'Human voice']"
+Q7w_rb31puc,30.0,40.0,"['Animal', 'Duck', 'Quack']","['Livestock, farm animals, working animals', 'Animal']"
+483cz_84L1I,10.0,20.0,"['Animal', 'Domestic animals, pets', 'Dog', 'Canidae, dogs, wolves']","['Wild animals', 'Domestic animals, pets', 'Animal']"
+6c-5b9sj35o,30.0,40.0,"['Animal', 'Domestic animals, pets', 'Cat', 'Meow', 'Caterwaul']","['Domestic animals, pets', 'Animal']"
+nvdvywT7cZM,30.0,40.0,"['Animal', 'Caterwaul']","['Domestic animals, pets', 'Animal']"
+3e_3yFdH-Ck,30.0,40.0,"['Speech', 'Animal', 'Domestic animals, pets', 'Dog', 'Whimper (dog)']","['Domestic animals, pets', 'Animal', 'Human voice']"
+tNz5aSnvXjU,28.0,38.0,"['Speech', 'Animal', 'Domestic animals, pets', 'Dog', 'Bow-wow', 'Quack']","['Domestic animals, pets', 'Livestock, farm animals, working animals', 'Animal', 'Human voice']"
+pgHi5d1Kf2c,30.0,40.0,"['Animal', 'Domestic animals, pets', 'Cat', 'Meow']","['Domestic animals, pets', 'Animal']"
+0SEHGxAQL18,30.0,40.0,"['Speech', 'Animal', 'Domestic animals, pets', 'Cat', 'Meow', 'Caterwaul']","['Domestic animals, pets', 'Animal', 'Human voice']"
+CJ9FjsZRsME,140.0,150.0,"['Animal', 'Pig', 'Wild animals']","['Wild animals', 'Livestock, farm animals, working animals', 'Animal']"
+ZECf-tMu4-w,130.0,140.0,"['Speech', 'Animal', 'Horse', 'Music', 'Outside, rural or natural']","['Livestock, farm animals, working animals', 'Music', 'Human voice', 'Animal', 'Acoustic environment']"
+2JEeD3O0NnM,30.0,40.0,"['Animal', 'Domestic animals, pets', 'Dog', 'Yip', 'Bow-wow', 'Music']","['Domestic animals, pets', 'Music', 'Animal']"
+8d3WbkLC7Gw,30.0,40.0,"['Speech', 'Animal', 'Horse', 'Clip-clop']","['Livestock, farm animals, working animals', 'Onomatopoeia', 'Animal', 'Human voice']"
+jO5fIGiBLwc,0.0,10.0,"['Speech', 'Animal', 'Music', 'Environmental noise']","['Noise', 'Music', 'Animal', 'Human voice']"
+rQPZ6ucYgMY,10.0,20.0,"['Animal', 'Squawk']","['Wild animals', 'Animal']"
+AZDQxoDF5lA,30.0,40.0,"['Animal', 'Howl', 'Canidae, dogs, wolves']","['Wild animals', 'Domestic animals, pets', 'Animal']"
+RgK_3jzn0SI,110.0,120.0,"['Speech', 'Animal', 'Slosh']","['Liquid', 'Animal', 'Human voice']"
+7hDS0w1VZQ8,21.0,31.0,"['Speech', 'Animal', 'Horse', 'Neigh, whinny', 'Music']","['Livestock, farm animals, working animals', 'Music', 'Animal', 'Human voice']"
+azshGovt8N0,440.0,450.0,"['Speech', 'Animal', 'Wild animals', 'Roaring cats (lions, tigers)']","['Wild animals', 'Animal', 'Human voice']"
+Dq29NSr8wDA,40.0,50.0,"['Animal', 'Domestic animals, pets', 'Dog', 'Canidae, dogs, wolves']","['Wild animals', 'Domestic animals, pets', 'Animal']"
+8R6H_3neiL8,20.0,30.0,"['Speech', 'Animal', 'Wild animals', 'Roaring cats (lions, tigers)', 'Roar']","['Wild animals', 'Animal', 'Human voice']"
+1BQW0MFUhL8,30.0,40.0,"['Speech', 'Animal', 'Clip-clop']","['Livestock, farm animals, working animals', 'Onomatopoeia', 'Animal', 'Human voice']"
+PrcZfyxcmwo,30.0,40.0,"['Speech', 'Animal', 'Domestic animals, pets', 'Cat', 'Purr']","['Domestic animals, pets', 'Animal', 'Human voice']"
+BGkXV9_wf9g,30.0,40.0,"['Speech', 'Animal', 'Domestic animals, pets', 'Cat', 'Meow']","['Domestic animals, pets', 'Animal', 'Human voice']"
+Zob-z2eLj_4,10.0,20.0,"['Speech', 'Animal', 'Domestic animals, pets', 'Dog', 'Canidae, dogs, wolves', 'Music']","['Music', 'Human voice', 'Wild animals', 'Domestic animals, pets', 'Animal']"
+pNhESKKiEDI,30.0,40.0,"['Speech', 'Animal', 'Domestic animals, pets', 'Cat', 'Meow']","['Domestic animals, pets', 'Animal', 'Human voice']"
+0pJwADdUrRo,30.0,40.0,"['Animal', 'Domestic animals, pets', 'Cat', 'Meow', 'Caterwaul']","['Domestic animals, pets', 'Animal']"
+6u14wxqIlZ4,30.0,40.0,"['Animal', 'Cat', 'Meow', 'Music']","['Domestic animals, pets', 'Music', 'Animal']"
+2DYxo-rDq8g,9.0,19.0,"['Speech', 'Animal', 'Dog', 'Bow-wow', 'Whimper (dog)']","['Domestic animals, pets', 'Animal', 'Human voice']"
+jtpBaL2pEkI,20.0,30.0,"['Animal', 'Dog', 'Howl']","['Wild animals', 'Domestic animals, pets', 'Animal']"
+l8wsUOakfFM,130.0,140.0,"['Animal', 'Livestock, farm animals, working animals', 'Goat', 'Sheep', 'Bird']","['Wild animals', 'Livestock, farm animals, working animals', 'Animal']"
+1f7lBXwf2rk,100.0,110.0,"['Animal', 'Domestic animals, pets', 'Pig']","['Domestic animals, pets', 'Livestock, farm animals, working animals', 'Animal']"
+ospVD-a6FM8,0.0,10.0,"['Speech', 'Animal', 'Purr', 'Wild animals']","['Wild animals', 'Domestic animals, pets', 'Animal', 'Human voice']"
+GjINSDvWHW4,180.0,190.0,"['Electric shaver, electric razor', 'Inside, small room']","['Domestic sounds, home sounds', 'Acoustic environment']"
+rj4T3-8PeAE,200.0,210.0,"['Speech', 'Buzzer', 'Outside, rural or natural']","['Alarm', 'Acoustic environment', 'Human voice']"
+wYgGpTFY2No,560.0,570.0,"['Speech', 'Slosh', 'Outside, urban or manmade']","['Acoustic environment', 'Liquid', 'Human voice']"
+mmWIB3zPx9U,30.0,40.0,"['Music', 'Musical instrument', 'Ukulele', 'Inside, small room']","['Music', 'Acoustic environment']"
+BTViJiVyjlI,240.0,250.0,"['Music', 'Inside, large room or hall', 'Vibration']","['Noise', 'Music', 'Acoustic environment']"
+I0tB9LnZoO0,100.0,110.0,"['Speech', 'Vehicle', 'Bicycle', 'Inside, large room or hall']","['Acoustic environment', 'Vehicle', 'Human voice']"
+WZd2nT2Afds,30.0,40.0,"['Speech', 'Bell', 'Inside, large room or hall']","['Music', 'Acoustic environment', 'Human voice']"
+AqwOCxkhrjI,230.0,240.0,"['Vehicle', 'Aircraft', 'Aircraft engine', 'Fixed-wing aircraft, airplane', 'Outside, urban or manmade']","['Vehicle', 'Acoustic environment']"
+1TpuuM-CRfE,100.0,110.0,"['Speech', 'Firecracker', 'Outside, rural or natural']","['Acoustic environment', 'Explosion', 'Human voice']"
+UaM_YYfMUu0,400.0,410.0,"['Speech', 'Toilet flush', 'Liquid', 'Outside, urban or manmade']","['Domestic sounds, home sounds', 'Acoustic environment', 'Liquid', 'Human voice']"
+_yVC_3bglNQ,40.0,50.0,"['Animal', 'Domestic animals, pets', 'Dog', 'Canidae, dogs, wolves', 'Inside, small room']","['Wild animals', 'Domestic animals, pets', 'Animal', 'Acoustic environment']"
+rT1UMzblW_w,10.0,20.0,"['Hands', 'Outside, rural or natural']","['Hands', 'Acoustic environment']"
+in2AUO_Pb_I,50.0,60.0,"['Speech', 'Vehicle', 'Lawn mower', 'Outside, urban or manmade']","['Engine', 'Acoustic environment', 'Vehicle', 'Human voice']"
+53Bx2EKZb-s,0.0,10.0,"['Speech', 'Babbling', 'Inside, small room']","['Acoustic environment', 'Human voice']"
+wYtd_Sq2-Tw,240.0,250.0,"['Music', 'Musical instrument', 'Plucked string instrument', 'Guitar', 'Effects unit', 'Chorus effect', 'Inside, small room', 'Distortion']","['Miscellaneous sources', 'Noise', 'Music', 'Acoustic environment']"
+kkIRLR_77UQ,120.0,130.0,"['Babbling', 'Inside, small room']","['Acoustic environment', 'Human voice']"
+DYEQ8sM7wYI,20.0,30.0,"['Baby laughter', 'Belly laugh', 'Inside, small room']","['Acoustic environment', 'Human voice']"
+qKCSgybBqS4,60.0,70.0,"['Speech', 'Telephone dialing, DTMF', 'Inside, large room or hall']","['Alarm', 'Acoustic environment', 'Human voice']"
+9KOhsDyE_f0,40.0,50.0,"['Speech', 'Snoring', 'Outside, urban or manmade']","['Respiratory sounds', 'Acoustic environment', 'Human voice']"
+wD6XJvKARTE,30.0,40.0,"['Speech', 'Run', 'Beep, bleep', 'Outside, urban or manmade']","['Acoustic environment', 'Onomatopoeia', 'Human locomotion', 'Human voice']"
+GcdzBmlxyN0,10.0,20.0,"['Speech', 'Air conditioning', 'Inside, large room or hall']","['Acoustic environment', 'Mechanisms', 'Human voice']"
+6noQGz52q0k,26.0,36.0,"['Clatter', 'Reverberation']","['Acoustic environment', 'Onomatopoeia']"
+hHQZepALpHQ,60.0,70.0,"['Speech', 'Animal', 'Horse', 'Music', 'Outside, rural or natural']","['Livestock, farm animals, working animals', 'Music', 'Human voice', 'Animal', 'Acoustic environment']"
+28_dI7KHIf0,0.0,10.0,"['Speech', 'Telephone dialing, DTMF', 'Inside, small room']","['Alarm', 'Acoustic environment', 'Human voice']"
+6RSFq-IRYqY,0.0,10.0,"['Firecracker', 'Inside, small room']","['Acoustic environment', 'Explosion']"
+ByF0pp-dVEo,150.0,160.0,"['Speech', 'Music', 'Beatboxing', 'Vocal music', 'Inside, large room or hall']","['Music', 'Acoustic environment', 'Human voice']"
+Beg79kXQBRo,20.0,30.0,"['Speech', 'Laughter', 'Baby laughter', 'Belly laugh', 'Inside, small room']","['Acoustic environment', 'Human voice']"
+-8fQePz4FcE,30.0,40.0,"['Music', 'Ukulele', 'Inside, large room or hall']","['Music', 'Acoustic environment']"
+vRLclwFRnrM,190.0,200.0,"['Speech', 'Music', 'Inside, public space']","['Music', 'Acoustic environment', 'Human voice']"
+pDtvtjTT-KM,100.0,110.0,"['Speech', 'Sigh', 'Inside, small room']","['Acoustic environment', 'Human voice']"
+U2uvBP-EPhE,90.0,100.0,"['Speech', 'Slam', 'Inside, small room']","['Domestic sounds, home sounds', 'Acoustic environment', 'Human voice']"
+yw9sS3Oz5lk,30.0,40.0,"['Vehicle', 'Toot', 'Bus', 'Outside, urban or manmade']","['Alarm', 'Vehicle', 'Acoustic environment']"
+X1zFnyEe3nE,260.0,270.0,"['Singing', 'Music', 'Inside, public space']","['Music', 'Acoustic environment', 'Human voice']"
+ygF_XLMN52A,50.0,60.0,"['Vehicle', 'Air horn, truck horn', 'Bus', 'Outside, urban or manmade']","['Alarm', 'Vehicle', 'Acoustic environment']"
+wXM1D0qJP3Q,50.0,60.0,"['Liquid', 'Outside, urban or manmade']","['Liquid', 'Acoustic environment']"
+DrnXIEH46UQ,570.0,580.0,"['Speech', 'Giggle', 'Inside, small room']","['Acoustic environment', 'Human voice']"
+ZLTOJmQuxNE,290.0,300.0,"['Speech', 'Drip', 'Inside, small room']","['Acoustic environment', 'Liquid', 'Human voice']"
+cweD5wJ6nh8,40.0,50.0,"['Speech', 'Water', 'Drip', 'Inside, small room']","['Acoustic environment', 'Water', 'Liquid', 'Human voice']"
+H0Zaevi3IUw,100.0,110.0,"['Singing', 'Male singing', 'Music', 'Inside, large room or hall']","['Music', 'Acoustic environment', 'Human voice']"
+RYK03ltDcqM,10.0,20.0,"['Typing', 'Computer keyboard', 'Inside, small room']","['Domestic sounds, home sounds', 'Acoustic environment']"
+Nly4s1NTbWU,30.0,40.0,"['Silence', 'Inside, small room']","['Silence', 'Acoustic environment']"
+Ig1BY5XogIc,40.0,50.0,"['Speech', 'Sneeze', 'Inside, small room']","['Respiratory sounds', 'Acoustic environment', 'Human voice']"
+0H7e3F9KL78,0.0,10.0,"['Buzzer', 'Inside, small room']","['Alarm', 'Acoustic environment']"
+a83NijNUlnM,290.0,300.0,"[""Dental drill, dentist's drill"", 'Outside, urban or manmade']","['Engine', 'Tools', 'Acoustic environment']"
+HH4i5kCOLyA,50.0,60.0,"['Speech', 'Goat', 'Sheep', 'Music', 'Outside, rural or natural']","['Acoustic environment', 'Livestock, farm animals, working animals', 'Music', 'Human voice']"
+dL3JEQTmCWE,290.0,300.0,"['Speech', 'Child speech, kid speaking', 'Belly laugh', 'Inside, large room or hall']","['Acoustic environment', 'Human voice']"
+cyQjfuQVSdo,0.0,10.0,"['Baby laughter', 'Belly laugh', 'Inside, small room']","['Acoustic environment', 'Human voice']"
+Pj_YzLKBYDQ,50.0,60.0,"['Speech', 'Babbling', 'Inside, small room']","['Acoustic environment', 'Human voice']"
+AmGaTVVPQL0,220.0,230.0,"['Speech', 'Sigh', 'Inside, small room']","['Acoustic environment', 'Human voice']"
+jt5DbLRO4l0,520.0,530.0,"['Speech', 'Rustling leaves', 'Outside, rural or natural']","['Acoustic environment', 'Wind', 'Human voice']"
+jOvD59RqWws,20.0,30.0,"['Speech', 'Gargling']","['Digestive', 'Human voice']"
+Xxga0d9ZDuc,0.0,10.0,"['Speech', 'Laughter', 'Fart']","['Digestive', 'Human voice']"
+voHJul8HHVE,40.0,50.0,"['Speech', 'Burping, eructation']","['Digestive', 'Human voice']"
+K4hZrhMIF1w,30.0,40.0,"['Speech', 'Biting']","['Digestive', 'Human voice']"
+4SZjz5UzwrI,30.0,40.0,"['Speech', 'Stomach rumble', 'Music']","['Digestive', 'Music', 'Human voice']"
+qwJAut9r0Kk,0.0,10.0,['Gargling'],['Digestive']
+IgLeIWcHzYM,40.0,50.0,"['Speech', 'Hiccup']","['Digestive', 'Human voice']"
+pgf7KIrlTYw,70.0,80.0,"['Speech', 'Hiccup', 'Music']","['Digestive', 'Music', 'Human voice']"
+1LtwP9mSSJU,80.0,90.0,"['Chuckle, chortle', 'Gargling']","['Digestive', 'Human voice']"
+At88LS5okRI,120.0,130.0,"['Speech', 'Burping, eructation']","['Digestive', 'Human voice']"
+TCkkCSz88FQ,20.0,30.0,"['Speech', 'Fart']","['Digestive', 'Human voice']"
+4BL5beKDddI,120.0,130.0,"['Speech', 'Biting']","['Digestive', 'Human voice']"
+ACNcxeQ-Rns,20.0,30.0,"['Gargling', 'Animal', 'Toilet flush']","['Domestic sounds, home sounds', 'Digestive', 'Animal']"
+g7Ie365gjIU,90.0,100.0,"['Burping, eructation']",['Digestive']
+NxBNryiN0XY,220.0,230.0,['Stomach rumble'],['Digestive']
+FAX8Twagbvg,90.0,100.0,"['Speech', 'Burping, eructation']","['Digestive', 'Human voice']"
+_dC8CtfWaoM,60.0,70.0,"['Speech', 'Fart', 'Music']","['Digestive', 'Music', 'Human voice']"
+P_IT8A2rkSw,40.0,50.0,['Gargling'],['Digestive']
+21VWE7_o_0k,60.0,70.0,"['Stomach rumble', 'Music']","['Digestive', 'Music']"
+WMeoaVvKic8,30.0,40.0,"['Chewing, mastication', 'Crunch']","['Digestive', 'Onomatopoeia']"
+AuVMi3pniEc,230.0,240.0,"['Biting', 'Inside, small room']","['Digestive', 'Acoustic environment']"
+X7vPngx_TcE,0.0,10.0,['Fart'],['Digestive']
+3FiHokuqbDQ,20.0,30.0,"['Speech', 'Chewing, mastication', 'Music', 'Inside, small room']","['Acoustic environment', 'Digestive', 'Music', 'Human voice']"
+XZLcN0vQhmc,10.0,20.0,['Fart'],['Digestive']
+jW6vNnUeucU,10.0,20.0,"['Speech', 'Child speech, kid speaking', 'Gargling']","['Digestive', 'Human voice']"
+5_p4yWd3JHc,340.0,350.0,"['Biting', 'Inside, small room']","['Digestive', 'Acoustic environment']"
+AbNB97ANUDA,0.0,10.0,['Gargling'],['Digestive']
+eiyza60rtDs,0.0,10.0,"['Speech', 'Gargling']","['Digestive', 'Human voice']"
+x9P9Xy6qiHA,20.0,30.0,"['Speech', 'Hiccup']","['Digestive', 'Human voice']"
+6eAnoN0hsE8,490.0,500.0,['Stomach rumble'],['Digestive']
+4pYSDCFuGHY,30.0,40.0,['Biting'],['Digestive']
+1NYANpd5Grs,160.0,170.0,"['Biting', 'Domestic animals, pets', 'Dog', 'Inside, small room']","['Domestic animals, pets', 'Digestive', 'Acoustic environment']"
+PNx1MDT-00Y,50.0,60.0,"['Speech', 'Hiccup']","['Digestive', 'Human voice']"
+AgtjkahTVVw,170.0,180.0,['Stomach rumble'],['Digestive']
+XsdxXWW8-38,290.0,300.0,"['Gargling', 'Music']","['Digestive', 'Music']"
+2PFH3v-i4sE,90.0,100.0,"['Speech', 'Chewing, mastication']","['Digestive', 'Human voice']"
+UPYdnwApsik,0.0,10.0,['Fart'],['Digestive']
+XpKCBBd1QRs,150.0,160.0,"['Speech', 'Female speech, woman speaking', 'Gargling']","['Digestive', 'Human voice']"
+k4csoRVQX5E,30.0,40.0,"['Chewing, mastication', 'Biting']",['Digestive']
+_dC8CtfWaoM,60.0,70.0,"['Speech', 'Fart', 'Music']","['Digestive', 'Music', 'Human voice']"
+ZLZiPLEJ5D0,20.0,30.0,"['Stomach rumble', 'Burping, eructation']",['Digestive']
+MJalXgVnSS4,50.0,60.0,"['Biting', 'Crunch']","['Digestive', 'Onomatopoeia']"
+_0wt8z6h-cE,150.0,160.0,"['Speech', 'Wheeze', 'Hiccup']","['Respiratory sounds', 'Digestive', 'Human voice']"
+5oIP4I0Wkas,30.0,40.0,['Biting'],['Digestive']
+46Mvf2FnAwg,140.0,150.0,"['Speech', 'Hiccup']","['Digestive', 'Human voice']"
+Xxga0d9ZDuc,0.0,10.0,"['Speech', 'Laughter', 'Fart']","['Digestive', 'Human voice']"
+QDI8NqKVS_Q,260.0,270.0,['Biting'],['Digestive']
+nYq3lqS29Z4,10.0,20.0,"['Breathing', 'Fart']","['Respiratory sounds', 'Digestive']"
+voHJul8HHVE,40.0,50.0,"['Speech', 'Burping, eructation']","['Digestive', 'Human voice']"
+Prc9tqMpZRU,30.0,40.0,['Biting'],['Digestive']
+czrL9SIOeW0,560.0,570.0,"['Mechanisms', 'Ratchet, pawl', 'Gears', 'Tools', 'Power tool', 'Wood', 'Rub']","['Wood', 'Surface contact', 'Tools', 'Mechanisms']"
+X3Txrreq730,30.0,40.0,"['Sanding', 'Rub']","['Tools', 'Surface contact']"
+qSAL2OnQdA0,300.0,310.0,"['Filing (rasp)', 'Rub']","['Tools', 'Surface contact']"
+SQIGFcCMVKo,60.0,70.0,"['Sanding', 'Wood', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+cHQlTp38KAI,30.0,40.0,['Scratch'],['Surface contact']
+Bj9KEmLWRek,30.0,40.0,"['Filing (rasp)', 'Rub']","['Tools', 'Surface contact']"
+iTV3Otwq_dI,60.0,70.0,"['Speech', 'Music', 'Scratching (performance technique)', 'Scratch', 'Inside, small room']","['Music', 'Acoustic environment', 'Surface contact', 'Human voice']"
+2ZemNvpljok,80.0,90.0,"['Sanding', 'Rub']","['Tools', 'Surface contact']"
+STv8InLwNHw,60.0,70.0,"['Speech', 'Scrape', 'Inside, small room']","['Acoustic environment', 'Surface contact', 'Human voice']"
+AqrxyJJ68xU,30.0,40.0,"['Speech', 'Scrape']","['Surface contact', 'Human voice']"
+YX3Q2XDRNts,350.0,360.0,"['Speech', 'Scrape', 'Inside, small room']","['Acoustic environment', 'Surface contact', 'Human voice']"
+bkizsqzOewY,270.0,280.0,"['Filing (rasp)', 'Rub']","['Tools', 'Surface contact']"
+zcdak4rLVOY,140.0,150.0,"['Filing (rasp)', 'Rub']","['Tools', 'Surface contact']"
+NcBvV71z7wE,0.0,10.0,"['Sanding', 'Rub']","['Tools', 'Surface contact']"
+TcrKPgvkgKA,180.0,190.0,"['Sanding', 'Wood', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+NcBvV71z7wE,0.0,10.0,"['Sanding', 'Rub']","['Tools', 'Surface contact']"
+2Ui85-AOLyo,30.0,40.0,"['Music', 'Scratching (performance technique)', 'Scratch', 'Inside, small room']","['Music', 'Surface contact', 'Acoustic environment']"
+b0R7Fg-isLw,30.0,40.0,"['Flap', 'Scrape']","['Surface contact', 'Generic impact sounds']"
+oeWkKfiPQNo,200.0,210.0,"['Filing (rasp)', 'Wood', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+kZGQk_Nv_aA,80.0,90.0,"['Sanding', 'Rub']","['Tools', 'Surface contact']"
+3U_jNrLoEo0,570.0,580.0,"['Sanding', 'Rub']","['Tools', 'Surface contact']"
+cGFno5Gct2A,30.0,40.0,"['Music', 'Scrape']","['Music', 'Surface contact']"
+SXMQxeGFY9k,30.0,40.0,"['Music', 'Rock and roll', 'Bluegrass', 'Roll']","['Music', 'Surface contact']"
+Yz1DrC54UGk,190.0,200.0,"['Music', 'Electronic music', 'Scratch']","['Music', 'Surface contact']"
+SXMQxeGFY9k,30.0,40.0,"['Music', 'Rock and roll', 'Bluegrass', 'Roll']","['Music', 'Surface contact']"
+LMJWoxICNgA,130.0,140.0,"['Tools', 'Filing (rasp)', 'Power tool', 'Rub']","['Tools', 'Surface contact']"
+-IKwiAsgpAI,500.0,510.0,"['Filing (rasp)', 'Wood', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+3512ivmqzbo,30.0,40.0,"['Wood', 'Splinter', 'Rub']","['Surface contact', 'Wood']"
+j6I6lQM1yls,190.0,200.0,"['Sanding', 'Rub']","['Tools', 'Surface contact']"
+fHmROtp_U00,410.0,420.0,"['Chopping (food)', 'Rub']","['Domestic sounds, home sounds', 'Surface contact']"
+BcOMQ6-b5Jo,100.0,110.0,['Scratch'],['Surface contact']
+5QdaRuKC8J4,350.0,360.0,"['Filing (rasp)', 'Wood', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+dWrkqj_lyuo,80.0,90.0,"['Sawing', 'Wood', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+jOweMlGCRs4,190.0,200.0,['Scrape'],['Surface contact']
+44TKZdww4XY,230.0,240.0,"['Sawing', 'Wood', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+4xXt0UbCoQA,30.0,40.0,['Scrape'],['Surface contact']
+X3Txrreq730,30.0,40.0,"['Sanding', 'Rub']","['Tools', 'Surface contact']"
+l8dctXV0B94,120.0,130.0,"['Filing (rasp)', 'Rub']","['Tools', 'Surface contact']"
+IFVAb909uSI,70.0,80.0,"['Filing (rasp)', 'Wood', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+dL1nATZAGTc,60.0,70.0,"['Sanding', 'Rub']","['Tools', 'Surface contact']"
+me8s0oanAgI,0.0,10.0,"['Music', 'Scratch']","['Music', 'Surface contact']"
+0DgH-2g6Tmk,30.0,40.0,"['Speech', 'Scratch']","['Surface contact', 'Human voice']"
+ZL1jIvl_ymo,40.0,50.0,"['Filing (rasp)', 'Rub']","['Tools', 'Surface contact']"
+5QdaRuKC8J4,350.0,360.0,"['Filing (rasp)', 'Wood', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+p63sYVCLVUk,30.0,40.0,"['Filing (rasp)', 'Rub']","['Tools', 'Surface contact']"
+2gZSKHW7TTM,30.0,40.0,"['Sawing', 'Wood', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+OaG4IQR4Cfw,30.0,40.0,"['Speech', 'Flap', 'Scrape']","['Generic impact sounds', 'Surface contact', 'Human voice']"
+nyIJM8r8w8M,580.0,590.0,"['Sanding', 'Rub']","['Tools', 'Surface contact']"
+TcrKPgvkgKA,180.0,190.0,"['Sanding', 'Wood', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+GwjfdroSAIw,270.0,280.0,"['Filing (rasp)', 'Rub']","['Tools', 'Surface contact']"
+L1qC8DicAZE,70.0,80.0,"['Vehicle', 'Car', 'Power windows, electric windows', 'Engine', 'Sliding door']","['Domestic sounds, home sounds', 'Engine', 'Vehicle']"
+2LnkfTirErI,30.0,40.0,"['Speech', 'Vehicle', 'Engine', 'Medium engine (mid frequency)', 'Idling', 'Rumble']","['Onomatopoeia', 'Engine', 'Vehicle', 'Human voice']"
+XAJN8G5gK90,240.0,250.0,"['Vehicle', 'Car', 'Medium engine (mid frequency)', 'Accelerating, revving, vroom']","['Engine', 'Vehicle']"
+kylGSfigW9E,210.0,220.0,"['Rail transport', 'Train', 'Railroad car, train wagon', 'Train wheels squealing', 'Clickety-clack']","['Vehicle', 'Onomatopoeia']"
+gHsao-IhyQQ,51.0,61.0,"['Speech', 'Jet engine']","['Engine', 'Vehicle', 'Human voice']"
+LiaDV0Cp0lo,70.0,80.0,"['Rail transport', 'Train', 'Railroad car, train wagon', 'Subway, metro, underground', 'Clickety-clack']","['Vehicle', 'Onomatopoeia']"
+nZLHxu02hhw,3.0,13.0,"['Vehicle', 'Heavy engine (low frequency)', 'Accelerating, revving, vroom']","['Engine', 'Vehicle']"
+4c1omzV5pP8,90.0,100.0,"['Rail transport', 'Train', 'Doorbell']","['Domestic sounds, home sounds', 'Alarm', 'Vehicle']"
+AJzwtVxRLVU,30.0,40.0,"['Wind', 'Ocean', 'Waves, surf', 'Boat, Water vehicle', 'Motorboat, speedboat']","['Water', 'Vehicle', 'Wind']"
+BQVFuSbSrgs,30.0,40.0,"['Music', 'Vehicle', 'Bus']","['Music', 'Vehicle']"
+_CQnj74Ity8,590.0,600.0,['Helicopter'],['Vehicle']
+C2gkVodtiCs,60.0,70.0,"['Ocean', 'Waves, surf', 'Boat, Water vehicle', 'Ship']","['Water', 'Vehicle']"
+mLGcsQKHLLg,15.0,25.0,"['Speech', 'Vehicle', 'Bus']","['Vehicle', 'Human voice']"
+mNsYlojC_kM,230.0,240.0,['Skateboard'],['Vehicle']
+5Q9SNbMA11Y,30.0,40.0,"['Vehicle', 'Motor vehicle (road)', 'Car', 'Accelerating, revving, vroom', 'Keys jangling']","['Domestic sounds, home sounds', 'Engine', 'Vehicle']"
+F8lBDnu-afQ,120.0,130.0,"['Rail transport', 'Train', 'Train whistle', 'Railroad car, train wagon']",['Vehicle']
+xDMl-HLLx3s,30.0,40.0,"['Speech', 'Vehicle', 'Heavy engine (low frequency)', 'Accelerating, revving, vroom']","['Engine', 'Vehicle', 'Human voice']"
+lgLU93ZOdGU,260.0,270.0,"['Traffic noise, roadway noise']",['Vehicle']
+OwN672LeXWw,10.0,20.0,"['Vehicle', 'Car', 'Medium engine (mid frequency)', 'Whir']","['Engine', 'Vehicle', 'Onomatopoeia']"
+R42eFr4pguI,360.0,370.0,"['Speech', 'Music', 'Skateboard']","['Music', 'Vehicle', 'Human voice']"
+Cu7uy6m4rw0,90.0,100.0,"['Vehicle', 'Car', 'Skidding', 'Race car, auto racing']",['Vehicle']
+ry7WSjD4nOM,340.0,350.0,"['Rail transport', 'Train', 'Train whistle', 'Train horn', 'Railroad car, train wagon']",['Vehicle']
+NCEyRZ3Y_4Y,350.0,360.0,"['Vehicle', 'Car', 'Race car, auto racing', 'Rumble', 'Outside, rural or natural']","['Acoustic environment', 'Vehicle', 'Onomatopoeia']"
+0Hz4R_m0hmI,80.0,90.0,['Car alarm'],"['Alarm', 'Vehicle']"
+3OayXXRtdk4,70.0,80.0,"['Vehicle', 'Car', 'Skidding', 'Race car, auto racing']",['Vehicle']
+k5BivSNiH8s,30.0,40.0,"['Speech', 'Vehicle', 'Helicopter']","['Vehicle', 'Human voice']"
+h1xGnaqiU1I,80.0,90.0,"['Jet engine', 'Engine', 'Engine knocking']","['Engine', 'Vehicle']"
+pv2auTAoOiE,20.0,30.0,"['Rail transport', 'Train', 'Railroad car, train wagon', 'Subway, metro, underground']",['Vehicle']
+UlVvWsYNy44,30.0,40.0,['Car passing by'],['Vehicle']
+Ns5RdGE2VtI,210.0,220.0,"['Speech', 'Child speech, kid speaking', 'Music', 'Ice cream truck, ice cream van']","['Music', 'Vehicle', 'Human voice']"
+DhmfGPyio3I,90.0,100.0,"['Music', 'Ice cream truck, ice cream van']","['Music', 'Vehicle']"
+Yfr3NlwLenM,20.0,30.0,"['Propeller, airscrew']",['Vehicle']
+SsB-AP-fcSY,50.0,60.0,"['Wind', 'Wind noise (microphone)', 'Boat, Water vehicle', 'Ship']","['Miscellaneous sources', 'Vehicle', 'Wind']"
+oG4GWEHsQbI,50.0,60.0,"['Power windows, electric windows']",['Vehicle']
+s4WYG7iPVIo,130.0,140.0,['Car alarm'],"['Alarm', 'Vehicle']"
+7LRr0ZhqRZ0,30.0,40.0,"['Vehicle', 'Engine', 'Engine starting']","['Engine', 'Vehicle']"
+0UPY7ws-VFs,10.0,20.0,"['Music', 'Air horn, truck horn']","['Alarm', 'Music', 'Vehicle']"
+GeyHuFpn7L4,14.0,24.0,"['Vehicle', 'Bus']",['Vehicle']
+Hr45UQtydpQ,50.0,60.0,"['Vehicle', 'Aircraft', 'Aircraft engine', 'Propeller, airscrew']",['Vehicle']
+S-mCHi1cgas,10.0,20.0,"['Vehicle', 'Car', 'Skidding', 'Tire squeal']",['Vehicle']
+_q7bllBtC2A,30.0,40.0,"['Boat, Water vehicle', 'Motorboat, speedboat']",['Vehicle']
+F9qxvpX7ndI,330.0,340.0,"['Speech', 'Vehicle', 'Car', 'Rumble', 'Outside, rural or natural']","['Onomatopoeia', 'Acoustic environment', 'Vehicle', 'Human voice']"
+EusazHENuKk,30.0,40.0,"['Vehicle', 'Air brake']",['Vehicle']
+jykd6wWnbDw,210.0,220.0,"['Boat, Water vehicle', 'Rowboat, canoe, kayak']",['Vehicle']
+ZhpkRcAEJzc,3.0,13.0,"['Speech', 'Skateboard', 'Single-lens reflex camera']","['Mechanisms', 'Vehicle', 'Human voice']"
+g-h0iVR7bBc,20.0,30.0,"['Motor vehicle (road)', 'Car', 'Accelerating, revving, vroom']","['Engine', 'Vehicle']"
+21t4gB5IhFs,18.0,28.0,"['Speech', 'Vehicle', 'Air brake']","['Vehicle', 'Human voice']"
+-oYYvzarYDs,70.0,80.0,"['Vehicle', 'Car', 'Skidding', 'Tire squeal', 'Race car, auto racing']",['Vehicle']
+imG4xZBppCc,30.0,40.0,"['Rail transport', 'Train', 'Train horn', 'Railroad car, train wagon', 'Clickety-clack']","['Vehicle', 'Onomatopoeia']"
+4a004hkTGM0,30.0,40.0,"['Truck', 'Reversing beeps']",['Vehicle']
+sEJImhgvjQc,120.0,130.0,['Pulse'],['Other sourceless']
+2cudXf75lcA,30.0,40.0,"['Music', 'Harmonic']","['Other sourceless', 'Music']"
+uM8JPpzkl1c,30.0,40.0,"['Music', 'Harmonic']","['Other sourceless', 'Music']"
+XtXEMn7Qjds,540.0,550.0,['Chirp tone'],['Other sourceless']
+GiOpZkhDnS4,370.0,380.0,"['Sine wave', 'Chirp tone']",['Other sourceless']
+uKnnwIsYETQ,30.0,40.0,"['Sine wave', 'Chirp tone']",['Other sourceless']
+bkQrvXXIRng,40.0,50.0,"['Music', 'Musical instrument', 'Drum kit', 'Drum', 'Cymbal', 'Rock music', 'Heavy metal', 'Pulse']","['Other sourceless', 'Music']"
+Q5rKJYBZJKk,12.0,22.0,"['Music', 'Ping', 'Sound effect']","['Other sourceless', 'Music', 'Onomatopoeia']"
+1Ul-LlPhELw,220.0,230.0,"['Speech', 'Music', 'Thump, thud', 'Sound effect']","['Miscellaneous sources', 'Other sourceless', 'Music', 'Human voice', 'Generic impact sounds']"
+nhAismtQmkY,30.0,40.0,"['Gunshot, gunfire', 'Machine gun', 'Sound effect']","['Other sourceless', 'Explosion']"
+II-fcvc57Jk,120.0,130.0,"['Music', 'Explosion', 'Pulse']","['Other sourceless', 'Music', 'Explosion']"
+YTmLWkplNCI,280.0,290.0,['Sine wave'],['Other sourceless']
+OrwximvUjTU,270.0,280.0,"['Speech', 'Hubbub, speech noise, speech babble', 'Sound effect', 'Outside, urban or manmade']","['Other sourceless', 'Noise', 'Human group actions', 'Human voice', 'Acoustic environment']"
+8-ZNPMhOZYY,30.0,40.0,"['Music', 'Harmonic']","['Other sourceless', 'Music']"
+uYCAxX2F6DA,30.0,40.0,"['Singing bowl', 'Sine wave', 'Chirp tone']","['Other sourceless', 'Music']"
+hDZUUOKuL0Y,30.0,40.0,"['Music', 'Harmonic']","['Other sourceless', 'Music']"
+t2CeAeYVZPQ,10.0,20.0,"['Music', 'Squeal', 'Sound effect']","['Other sourceless', 'Music', 'Onomatopoeia']"
+TnqqafJMXBU,30.0,40.0,"['Speech', 'Harmonic']","['Other sourceless', 'Human voice']"
+KgBWxziCVbQ,140.0,150.0,['Sine wave'],['Other sourceless']
+Q5rKJYBZJKk,12.0,22.0,"['Music', 'Ping', 'Sound effect']","['Other sourceless', 'Music', 'Onomatopoeia']"
+lifT5szrNyo,110.0,120.0,"['Music', 'Pulse']","['Other sourceless', 'Music']"
+8GjYCzblAWs,220.0,230.0,"['Sine wave', 'Chirp tone']",['Other sourceless']
+HR-17KkQL-w,530.0,540.0,['Chirp tone'],['Other sourceless']
+i3d4FSWTmzI,0.0,10.0,"['Sine wave', 'Chirp tone']",['Other sourceless']
+s7sRKH_EdAY,80.0,90.0,"['Gong', 'Tuning fork', 'Chirp tone']","['Other sourceless', 'Music']"
+kLh99VaBZ0I,90.0,100.0,['Pulse'],['Other sourceless']
+dWLP4Ptaejw,10.0,20.0,['Chirp tone'],['Other sourceless']
+aZYmZCczxfc,30.0,40.0,"['Music', 'Harmonic']","['Other sourceless', 'Music']"
+OrwximvUjTU,270.0,280.0,"['Speech', 'Hubbub, speech noise, speech babble', 'Sound effect', 'Outside, urban or manmade']","['Other sourceless', 'Noise', 'Human group actions', 'Human voice', 'Acoustic environment']"
+8klyoflIeTc,30.0,40.0,"['Speech', 'Music', 'Dubstep', 'Electronic dance music', 'Sound effect']","['Other sourceless', 'Music', 'Human voice']"
+QSsDPGmOBgY,0.0,10.0,['Chirp tone'],['Other sourceless']
+N7C_mLbSaaY,370.0,380.0,['Chirp tone'],['Other sourceless']
+O7Y0cO3TsSI,30.0,40.0,['Chirp tone'],['Other sourceless']
+Hdko95EitpI,40.0,50.0,"['Music', 'Soundtrack music', 'Scary music', 'Pulse']","['Other sourceless', 'Music']"
+3aznGe_LOYg,15.0,25.0,"['Sine wave', 'Chirp tone']",['Other sourceless']
+YTmLWkplNCI,280.0,290.0,['Sine wave'],['Other sourceless']
+nlFXRRsM-UE,30.0,40.0,"['Music', 'Harmonic']","['Other sourceless', 'Music']"
+aKZxZpuqTUs,80.0,90.0,"['Sine wave', 'Chirp tone']",['Other sourceless']
+Bd2F5bD0NzQ,40.0,50.0,['Sine wave'],['Other sourceless']
+EX8QqaRzaW4,70.0,80.0,['Chirp tone'],['Other sourceless']
+-VclCul6FrI,80.0,90.0,"['Music', 'Musical instrument', 'Keyboard (musical)', 'Piano', 'Organ', 'Harmonic', 'Inside, small room']","['Other sourceless', 'Music', 'Acoustic environment']"
+fvrVsDH2LuY,30.0,40.0,['Chirp tone'],['Other sourceless']
+NZ2kFIaW05k,450.0,460.0,"['Speech', 'Music', 'Musical instrument', 'Plucked string instrument', 'Guitar', 'Bass guitar', 'Rhythm and blues', 'Blues', 'Harmonic']","['Other sourceless', 'Music', 'Human voice']"
+CCH75UCDwJY,30.0,40.0,['Chirp tone'],['Other sourceless']
+hBxR9BQS-78,30.0,40.0,"['Tuning fork', 'Sine wave']","['Other sourceless', 'Music']"
+e2FfgnQWCkA,0.0,10.0,"['Music', 'Harmonic']","['Other sourceless', 'Music']"
+8-ZNPMhOZYY,30.0,40.0,"['Music', 'Harmonic']","['Other sourceless', 'Music']"
+kTBajs0hVhk,0.0,10.0,"['Speech', 'Music', 'Rumble', 'Sound effect']","['Other sourceless', 'Music', 'Onomatopoeia', 'Human voice']"
+CaJ7I3YAAPo,520.0,530.0,['Harmonic'],['Other sourceless']
+33-eUeA0csA,0.0,10.0,['Pulse'],['Other sourceless']
+bTuau3dbZnU,50.0,60.0,"['Speech', 'Tearing', 'Inside, small room']","['Deformable shell', 'Acoustic environment', 'Human voice']"
+PYmTKe9mhK0,200.0,210.0,"['Speech', 'Crumpling, crinkling']","['Deformable shell', 'Human voice']"
+7VRkh-80LEw,70.0,80.0,"['Speech', 'Crumpling, crinkling', 'Inside, small room']","['Deformable shell', 'Acoustic environment', 'Human voice']"
+7VRkh-80LEw,70.0,80.0,"['Speech', 'Crumpling, crinkling', 'Inside, small room']","['Deformable shell', 'Acoustic environment', 'Human voice']"
+9MfCFePHNdw,240.0,250.0,"['Speech', 'Crumpling, crinkling', 'Inside, small room']","['Deformable shell', 'Acoustic environment', 'Human voice']"
+lZ6X__g9WaY,190.0,200.0,"['Speech', 'Tearing']","['Deformable shell', 'Human voice']"
+nCREOM7DmY8,450.0,460.0,"['Speech', 'Tearing', 'Inside, small room']","['Deformable shell', 'Acoustic environment', 'Human voice']"
+lB5wREZLKI0,80.0,90.0,['Crushing'],['Deformable shell']
+ylJB5Wk0zFQ,30.0,40.0,['Crushing'],['Deformable shell']
+BaQDCSs1boY,380.0,390.0,"['Speech', 'Tearing', 'Inside, small room']","['Deformable shell', 'Acoustic environment', 'Human voice']"
+OqJDkvETSx8,90.0,100.0,"['Speech', 'Crumpling, crinkling']","['Deformable shell', 'Human voice']"
+VFl_njHsr34,40.0,50.0,['Crushing'],['Deformable shell']
+lSJFfkii_Gg,320.0,330.0,"['Speech', 'Whispering', 'Tearing']","['Deformable shell', 'Human voice']"
+XORs5AM0Jo8,30.0,40.0,"['Speech', 'Crackle', 'Tearing']","['Onomatopoeia', 'Deformable shell', 'Fire', 'Human voice']"
+gb6znNVrhJ0,280.0,290.0,['Crushing'],['Deformable shell']
+jMgWltYotBQ,530.0,540.0,"['Speech', 'Crumpling, crinkling', 'Inside, small room']","['Deformable shell', 'Acoustic environment', 'Human voice']"
+j1ag9iK0wB0,30.0,40.0,['Crushing'],['Deformable shell']
+vwze3eMulhs,50.0,60.0,"['Speech', 'Tearing', 'Inside, small room']","['Deformable shell', 'Acoustic environment', 'Human voice']"
+oS8kziiAWTk,40.0,50.0,"['Speech', 'Tearing', 'Inside, small room']","['Deformable shell', 'Acoustic environment', 'Human voice']"
+gcmOhhYcyAE,200.0,210.0,"['Speech', 'Crumpling, crinkling', 'Inside, small room']","['Deformable shell', 'Acoustic environment', 'Human voice']"
+Si0JggSYGw4,190.0,200.0,['Tearing'],['Deformable shell']
+MPJ7WNrEGBw,50.0,60.0,"['Tearing', 'Inside, small room']","['Deformable shell', 'Acoustic environment']"
+u6KqlYjPugc,0.0,10.0,"['Tearing', 'Inside, small room']","['Deformable shell', 'Acoustic environment']"
+dlmoKkH8hlw,430.0,440.0,"['Speech', 'Crumpling, crinkling', 'Inside, small room']","['Deformable shell', 'Acoustic environment', 'Human voice']"
+yQJ1bIO65zw,430.0,440.0,"['Tearing', 'Inside, small room']","['Deformable shell', 'Acoustic environment']"
+RbpYP1ytBFU,160.0,170.0,"['Speech', 'Tearing']","['Deformable shell', 'Human voice']"
+h1p04AaPV90,290.0,300.0,"['Tearing', 'Inside, small room']","['Deformable shell', 'Acoustic environment']"
+_Thf2OIBu4Y,420.0,430.0,"['Speech', 'Tearing', 'Inside, small room']","['Deformable shell', 'Acoustic environment', 'Human voice']"
+Yh92eKG4ir4,400.0,410.0,"['Speech', 'Crumpling, crinkling']","['Deformable shell', 'Human voice']"
+N3Xz_m4s9rg,110.0,120.0,['Crushing'],['Deformable shell']
+u6KqlYjPugc,0.0,10.0,"['Tearing', 'Inside, small room']","['Deformable shell', 'Acoustic environment']"
+8Ymf53VWNyU,20.0,30.0,"['Speech', 'Tearing']","['Deformable shell', 'Human voice']"
+RbpYP1ytBFU,160.0,170.0,"['Speech', 'Tearing']","['Deformable shell', 'Human voice']"
+cuH5cZj7R5w,140.0,150.0,['Crushing'],['Deformable shell']
+vwze3eMulhs,50.0,60.0,"['Speech', 'Tearing', 'Inside, small room']","['Deformable shell', 'Acoustic environment', 'Human voice']"
+zfrxKhG8dh4,90.0,100.0,"['Speech', 'Tearing']","['Deformable shell', 'Human voice']"
+lSJFfkii_Gg,320.0,330.0,"['Speech', 'Whispering', 'Tearing']","['Deformable shell', 'Human voice']"
+VXILrQ83Kws,380.0,390.0,['Crushing'],['Deformable shell']
+WEySUEWdSDQ,140.0,150.0,['Crushing'],['Deformable shell']
+pjMItdKZtgc,170.0,180.0,"['Speech', 'Crumpling, crinkling', 'Inside, small room']","['Deformable shell', 'Acoustic environment', 'Human voice']"
+YkkyC_HpcO8,200.0,210.0,['Crushing'],['Deformable shell']
+ovphOfrAYHg,20.0,30.0,"['Tearing', 'Inside, small room']","['Deformable shell', 'Acoustic environment']"
+-hMwszM13PI,130.0,140.0,"['Speech', 'Tearing', 'Inside, small room']","['Deformable shell', 'Acoustic environment', 'Human voice']"
+XORs5AM0Jo8,30.0,40.0,"['Speech', 'Crackle', 'Tearing']","['Onomatopoeia', 'Deformable shell', 'Fire', 'Human voice']"
+WEySUEWdSDQ,140.0,150.0,['Crushing'],['Deformable shell']
+yIIEUSZxDmg,40.0,50.0,['Crushing'],['Deformable shell']
+Ep0S1BHzW5Y,300.0,310.0,['Crushing'],['Deformable shell']
+UF9tmT1Cqg8,80.0,90.0,"['Tearing', 'Inside, small room']","['Deformable shell', 'Acoustic environment']"
+Zzho-bOgVLU,150.0,160.0,['Crushing'],['Deformable shell']
+4AllUpjCvI4,280.0,290.0,"['Speech', 'Tearing']","['Deformable shell', 'Human voice']"
+6QAZJ4H_5rA,50.0,60.0,"['Music', 'Musical instrument', 'Plucked string instrument', 'Guitar', 'Effects unit', 'Chorus effect', 'Reverberation', 'Echo', 'Distortion']","['Miscellaneous sources', 'Noise', 'Music', 'Acoustic environment']"
+WzbKUBbk7Ts,100.0,110.0,['Arrow'],['Miscellaneous sources']
+g05meUfbAOI,20.0,30.0,"['Music', 'Sonar']","['Miscellaneous sources', 'Music']"
+IGwO-3Cpybc,0.0,10.0,"['Speech', 'Sonar']","['Miscellaneous sources', 'Human voice']"
+RjZH5Nx38wc,400.0,410.0,['Arrow'],['Miscellaneous sources']
+SwOt_0-uU7w,100.0,110.0,['Arrow'],['Miscellaneous sources']
+MtXS_LO3nNU,50.0,60.0,"['Wind', 'Wind noise (microphone)', 'Boat, Water vehicle', 'Motorboat, speedboat']","['Miscellaneous sources', 'Vehicle', 'Wind']"
+f47LeLK_ucU,30.0,40.0,['Sonar'],['Miscellaneous sources']
+ZaeARmx4m0k,30.0,40.0,"['Wind', 'Wind noise (microphone)', 'Ocean', 'Waves, surf', 'Boat, Water vehicle', 'Sailboat, sailing ship']","['Miscellaneous sources', 'Water', 'Vehicle', 'Wind']"
+rzWvQwT7irw,0.0,10.0,"['Whoosh, swoosh, swish']","['Miscellaneous sources', 'Onomatopoeia']"
+mvR4q_p6Bz4,50.0,60.0,['Arrow'],['Miscellaneous sources']
+VhMPUIDL2mk,30.0,40.0,"['Speech', 'Music', 'Thump, thud']","['Miscellaneous sources', 'Generic impact sounds', 'Music', 'Human voice']"
+0o4vHYlTPBA,210.0,220.0,"['Wind', 'Wind noise (microphone)', 'Boat, Water vehicle', 'Ship']","['Miscellaneous sources', 'Vehicle', 'Wind']"
+EVBZu5feQzM,30.0,40.0,"['Speech', 'Music', 'Guitar', 'Electronic tuner']","['Miscellaneous sources', 'Music', 'Human voice']"
+NzUqkTyU9n8,190.0,200.0,"['Music', 'Piano', 'Thunk']","['Miscellaneous sources', 'Music', 'Generic impact sounds']"
+FnCxKMUJA9w,0.0,10.0,"['Whoosh, swoosh, swish']","['Miscellaneous sources', 'Onomatopoeia']"
+NzUqkTyU9n8,190.0,200.0,"['Music', 'Piano', 'Thunk']","['Miscellaneous sources', 'Music', 'Generic impact sounds']"
+WSfEqehn3X0,30.0,40.0,"['Music', 'Thump, thud']","['Miscellaneous sources', 'Music', 'Generic impact sounds']"
+DsFvp-0mEZA,30.0,40.0,"['Wind', 'Wind noise (microphone)', 'Fire', 'Siren', 'Civil defense siren']","['Miscellaneous sources', 'Fire', 'Alarm', 'Wind']"
+OwDqhTxy6Zo,0.0,10.0,"['Whoosh, swoosh, swish']","['Miscellaneous sources', 'Onomatopoeia']"
+erTNk5mXucI,40.0,50.0,"['Wind', 'Wind noise (microphone)', 'Boat, Water vehicle', 'Sailboat, sailing ship']","['Miscellaneous sources', 'Vehicle', 'Wind']"
+hYOfxLe7RGc,0.0,10.0,"['Music', 'Effects unit', 'Chorus effect']","['Miscellaneous sources', 'Music']"
+faWvKxwpJX8,0.0,10.0,"['Wind', 'Wind noise (microphone)', 'Ocean', 'Waves, surf', 'Boat, Water vehicle', 'Sailboat, sailing ship']","['Miscellaneous sources', 'Water', 'Vehicle', 'Wind']"
+-yERwTDWZuU,90.0,100.0,"['Music', 'Musical instrument', 'Guitar', 'Chorus effect']","['Miscellaneous sources', 'Music']"
+cVXoRWSqEBQ,30.0,40.0,"['Speech', 'Rustling leaves', 'Wind noise (microphone)']","['Miscellaneous sources', 'Wind', 'Human voice']"
+Qm0-cpqlZqw,50.0,60.0,"['Music', 'Guitar', 'Effects unit', 'Echo']","['Miscellaneous sources', 'Music', 'Acoustic environment']"
+K2NbiF5Svy0,60.0,70.0,"['Speech', 'Sonar']","['Miscellaneous sources', 'Human voice']"
+KN82wKXaxNo,0.0,10.0,"['Vehicle', 'Thump, thud']","['Miscellaneous sources', 'Vehicle', 'Generic impact sounds']"
+Aai257FTBiQ,80.0,90.0,"['Wind', 'Wind noise (microphone)', 'Boat, Water vehicle', 'Ship']","['Miscellaneous sources', 'Vehicle', 'Wind']"
+Mr_pVkW6ank,30.0,40.0,['Arrow'],['Miscellaneous sources']
+TYoYRlICcZU,440.0,450.0,"['Wind', 'Wind noise (microphone)', 'Ocean', 'Waves, surf', 'Boat, Water vehicle', 'Sailboat, sailing ship']","['Miscellaneous sources', 'Water', 'Vehicle', 'Wind']"
+YXhE8E-Irmw,160.0,170.0,['Arrow'],['Miscellaneous sources']
+1Ccis4FDGwY,20.0,30.0,"['Music', 'Musical instrument', 'Plucked string instrument', 'Guitar', 'Effects unit', 'Reverberation']","['Miscellaneous sources', 'Music', 'Acoustic environment']"
+rrAIuGMTqtA,260.0,270.0,"['Music', 'Musical instrument', 'Plucked string instrument', 'Guitar', 'Effects unit', 'Inside, small room', 'Reverberation']","['Miscellaneous sources', 'Music', 'Acoustic environment']"
+RKau3tWWYqQ,80.0,90.0,['Arrow'],['Miscellaneous sources']
+wjOSKWtGK0E,440.0,450.0,"['Speech', 'Music', 'Electronic tuner']","['Miscellaneous sources', 'Music', 'Human voice']"
+lwCZZEBgqg8,90.0,100.0,"['Music', 'Guitar', 'Electric guitar', 'Bass guitar', 'Effects unit', 'Distortion']","['Miscellaneous sources', 'Music', 'Noise']"
+2oKQdQyXFO0,180.0,190.0,"['Animal', 'Domestic animals, pets', 'Dog', 'Thunk']","['Miscellaneous sources', 'Domestic animals, pets', 'Animal', 'Generic impact sounds']"
+Lu-zFPfxUIU,90.0,100.0,"['Speech', 'Thunk']","['Miscellaneous sources', 'Generic impact sounds', 'Human voice']"
+h7N3gJePX4I,330.0,340.0,['Arrow'],['Miscellaneous sources']
+08YFRFx-g7s,30.0,40.0,"['Music', 'Chorus effect', 'Distortion']","['Miscellaneous sources', 'Music', 'Noise']"
+z1Jkso4jTe4,110.0,120.0,"['Whoosh, swoosh, swish']","['Miscellaneous sources', 'Onomatopoeia']"
+vMyDwhYMj7Y,200.0,210.0,['Arrow'],['Miscellaneous sources']
+6k6tF0s0lNs,260.0,270.0,"['Music', 'Musical instrument', 'Plucked string instrument', 'Guitar', 'Effects unit', 'Reverberation']","['Miscellaneous sources', 'Music', 'Acoustic environment']"
+eCyMTN6Hg5k,140.0,150.0,"['Music', 'New-age music', 'Electronic tuner']","['Miscellaneous sources', 'Music']"
+8itgAad5TdE,110.0,120.0,"['Speech', 'Thump, thud']","['Miscellaneous sources', 'Generic impact sounds', 'Human voice']"
+I3zwXIKToXc,20.0,30.0,"['Wind', 'Wind noise (microphone)', 'Boat, Water vehicle', 'Rowboat, canoe, kayak']","['Miscellaneous sources', 'Vehicle', 'Wind']"
+pSCT4poGx3E,540.0,550.0,"['Music', 'Guitar', 'Electronic tuner', 'Effects unit']","['Miscellaneous sources', 'Music']"
+aLShWsDr7oQ,100.0,110.0,"['Wind', 'Wind noise (microphone)', 'Ocean', 'Waves, surf', 'Boat, Water vehicle', 'Sailboat, sailing ship']","['Miscellaneous sources', 'Water', 'Vehicle', 'Wind']"
+fxIm2_now5s,30.0,40.0,"['Whoosh, swoosh, swish']","['Miscellaneous sources', 'Onomatopoeia']"
+StsMliJkaYk,420.0,430.0,"['Speech', 'Music', 'Slosh', 'Outside, rural or natural']","['Acoustic environment', 'Music', 'Liquid', 'Human voice']"
+WI2d5vDJeLo,270.0,280.0,"['Humming', 'Music', 'Musical instrument', 'Plucked string instrument', 'Guitar', 'Bass guitar']","['Music', 'Human voice']"
+ygSw38rL7C4,0.0,10.0,"['Grunt', 'Inside, small room']","['Acoustic environment', 'Human voice']"
+BWyINC68xWg,10.0,20.0,"['Speech', 'Liquid']","['Liquid', 'Human voice']"
+dqIU9-Qu9ug,70.0,80.0,"['Screaming', 'Music', 'Inside, small room']","['Music', 'Acoustic environment', 'Human voice']"
+Z1IoYgooQJs,10.0,20.0,"['Child speech, kid speaking', 'Music', 'Splash, splatter']","['Music', 'Liquid', 'Human voice']"
+ZR48r_8OhUI,50.0,60.0,"['Speech', 'Babbling', 'Inside, small room']","['Acoustic environment', 'Human voice']"
+UYycVMDoAU4,450.0,460.0,"['Speech', 'Pour']","['Liquid', 'Human voice']"
+4qh7oY9mN1w,29.0,39.0,"['Synthetic singing', 'Music']","['Music', 'Human voice']"
+34ZTxQaNfis,100.0,110.0,"['Female speech, woman speaking']",['Human voice']
+bcTRI8TafQE,60.0,70.0,"['Speech', 'Groan', 'Music']","['Music', 'Human voice']"
+UXeVtjuWHMA,30.0,40.0,"['Speech', 'Whispering']",['Human voice']
+_2P_EJsnBls,80.0,90.0,"['Singing', 'Music', 'Middle Eastern music']","['Music', 'Human voice']"
+dGhOz3tzCnQ,220.0,230.0,"['Speech', 'Crumpling, crinkling']","['Deformable shell', 'Human voice']"
+5viugVbo99E,30.0,40.0,"['Female singing', 'Music']","['Music', 'Human voice']"
+CMrLI300cAk,190.0,200.0,"['Singing', 'Music', 'Psychedelic rock']","['Music', 'Human voice']"
+LXGR4NBKkRo,30.0,40.0,"['Speech', 'Quack', 'Music']","['Livestock, farm animals, working animals', 'Music', 'Human voice']"
+h86zLS_6M9Y,250.0,260.0,['Screaming'],['Human voice']
+-DvxsHG1tuo,410.0,420.0,"['Speech', 'Male speech, man speaking', 'Yell', 'Music']","['Music', 'Human voice']"
+2_HZ_m5pBjI,210.0,220.0,"['Speech', 'Typing', 'Computer keyboard']","['Domestic sounds, home sounds', 'Human voice']"
+IVaA5z-12rc,30.0,40.0,"['Speech', 'Mouse']","['Wild animals', 'Human voice']"
+l5czkmOQDkQ,70.0,80.0,"['Speech', 'Splash, splatter']","['Liquid', 'Human voice']"
+Rw84PYAFa6I,460.0,470.0,"['Speech', 'Music', 'Theme music']","['Music', 'Human voice']"
+1NBfq3jtaC8,30.0,40.0,"['Speech', 'Gurgling']","['Water', 'Human voice']"
+LaiKGvADnx0,30.0,40.0,"['Speech', 'Buzz']","['Wild animals', 'Onomatopoeia', 'Human voice']"
+pkqxZ9rNX_I,30.0,40.0,"['Speech', 'Stomach rumble']","['Digestive', 'Human voice']"
+SRnppAZ90fY,30.0,40.0,"['Speech', 'Laughter', 'Baby laughter']",['Human voice']
+f4PKtMpuKoA,10.0,20.0,"['Speech', 'Electric shaver, electric razor', 'Inside, small room']","['Domestic sounds, home sounds', 'Acoustic environment', 'Human voice']"
+9EPeINaUEwk,360.0,370.0,['Sigh'],['Human voice']
+3S9-pp9ijJU,20.0,30.0,"['Speech', 'Animal', 'Slosh', 'Outside, rural or natural']","['Acoustic environment', 'Liquid', 'Animal', 'Human voice']"
+6i8NJqD6sos,280.0,290.0,"['Speech', 'Conversation', 'Music']","['Music', 'Human voice']"
+aYkpGvfGgv4,190.0,200.0,"['Speech', 'Boiling']","['Liquid', 'Human voice']"
+MsIHSmpTFQg,110.0,120.0,"['Singing', 'Music', 'Opera']","['Music', 'Human voice']"
+gVY3eNmnr5k,60.0,70.0,"['Speech', 'Synthetic singing', 'Music', 'Trombone']","['Music', 'Human voice']"
+Ho267E0IDjs,29.0,39.0,"['Speech', 'Shuffle', 'Music']","['Music', 'Human locomotion', 'Human voice']"
+JDJUq_95fOQ,50.0,60.0,"['Synthetic singing', 'Music']","['Music', 'Human voice']"
+0XjfhlZVmO0,60.0,70.0,"['Speech', 'Snicker']",['Human voice']
+j6KW2SMXtZs,190.0,200.0,"['Child speech, kid speaking', 'Trickle, dribble']","['Liquid', 'Human voice']"
+YuD7XapNM1k,30.0,40.0,"['Speech', 'Speech synthesizer']",['Human voice']
+fTlCcBaWYiE,70.0,80.0,"['Speech', 'Television']","['Sound reproduction', 'Human voice']"
+vt-HHxWz1x0,0.0,10.0,"['Speech', 'Music', 'Vehicle', 'Bicycle']","['Music', 'Vehicle', 'Human voice']"
+EIqfLuASe_c,13.0,23.0,"['Speech', 'Sliding door']","['Domestic sounds, home sounds', 'Human voice']"
+5df6pSUSr3o,30.0,40.0,['Whimper'],['Human voice']
+_MuDqhGdGkk,130.0,140.0,"['Speech', 'Music', 'Mandolin']","['Music', 'Human voice']"
+2zw8uUauLcc,30.0,40.0,"['Speech', 'Animal', 'Domestic animals, pets', 'Dog', 'Whimper (dog)']","['Domestic animals, pets', 'Animal', 'Human voice']"
+tVsjc8ifKJI,60.0,70.0,"['Speech', 'Drawer open or close']","['Domestic sounds, home sounds', 'Human voice']"
+maZhWZx6RS0,500.0,510.0,"['Chant', 'Vocal music', 'Inside, large room or hall']","['Music', 'Acoustic environment', 'Human voice']"
+KR9WGtI1c2E,0.0,10.0,"['Speech', 'Pour']","['Liquid', 'Human voice']"
+VNsxEujc_rg,30.0,40.0,"['Speech', 'Smoke detector, smoke alarm']","['Alarm', 'Human voice']"
+cQf-gEXe8j8,30.0,40.0,"['Speech', 'Music', 'Tambourine']","['Music', 'Human voice']"
+BrvjJPYROMc,30.0,40.0,"['Vehicle', 'Engine', 'Medium engine (mid frequency)', 'Idling', 'Noise']","['Noise', 'Engine', 'Vehicle']"
+X7xaKtMFzGI,0.0,10.0,['Lawn mower'],['Engine']
+sj238FA4c3s,0.0,10.0,"['Vehicle', 'Engine starting', 'Silence', 'Outside, rural or natural']","['Engine', 'Silence', 'Vehicle', 'Acoustic environment']"
+uJx5D7gJIDc,19.0,29.0,"['Speech', 'Vehicle', 'Car', 'Heavy engine (low frequency)']","['Engine', 'Vehicle', 'Human voice']"
+lLsRxRErkbQ,430.0,440.0,"['Speech', ""Dental drill, dentist's drill"", 'Wood']","['Engine', 'Tools', 'Wood', 'Human voice']"
+AriWjU24Wgc,350.0,360.0,['Jet engine'],"['Engine', 'Vehicle']"
+4GB76stI0OU,30.0,40.0,"['Vehicle', 'Heavy engine (low frequency)', 'Accelerating, revving, vroom']","['Engine', 'Vehicle']"
+8ySFFOeBGEs,30.0,40.0,['Chainsaw'],['Engine']
+9-ymRm0OHgY,580.0,590.0,"['Speech', 'Vehicle', 'Toot', 'Engine', 'Outside, rural or natural']","['Vehicle', 'Alarm', 'Human voice', 'Acoustic environment', 'Engine']"
+B9GItZg1U_o,70.0,80.0,"['Speech', 'Vehicle', 'Idling', 'Outside, urban or manmade']","['Engine', 'Acoustic environment', 'Vehicle', 'Human voice']"
+2ptmKnkrTVs,30.0,40.0,"['Music', ""Dental drill, dentist's drill""]","['Music', 'Tools', 'Engine']"
+81vJ4-5ToUg,30.0,40.0,"['Vehicle', 'Engine', 'Engine starting', 'Accelerating, revving, vroom']","['Engine', 'Vehicle']"
+rJQ7FzJpS9A,30.0,40.0,['Heavy engine (low frequency)'],['Engine']
+4bGt6tQCMOM,30.0,40.0,"['Speech', 'Crackle', 'Vehicle', 'Heavy engine (low frequency)']","['Vehicle', 'Human voice', 'Onomatopoeia', 'Engine', 'Fire']"
+EV68EeWYMLE,30.0,40.0,['Engine knocking'],['Engine']
+ntzB1zCeVXY,20.0,30.0,"['Vehicle', 'Truck', 'Engine starting', 'Outside, rural or natural']","['Engine', 'Vehicle', 'Acoustic environment']"
+utU_Wt80qAg,50.0,60.0,"['Engine', 'Vibration']","['Noise', 'Engine']"
+SWC3GdOLAOw,50.0,60.0,"['Vehicle', 'Motorcycle', 'Jet engine']","['Engine', 'Vehicle']"
+i0wWGhgW0Ho,0.0,10.0,"['Vehicle', 'Engine starting']","['Engine', 'Vehicle']"
+YOsejFBEXTY,80.0,90.0,['Light engine (high frequency)'],['Engine']
+5Z3DCiwxhGM,200.0,210.0,"['Speech', 'Chainsaw', 'Tools']","['Engine', 'Tools', 'Human voice']"
+A_w4SS2R6LA,140.0,150.0,"['Speech', ""Dental drill, dentist's drill"", 'Inside, small room']","['Acoustic environment', 'Engine', 'Tools', 'Human voice']"
+6ibh38autyA,30.0,40.0,"['Speech', 'Vehicle', 'Car', 'Engine', 'Medium engine (mid frequency)', 'Engine starting', 'Idling', 'Accelerating, revving, vroom']","['Engine', 'Vehicle', 'Human voice']"
+hulRc1IzllI,40.0,50.0,"['Vehicle', 'Motor vehicle (road)', 'Truck', 'Idling', 'Accelerating, revving, vroom']","['Engine', 'Vehicle']"
+wcGst9bsj1Q,150.0,160.0,"['Chainsaw', 'Wood']","['Engine', 'Wood']"
+j6LjEuS_Dzg,80.0,90.0,"['Light engine (high frequency)', 'Lawn mower']",['Engine']
+ZfttA0mds-c,30.0,40.0,['Heavy engine (low frequency)'],['Engine']
+cayblOY0h00,30.0,40.0,"['Aircraft', 'Jet engine']","['Engine', 'Vehicle']"
+Rblq9XQG6TE,50.0,60.0,"['Vehicle', 'Motorcycle', 'Engine', 'Vibration']","['Noise', 'Engine', 'Vehicle']"
+9gPyrJzct_Q,270.0,280.0,"['Speech', 'Light engine (high frequency)', 'Tools']","['Engine', 'Tools', 'Human voice']"
+2IqByx9qq7Q,30.0,40.0,"['Speech', 'Music', ""Dental drill, dentist's drill""]","['Music', 'Tools', 'Engine', 'Human voice']"
+8ySFFOeBGEs,30.0,40.0,['Chainsaw'],['Engine']
+OQIGI2OPWeg,440.0,450.0,"[""Dental drill, dentist's drill"", 'Tools']","['Engine', 'Tools']"
+LX_FgjpJE60,0.0,10.0,"['Aircraft', 'Jet engine', 'Fixed-wing aircraft, airplane']","['Engine', 'Vehicle']"
+iZcPr3wgJCw,30.0,40.0,['Engine knocking'],['Engine']
+c31HkFqWLAk,70.0,80.0,"['Vehicle', 'Car', 'Engine starting']","['Engine', 'Vehicle']"
+YjpZ1_DKVpU,70.0,80.0,"['Vehicle', 'Aircraft', 'Jet engine', 'Helicopter']","['Engine', 'Vehicle']"
+yfYJqHka-Ec,30.0,40.0,"['Vehicle', 'Engine knocking', 'Accelerating, revving, vroom']","['Engine', 'Vehicle']"
+-2PDE7hUArE,30.0,40.0,"['Engine', 'Medium engine (mid frequency)', 'Idling']",['Engine']
+A8xk5lx7CZw,30.0,40.0,"['Engine', 'Medium engine (mid frequency)', 'Idling', 'Accelerating, revving, vroom']",['Engine']
+Ah304Vt9l9U,0.0,10.0,"['Engine', 'Engine knocking', 'Idling']",['Engine']
+5Q9SNbMA11Y,30.0,40.0,"['Vehicle', 'Motor vehicle (road)', 'Car', 'Accelerating, revving, vroom', 'Keys jangling']","['Domestic sounds, home sounds', 'Engine', 'Vehicle']"
+qyJOnlp_C1Y,30.0,40.0,['Chainsaw'],['Engine']
+qN3aVL1VvPA,70.0,80.0,['Jet engine'],"['Engine', 'Vehicle']"
+nPXSiWX2Z_4,40.0,50.0,['Chainsaw'],['Engine']
+mDR4fr0TnaM,6.0,16.0,['Heavy engine (low frequency)'],['Engine']
+BM0MSMJBCrA,30.0,40.0,"['Vehicle', 'Motor vehicle (road)', 'Car', 'Traffic noise, roadway noise', 'Accelerating, revving, vroom', 'Flap']","['Engine', 'Vehicle', 'Generic impact sounds']"
+MFk_M8UMlYY,310.0,320.0,"[""Dental drill, dentist's drill"", 'Tools', 'Wood']","['Engine', 'Tools', 'Wood']"
+bT-CEaOEGdI,140.0,150.0,"['Speech', 'Vehicle', 'Motorcycle', 'Engine', 'Engine starting']","['Engine', 'Vehicle', 'Human voice']"
+JPSwpnLAdXc,120.0,130.0,"['Speech', 'Music', 'Chainsaw']","['Music', 'Engine', 'Human voice']"
+yS9w8RsrMo8,300.0,310.0,"['Sawing', 'Wood', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+IejWmkbuklE,80.0,90.0,"['Wood', 'Crack']","['Wood', 'Onomatopoeia']"
+MAezwdKjN2Y,40.0,50.0,"['Filing (rasp)', 'Wood', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+wcGst9bsj1Q,150.0,160.0,"['Chainsaw', 'Wood']","['Engine', 'Wood']"
+tynjQtLDajY,180.0,190.0,"['Wood', 'Splinter']",['Wood']
+s9ezgAzdIZ0,150.0,160.0,"['Filing (rasp)', 'Wood']","['Tools', 'Wood']"
+6Gkq_d6T2TQ,150.0,160.0,"['Speech', 'Crack']","['Onomatopoeia', 'Wood', 'Human voice']"
+5DEC8pkPIpI,90.0,100.0,"['Sawing', 'Wood', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+Ux4emeodeM8,40.0,50.0,"['Wood', 'Splinter']",['Wood']
+KMkJgCbjv_w,100.0,110.0,"['Music', 'Crack']","['Music', 'Wood', 'Onomatopoeia']"
+uHZePgCSYws,570.0,580.0,"['Sawing', 'Wood']","['Tools', 'Wood']"
+3512ivmqzbo,30.0,40.0,"['Wood', 'Splinter', 'Rub']","['Surface contact', 'Wood']"
+Ts15mNCECTc,30.0,40.0,"['Music', 'Crack']","['Music', 'Wood', 'Onomatopoeia']"
+1E8TnKaIU9Q,330.0,340.0,"['Filing (rasp)', 'Wood', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+eMkkbJgzl_4,10.0,20.0,"['Crack', 'Breaking', 'Sound effect']","['Generic impact sounds', 'Other sourceless', 'Wood', 'Onomatopoeia']"
+XfUzFy5rCKY,30.0,40.0,['Crack'],"['Wood', 'Onomatopoeia']"
+8nUPwvuTkEc,14.0,24.0,['Chop'],['Wood']
+eK8Sf4MsqYQ,180.0,190.0,"[""Dental drill, dentist's drill"", 'Tools', 'Wood']","['Engine', 'Tools', 'Wood']"
+YkneDaiLzQ4,30.0,40.0,"['Speech', 'Music', 'Crack']","['Onomatopoeia', 'Music', 'Wood', 'Human voice']"
+XdiEakvHpPA,220.0,230.0,"['Wood', 'Splinter']",['Wood']
+TD0N9vZouDY,0.0,10.0,"['Music', 'Crack']","['Music', 'Wood', 'Onomatopoeia']"
+kDlRT7qfje4,70.0,80.0,"['Wood', 'Splinter']",['Wood']
+0fIvxfWezRU,30.0,40.0,['Chop'],['Wood']
+IlpbRfKRBq4,30.0,40.0,['Chop'],['Wood']
+-Q9WotFs1MI,30.0,40.0,['Chop'],['Wood']
+6EV8sCAySvw,40.0,50.0,"['Sawing', 'Wood']","['Tools', 'Wood']"
+-4xJv59_zcA,30.0,40.0,"['Wood', 'Splinter']",['Wood']
+A9e9JZBAIh4,30.0,40.0,"['Speech', 'Crack']","['Onomatopoeia', 'Wood', 'Human voice']"
+3512ivmqzbo,30.0,40.0,"['Wood', 'Splinter', 'Rub']","['Surface contact', 'Wood']"
+g974exoDt5g,20.0,30.0,"['Filing (rasp)', 'Wood', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+8CW9y10BOwQ,30.0,40.0,['Chop'],['Wood']
+9BzcbSy8VO8,30.0,40.0,['Chop'],['Wood']
+7AliTSUCwvA,30.0,40.0,['Crack'],"['Wood', 'Onomatopoeia']"
+SvO5oxiLDXQ,40.0,50.0,"['Crack', 'Breaking']","['Generic impact sounds', 'Wood', 'Onomatopoeia']"
+rlga8BUNMhQ,460.0,470.0,"['Sanding', 'Wood', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+5QdaRuKC8J4,350.0,360.0,"['Filing (rasp)', 'Wood', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+O5X1uDQpMfY,30.0,40.0,['Crack'],"['Wood', 'Onomatopoeia']"
+pbWV4YRRo8Q,30.0,40.0,['Chop'],['Wood']
+jNv2QmTiCwU,30.0,40.0,['Chop'],['Wood']
+dt9zghSMJjg,150.0,160.0,"['Wood', 'Splinter']",['Wood']
+KXhwErBuMgY,30.0,40.0,"['Wood', 'Splinter']",['Wood']
+8nUPwvuTkEc,14.0,24.0,['Chop'],['Wood']
+BjtvlMU6ZQo,30.0,40.0,"['Wood', 'Splinter']",['Wood']
+XV9PD_mch6U,170.0,180.0,"['Sewing machine', 'Wood']","['Wood', 'Mechanisms']"
+kcYlotOXx7Q,30.0,40.0,['Chop'],['Wood']
+yhfQztx6_so,100.0,110.0,"['Sawing', 'Wood']","['Tools', 'Wood']"
+K9pw8e3n1jg,350.0,360.0,"['Tools', 'Sawing', 'Power tool', 'Wood', 'Rub']","['Surface contact', 'Tools', 'Wood']"
+QGSrl8RnIAg,30.0,40.0,"['Wood', 'Splinter']",['Wood']
+THxnfos-CdA,4.0,14.0,['Chop'],['Wood']
+2dTAlTkrHy0,30.0,40.0,['Chop'],['Wood']
+3rGHjZMdW4Y,20.0,30.0,['Whistling'],['Whistling']
+TiFboW8mqd4,30.0,40.0,"['Whistling', 'Bird', 'Bird vocalization, bird call, bird song', 'Chirp, tweet']","['Wild animals', 'Whistling', 'Onomatopoeia']"
+yNjUikl9arQ,40.0,50.0,['Whistling'],['Whistling']
+2_itHv9t7Ho,46.0,56.0,['Whistling'],['Whistling']
+qT_dYTeR8h8,4.0,14.0,['Whistling'],['Whistling']
+ojvtp3aHKdc,3.0,13.0,['Whistling'],['Whistling']
+g6R02u-Ck_E,20.0,30.0,['Whistling'],['Whistling']
+TiFboW8mqd4,30.0,40.0,"['Whistling', 'Bird', 'Bird vocalization, bird call, bird song', 'Chirp, tweet']","['Wild animals', 'Whistling', 'Onomatopoeia']"
+MN7D6xuIljk,290.0,300.0,['Whistling'],['Whistling']
+Gax-5J_0MLM,17.0,27.0,['Whistling'],['Whistling']
+IWxlWrfpk_g,40.0,50.0,['Whistling'],['Whistling']
+TiFboW8mqd4,30.0,40.0,"['Whistling', 'Bird', 'Bird vocalization, bird call, bird song', 'Chirp, tweet']","['Wild animals', 'Whistling', 'Onomatopoeia']"
+CUYyGU_I-S8,150.0,160.0,['Whistling'],['Whistling']
+MN7D6xuIljk,290.0,300.0,['Whistling'],['Whistling']
+Ep2hoGjt_Hk,50.0,60.0,['Whistling'],['Whistling']
+BJ1WRCNpY1I,160.0,170.0,"['Speech', 'Whistling', 'Snoring']","['Respiratory sounds', 'Whistling', 'Human voice']"
+CUYyGU_I-S8,150.0,160.0,['Whistling'],['Whistling']
+BJ1WRCNpY1I,160.0,170.0,"['Speech', 'Whistling', 'Snoring']","['Respiratory sounds', 'Whistling', 'Human voice']"
+Jui1bVoD8vo,30.0,40.0,['Whistling'],['Whistling']
+NETQtgbQ9-s,0.0,10.0,['Whistling'],['Whistling']
+aDmhcvIIpgY,120.0,130.0,['Whistling'],['Whistling']
+9bIchzOP8PA,20.0,30.0,['Whistling'],['Whistling']
+Z46Phs4zxvA,100.0,110.0,['Whistling'],['Whistling']
+Gax-5J_0MLM,17.0,27.0,['Whistling'],['Whistling']
+XrKDtjFM9Ec,290.0,300.0,['Whistling'],['Whistling']
+E6ETVQXtoIk,250.0,260.0,['Whistling'],['Whistling']
+mKtM5YPwgQk,300.0,310.0,['Whistling'],['Whistling']
+2QrtZ4bJ4h4,20.0,30.0,['Whistling'],['Whistling']
+XrKDtjFM9Ec,290.0,300.0,['Whistling'],['Whistling']
+7jgUDd8cDXo,0.0,10.0,['Whistling'],['Whistling']
+Jui1bVoD8vo,30.0,40.0,['Whistling'],['Whistling']
+aa_468eUE1o,100.0,110.0,['Whistling'],['Whistling']
+yNjUikl9arQ,40.0,50.0,['Whistling'],['Whistling']
+BJ1WRCNpY1I,160.0,170.0,"['Speech', 'Whistling', 'Snoring']","['Respiratory sounds', 'Whistling', 'Human voice']"
+o9nKX542J9c,150.0,160.0,['Whistling'],['Whistling']
+E6ETVQXtoIk,250.0,260.0,['Whistling'],['Whistling']
+bW-xjy5-a1s,30.0,40.0,['Whistling'],['Whistling']
+Uylgb--QbqA,570.0,580.0,['Whistling'],['Whistling']
+9qD1Q8z8MFQ,30.0,40.0,['Whistling'],['Whistling']
+rII2rBqRz9Q,210.0,220.0,['Whistling'],['Whistling']
+IWxlWrfpk_g,40.0,50.0,['Whistling'],['Whistling']
+k3ep6MFhINI,30.0,40.0,['Whistling'],['Whistling']
+VXFyLX6z0V8,410.0,420.0,['Whistling'],['Whistling']
+CUYyGU_I-S8,150.0,160.0,['Whistling'],['Whistling']
+LwE3Jt6Q78M,0.0,10.0,['Whistling'],['Whistling']
+XrKDtjFM9Ec,290.0,300.0,['Whistling'],['Whistling']
+9bIchzOP8PA,20.0,30.0,['Whistling'],['Whistling']
+FUXSq44CbHo,200.0,210.0,"['Whistling', 'Whistle']","['Alarm', 'Whistling']"
+FQdQhV1yjfc,160.0,170.0,['Whistling'],['Whistling']
+Jui1bVoD8vo,30.0,40.0,['Whistling'],['Whistling']
