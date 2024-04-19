@@ -71,6 +71,7 @@ faiss_index.add_embeddings(embeddings_array, video_ids)
 # Load the VGGish model
 model = VGGish()
 
+
 @app.route("/")
 def home():
     return "Hello World!"
@@ -150,7 +151,10 @@ def get_similar_items():
         # metadata[video_id] = item
 
         # Filter out items before the specified "year_after"
-        item_time = datetime.strptime(item["time"], "%Y-%m-%d %H:%M")
+        try:
+            item_time = datetime.strptime(item["time"], "%Y-%m-%d %H:%M")
+        except ValueError:
+            item_time = datetime.strptime(item["time"], "%Y-%m-%d")
         if timestamp_after_date and item_time.date() < timestamp_after_date.date():
             continue
 
@@ -211,7 +215,11 @@ def get_topK_items():
         # metadata[video_id] = item
 
         # Filter out items before the specified "year_after"
-        item_time = datetime.strptime(item["time"], "%Y-%m-%d %H:%M")
+        # item_time = datetime.strptime(item["time"], "%Y-%m-%d %H:%M")
+        try:
+            item_time = datetime.strptime(item["time"], "%Y-%m-%d %H:%M")
+        except ValueError:
+            item_time = datetime.strptime(item["time"], "%Y-%m-%d")
         if timestamp_after_date and item_time.date() < timestamp_after_date.date():
             continue
 
@@ -270,7 +278,6 @@ def upload_file():
         # Add the embeddings to the cache for linear search comparision
         video_ids.append(video_id)
         embeddings.append(vgg_embeddings)
-        
 
         # file.save(os.path.join(app.config["UPLOAD_FOLDER"], filename))
         # Upload the file to S3
