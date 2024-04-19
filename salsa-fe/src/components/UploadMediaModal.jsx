@@ -4,6 +4,7 @@ import Modal from "./Modal";
 import { uploadAudio } from "../services/AudioApi";
 import { TargetAudioContext } from "../contexts/TargetAudioContext";
 import LabelSelection from "./LabelSelection";
+import { geocodeAddress } from "../services/GeocodeApi";
 
 const UploadContainer = styled.div`
   display: flex;
@@ -23,7 +24,7 @@ const InputField = styled.div`
   width: 100%;
 `;
 
-const FileClear = styled.div`
+const OneLine = styled.div`
   display: flex;
   gap: 2rem;
   align-items: center;
@@ -65,26 +66,31 @@ const Input = styled.input`
   }
 `;
 
+const ErrorMsg = styled.p`
+  color: red;
+`;
+const RequiredAsterisk = styled.span`
+  color: red;
+`;
+
 const Select = styled(Input).attrs({ as: "select" })``;
 
 function UploadMediaModal({ setModalOpen }) {
   const [audioFile, setAudioFile] = useState(null);
-  const [latitude, setLatitude] = useState(null);
-  const [longitude, setLongitude] = useState(null);
   const [description, setDescription] = useState([]);
   const [labelOption, setLabelOption] = useState("select");
   const [selectedLabel, setSelectedLabel] = useState([]);
   const [date, setDate] = useState(null);
   const fileInputRef = useRef(null);
   const { addAudio } = useContext(TargetAudioContext);
-  //   const [isDragOver, setIsDragOver] = useState(false);
-
-  //   const handleUploadClick = () => {
-  //     console.log("Uploading:", audioFile);
-  //   };
+  const [address, setAddress] = useState([]);
+  const [audioError, setAudioError] = useState("");
+  const [addressError, setAddressError] = useState("");
+  const [error, setError] = useState("");
 
   const handleDescriptionChange = (e) => {
     setDescription([e.target.value]);
+    setError("");
   };
 
   const handleClear = () => {
@@ -99,23 +105,8 @@ function UploadMediaModal({ setModalOpen }) {
 
   const handleLabelOptionChange = (e) => {
     setLabelOption(e.target.value);
+    setError("");
   };
-
-  //   const handleDragOver = (event) => {
-  //     event.preventDefault();
-  //     setIsDragOver(true);
-  //   };
-
-  //   const handleDragLeave = (event) => {
-  //     event.preventDefault();
-  //     setIsDragOver(false);
-  //   };
-
-  //   const handleDrop = (event) => {
-  //     event.preventDefault();
-  //     setIsDragOver(false);
-  //     handleFileChange(event);
-  //   };
 
   const handleFileChange = (event) => {
     const file = event.target.files[0];
@@ -124,47 +115,64 @@ function UploadMediaModal({ setModalOpen }) {
       (file.type.startsWith("audio/") || file.type.startsWith("video/"))
     ) {
       setAudioFile(file);
+      setAudioError("");
     } else {
       alert("Please select an audio file.");
     }
   };
 
-  const handleLatitudeChange = (e) => {
-    setLatitude(e.target.value);
-  };
-
   const handleUpload = async () => {
+    if (!(selectedLabel || description) || !address || !date) {
+      setError("Please fill out all fields");
+      return;
+    }
+    const coords = await geocodeAddress(address);
+    if (!coords) {
+      setAddressError("No valid coordinates found. Please check the address");
+      return;
+    } else {
+      setAddressError("");
+    }
     if (audioFile) {
+      setAudioError("");
+      const labels = description.length === 0 ? selectedLabel : description;
       console.log(
         "Uploading:",
         audioFile.name,
-        latitude,
-        longitude,
+        coords.lat,
+        coords.lng,
         date,
         description,
-        selectedLabel
+        selectedLabel,
+        labels
       );
-      const labels = description.length === 0 ? selectedLabel : description;
-      setAudioFile(null);
-      fileInputRef.current.value = "";
       const newAudio = await uploadAudio(
         audioFile,
-        latitude,
-        longitude,
+        coords.lat,
+        coords.lng,
         date,
         labels
       );
-      addAudio(newAudio);
-      setModalOpen(false);
+      console.log(newAudio);
+      if (newAudio.success === false) {
+        setAudioError("Something went wrong. Your audio might be too large");
+      } else {
+        setAudioFile(null);
+        fileInputRef.current.value = "";
+        addAudio(newAudio);
+        setModalOpen(false);
+      }
     } else {
-      alert("Please select an audio file to upload.");
+      setAudioError("Please select an audio file to upload.");
     }
   };
 
   const uploadContent = (
     <UploadContainer>
       <InputField>
-        <Label>Select Label Method:</Label>
+        <Label>
+          <RequiredAsterisk>*</RequiredAsterisk> Select Label Method:
+        </Label>
         <Select
           name="labelOption"
           value={labelOption}
@@ -177,7 +185,9 @@ function UploadMediaModal({ setModalOpen }) {
 
       {labelOption === "custom" ? (
         <InputField>
-          <Label>Description:</Label>
+          <Label>
+            <RequiredAsterisk>*</RequiredAsterisk> Description:
+          </Label>
           <Input
             type="text"
             name="description"
@@ -192,8 +202,10 @@ function UploadMediaModal({ setModalOpen }) {
       )}
 
       <InputField>
-        <Label>Select Media:</Label>
-        <FileClear>
+        <Label>
+          <RequiredAsterisk>*</RequiredAsterisk> Select Media:
+        </Label>
+        <OneLine>
           <Input
             type="file"
             ref={fileInputRef}
@@ -204,40 +216,41 @@ function UploadMediaModal({ setModalOpen }) {
           <Button onClick={handleClear} disabled={!audioFile}>
             clear
           </Button>
-        </FileClear>
+        </OneLine>
+        {audioError && <ErrorMsg>{audioError}</ErrorMsg>}
       </InputField>
       <InputField>
-        <Label>Latitude:</Label>
-        <Input
-          type="number"
-          name="latitude"
-          step="any"
-          value={latitude}
-          onChange={handleLatitudeChange}
-        />
-      </InputField>
+        <Label>
+          <RequiredAsterisk>*</RequiredAsterisk> Address:
+        </Label>
 
-      <InputField>
-        <Label>Longitude:</Label>
         <Input
-          type="number"
-          name="longitude"
-          step="any"
-          value={longitude}
-          onChange={(e) => setLongitude(e.target.value)}
+          type="text"
+          name="address"
+          value={address}
+          onChange={(e) => {
+            setAddress(e.target.value);
+            setError("");
+          }}
         />
+        {/* <Button onClick={onFindGeo}>Get Location</Button> */}
+        {addressError && <ErrorMsg>{addressError}</ErrorMsg>}
       </InputField>
-
       <InputField>
-        <Label>Date:</Label>
+        <Label>
+          <RequiredAsterisk>*</RequiredAsterisk> Date:
+        </Label>
         <Input
           type="date"
           name="Date"
           value={date}
-          onChange={(e) => setDate(e.target.value)}
+          onChange={(e) => {
+            setDate(e.target.value);
+            setError("");
+          }}
         />
       </InputField>
-
+      {error && <ErrorMsg>{error}</ErrorMsg>}
       <Button onClick={handleUpload}>Upload</Button>
     </UploadContainer>
   );

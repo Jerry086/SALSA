@@ -80,7 +80,7 @@ function Map() {
           lat: 32.2608,
           lng: -84.1139,
         },
-        zoom: 2,
+        zoom: 4,
       });
 
       const behavior = new H.mapevents.Behavior(
@@ -103,7 +103,7 @@ function Map() {
       const { latitude, longitude } = currentAudio;
       map.current.getViewModel().setLookAtData({
         position: { lat: latitude, lng: longitude },
-        zoom: 3,
+        zoom: 5,
       });
     }
   }, [currentAudio]);
@@ -127,7 +127,7 @@ function Map() {
     return () => clearInterval(interval);
   }, [currentTargetAudio, similarAudio]);
 
-  console.log(similarAudio);
+  // console.log(similarAudio);
   return (
     <StyledMap>
       {isLoading && (

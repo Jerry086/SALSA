@@ -11,6 +11,7 @@ export async function getAllAudios() {
 }
 
 export async function getSimilarAudios(videoId, k, date, radius) {
+  console.log(videoId, k, date, radius);
   try {
     const queryParams = new URLSearchParams({
       video_id: videoId,
@@ -19,6 +20,7 @@ export async function getSimilarAudios(videoId, k, date, radius) {
       k: k,
     }).toString();
 
+    console.log(queryParams);
     const response = await fetch(`${BASE_URL}/topk?${queryParams}`, {
       method: "GET",
       headers: {
@@ -59,5 +61,6 @@ export async function uploadAudio(
     return data;
   } catch (err) {
     console.log("upload audio error: ", err);
+    return { success: false, message: err.message || "Error uploading audio" };
   }
 }
