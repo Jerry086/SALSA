@@ -45,7 +45,7 @@ function TargetAudioProvider({ children }) {
       try {
         // const data = await readCSVFile("/audioset/sample_audio_list.csv");
         const data = await getAllAudios();
-        dispatch({ type: "audio_clips/loaded", payload: data.slice(-30) });
+        dispatch({ type: "audio_clips/loaded", payload: data.slice(0, 1000) });
       } catch (err) {
         console.log(err);
       }
