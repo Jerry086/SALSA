@@ -1,4 +1,4 @@
-const BASE_URL = "https://35.81.65.102";
+const BASE_URL = "http://35.81.65.102";
 
 export async function getAllAudios() {
   try {
