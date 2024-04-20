@@ -4,8 +4,8 @@ import styled from "styled-components";
 import { SimilarAudioContext } from "../contexts/SimilarAudioContext";
 
 const StyledTargetAudioEntry = styled.li`
-  background-color: ${({ isCurrentAudio }) =>
-    isCurrentAudio ? "#356eaa" : "#7c98af"};
+  background-color: ${({ $isCurrentAudio }) =>
+    $isCurrentAudio ? "#356eaa" : "#7c98af"};
   display: flex;
   gap: 0.5rem;
   align-items: center;
@@ -92,7 +92,7 @@ const TargetAudioEntry = forwardRef(({ clip }, ref) => {
   }
 
   return (
-    <StyledTargetAudioEntry ref={ref} isCurrentAudio={isCurrentAudio}>
+    <StyledTargetAudioEntry ref={ref} $isCurrentAudio={isCurrentAudio}>
       {labels && <Labels onClick={handleClick}>{labels?.join(", ")}</Labels>}
       {/* {filename && <Labels onClick={handleClick}>{filename}</Labels>} */}
       <ButtonContainer>
